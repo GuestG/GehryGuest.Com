@@ -21,9 +21,13 @@ body {
 /************************************/
  /************** NavBar ************/
 /************************************/
+
+
+
 nav a.nav-link {
   font-weight: 500;
   letter-spacing: 0.0375rem;
+  margin-top: 0.5rem;
   cursor: pointer;
 }
 
@@ -35,16 +39,260 @@ nav ul li {
 /* goes into the childs to the links of the navbar and changes color. */
 .navbar-nav > li > a {
   margin-right: 0.75rem;
+  margin-left: 0.75rem;
   color: var(--primary-white) !important;
   border-top: 0.1875rem solid var(--primary-white);
 }
 
 .navbar-nav > li > a:hover {
+  
   border-top: 0.1875rem solid var(--primary-red);
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
 
   border-top: 0.1875rem solid var(--primary-red);
+}
 
+
+/************************************/
+ /************** Header ************/
+/************************************/
+.header-outer-wrapper {
+  position: relative;
+  z-index: 10;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  margin-bottom: -10vw;
+}
+
+.header-wrapper {
+  position: relative;
+  background: url(assets/download.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  z-index: 1;
+}
+
+.main-info h1{
+  color: var(--primary-red);
+  text-transform: uppercase;
+}
+
+/************************************/
+ /************** Typed Text ************/
+/************************************/
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+/* for mobile users, will change font for smaller screens */
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.6rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+}
+
+/************************************/
+ /************** main btn ************/
+/************************************/
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin-top: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-red);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+/************************************/
+ /************** particles ************/
+/************************************/
+
+
+
+/************************************/
+ /************** Projects ************/
+/************************************/
+.project-outer-wrapper {
+  position: relative;
+  z-index: 9;
+  clip-path: polygon(100% 0, 100% 100% ,0 calc(100% - 10vw), 0 0);
+  margin-bottom: -10vw;
+}
+
+.project-wrapper {
+  position: relative;
+  background-color: bisque;
+  background-size: cover;
+  background-position: center;
+  height: 200vh;
+}
+
+
+
+
+/************************************/
+ /************** About ************/
+/************************************/
+
+.about-wrapper {
+  display: flex;
+  position: relative;
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+.about-inner-warpper {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  height: 40vh;
+  margin-top: 5rem;
+}
+
+.my-photo {
+  display: flex;
+  flex: 25%;
+  margin-right: 3rem;
+  clip-path: polygon(0 0, 100% 2%, 90% 95%, 5% 100%, 0 10%);
+  z-index: 3;
+}
+
+.text-wrapper {
+  flex: 75%;
+  z-index: 20;
+}
+
+.about-title {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.4rem;
+  padding: 2rem 0.5rem 0.5rem 0.5rem;
+  border-bottom: 0.0625rem solid black;
+
+}
+
+.about-text {
+  display: flex;
+  margin: 0 auto;
+  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.25rem;
+
+}
+
+/* Square portion for arrows in about section */
+.square {
+  position: relative;
+}
+
+.square::after,
+.square::before {
+  position: absolute;
+  content: '';
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: 8rem;
+  background: beige;
+  bottom: -1em;
+
+}
+
+.square::before {
+  right: 50%;
+  transform: skew(0, 20deg);
+
+}
+
+.square::after {
+  left: 50%;
+  transform: skew(0,-20deg);
+
+}
+
+@media(max-width: 768px) {
+
+  .about-wrapper {
+    height: 100vh;
+  }
+
+  .about-inner-warpper {
+    height: 80vh;
+    width: 90vw;
+    flex-direction: column;
+    margin-top: 0rem;
+  }
+
+  .text-wrapper {
+    flex: 50%;
+  }
+
+  .my-photo {
+    flex: 50%;
+    margin-right: 0rem;
+    max-width: 25rem;
+    max-height: 25rem;
+  }
+
+  .about-title {
+    flex: 50%;
+    font-size: 2rem;
+    padding: 0 0 0 0;
+  }
+
+  .about-text {
+    flex: 50%;
+    font-size: 1.2rem;
+    padding: 0 0 0 0;
+  }
+}
+
+/************************************/
+ /************** Contact ************/
+/************************************/
+
+.contact-wrapper {
+  position: flex;
+  background-color: white;
+  height: 50vh;
 }
