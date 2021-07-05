@@ -9,6 +9,7 @@
 :root {
   --primary-white: white;
   --primary-red: rgb(196, 53, 53);
+  --primary-hover: aqua;
 }
 
 /************************************/
@@ -22,10 +23,22 @@ body {
  /************** NavBar ************/
 /************************************/
 
+.navbar-light {
+  background-color: black !important;
+}
 
+.my-name {
+  font-weight: 500;
+  color: white;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 0.1rem;
+}
 
 nav a.nav-link {
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.0375rem;
   margin-top: 0.5rem;
   cursor: pointer;
@@ -63,15 +76,15 @@ nav ul li {
   z-index: 10;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
   margin-bottom: -10vw;
+
 }
 
 .header-wrapper {
-  position: relative;
   background: url(assets/download.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 95vh;
-  
+  width: 100%;
 }
 
 .main-info {
@@ -94,6 +107,40 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.githubIconHeader {
+  position: absolute;
+  left: 0.5rem;
+  top: 17rem;
+  font-size: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: 0 auto;
+  color: var(--primary-white);
+}
+
+.linkedinIconHeader {
+  position: absolute;
+  left: 0.5rem;
+  top: 21rem;
+  font-size: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: 0 auto;
+  color: var(--primary-white);
+}
+
+.githubIconHeader:hover {
+  color: black;
+  transition: .2s ease-in-out;
+}
+
+.linkedinIconHeader:hover {
+  color: #0077b5;
+  transition: .2s ease-in-out;
+}
+
+
+
 /************************************/
  /************** Typed Text ************/
 /************************************/
@@ -104,12 +151,20 @@ nav ul li {
 }
 
 /* for mobile users, will change font for smaller screens */
-@media(max-width: 768px) {
+@media(max-width: 767px) {
   .main-info h1 {
     font-size: 1.6rem !important;
   }
   .typed-text {
     font-size: 1.3rem !important;
+  }
+
+  .githubIconHeader {
+    transform: scale(0);
+  }
+  
+  .linkedinIconHeader {
+    transform: scale(0);
   }
 }
 
@@ -155,8 +210,6 @@ nav ul li {
   background-position: center;
   height: 200vh;
 }
-
-
 
 
 /************************************/
@@ -249,8 +302,8 @@ nav ul li {
   transform: skew(0,-20deg);
 
 }
-
-@media(max-width: 768px) {
+/* 768 was default, but chaned for ipad users */
+@media(max-width: 767px) {
 
   .about-wrapper {
     height: 100vh;
@@ -292,7 +345,184 @@ nav ul li {
 /************************************/
 
 .contact-wrapper {
-  position: flex;
-  background-color: white;
-  height: 50vh;
+  display: grid;
+  background-color: darkgray;
+  height: 65vh;
+  padding-top: 4rem;
+  margin: 0 auto;
+}
+
+.contact-me-title {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.4rem;
+  padding: 0rem 0.5rem 0.5rem 0.5rem;
+  border-bottom: 0.0625rem solid black;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  /* grid-gap: 1rem; */
+  
+}
+
+
+.name {
+  grid-column: 1 / 1 ; 
+  grid-row: 1 / 1; 
+  width: 95%;
+  height: 40%;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.email {
+  grid-column: 1 / 1 ; 
+  grid-row: 2 / 2; 
+  width: 95%;
+  height: 40%;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.subject {
+  width: 95%;
+  height: 40%;
+  grid-column: 1 / 1 ; 
+  grid-row: 3 / 3; 
+  grid-column: auto;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.message {
+  height: 90%;
+  width: 90%;
+  grid-column: 2 / 2 ; 
+  grid-row: 1 / 4; 
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.button-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-message {
+  width: 8rem;
+  height: 2rem;
+  margin-left: 15%;
+}
+
+.submit-message:hover {
+  background-color: var(--primary-hover);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+.external-links-wrapper {
+  display: flex;
+  margin: 0 auto;
+  /* width: 100%;
+  background-color: rgb(92, 92, 92); */
+  
+}
+
+.githubIcon {
+  font-size: 4.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: var(--primary-white);
+}
+
+.linkedinIcon {
+  font-size: 4.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: var(--primary-white);
+}
+
+.githubIcon:hover {
+  color: black;
+  transition: .2s ease-in-out;
+}
+
+.linkedinIcon:hover {
+  color: #0077b5;
+  transition: .2s ease-in-out;
+}
+
+@media(max-width: 767px) {
+
+  .contact-wrapper {
+    height: 100vh;
+  }
+
+  .contact-info {
+    height:45vh;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .contact-me-title {
+    font-size: 2rem;
+    padding: 0 0 0 0;
+  }
+
+  .name {
+    width: 92.5%;
+  }
+
+  .email {
+    width: 92.5%;
+  }
+
+  .subject {
+    width: 92.5%;
+  }
+
+  .message {
+    grid-column: 1 / 1 ; 
+    grid-row: 4/4;
+    height: 10rem;
+    width: 92.5%;
+  }
+
+  .button-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .submit-message {
+    width: 8rem;
+    height: 4rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  .githubIcon {
+    font-size: 3.8rem;
+  }
+  
+  .linkedinIcon {
+    font-size: 3.8rem;
+  }
+
 }
