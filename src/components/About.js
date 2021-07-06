@@ -6,8 +6,9 @@ function About() {
         <section className="square">
             <div className="about-wrapper" id="about-wrapper">
                 <div className="about-inner-warpper">
-                    
+
                     <img src= { MyPic } alt="" className="my-photo" id="my-photo"/>
+                    
                     <div className="text-wrapper">
                         <p className="about-title"> About Me</p>
                         <p className="about-text" id="about-text">Hey! I'm Gehry Guest a front end web devopler,

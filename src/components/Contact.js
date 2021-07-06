@@ -3,10 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Contact() {
     return (
-        <div className="contact-wrapper" id="contact-wrapper">
+        <div className="contact-wrapper" id="contact-wrapper" >
             <p className="contact-me-title" id="contact-me-title">
                 Contact Me
             </p>
+           
             <div className="contact-info">
 
                 <input type="text" id="name" className="name" placeholder="Your Name">

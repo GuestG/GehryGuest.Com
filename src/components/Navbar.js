@@ -1,10 +1,12 @@
 import React from "react";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Navbar = () => {
     return (   
-        <nav className="navbar navbar-expand-lg navbar-light">
-            <div className="container">
+        
+        <nav className="navbar sticky-top navbar-expand-lg navbar-dark">
+            
+            <div className="container-fluid">
 
                 <p className="my-name">Gehry Guest</p>
 
@@ -37,7 +39,9 @@ const Navbar = () => {
                         </li>
                     </ul>         
                 </div>
+                
             </div>
+            
         </nav>
     )
 }

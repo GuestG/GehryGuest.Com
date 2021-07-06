@@ -13,6 +13,11 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
+// need to make contact actually work
+//finish about me text.
+//change hamburger button color? kinda did
+//need picture of me
+
 library.add(faLinkedin, faGithub, faBars);
 {/* <Particles
       
@@ -32,6 +37,7 @@ library.add(faLinkedin, faGithub, faBars);
 function App() {
   return (
     <>
+
       <Navbar/>
       <Header/>
       <Projects/>

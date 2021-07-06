@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => {
     return (
