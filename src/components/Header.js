@@ -1,18 +1,23 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import Typed from "react-typed";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => {
+    useEffect(() => {
+        Aos.init({duration: 1000});
+    }, []);
     return (
         <section className="header-outer-wrapper">
             <div className="header-wrapper">
                 <div className="main-info">
 
-                    <a className="githubIconHeader" href='https://github.com/GuestG'>
+                    <a className="githubIconHeader" href='https://github.com/GuestG' data-aos="fade-right">
                         <FontAwesomeIcon icon={["fab","github"]} />
                     </a>
                     <a className="linkedinIconHeader" href='https://linkedin.com/in/gehry-guest-903570177'>
-                        <FontAwesomeIcon icon={["fab","linkedin"]} />
+                        <FontAwesomeIcon icon={["fab","linkedin"]} data-aos="fade-right"/>
                     </a>
 
                     <h1 className="intro-message">Creative Fontend Developer.</h1>
