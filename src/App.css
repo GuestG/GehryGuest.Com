@@ -96,8 +96,8 @@ nav ul li {
   position: relative;
   z-index: 2;
   /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%); */
-  margin-bottom: -8vw;
-  margin-top: 8.2%;
+  margin-bottom: -5vw;
+  margin-top: 5%;
 }
 
 .header-wrapper {
@@ -121,18 +121,20 @@ nav ul li {
   align-items: center;
   text-align: center;
   font-family: 'Roboto Slab', serif;
-  z-index: 1;
+  z-index: 4;
 }
 
 .main-info h1{
   color: var(--primary-white);
   text-transform: uppercase;
+  margin-bottom: 1rem;
+  
 }
 
 .githubIconHeader {
   position: absolute;
   left: 0.5rem;
-  top: 17rem;
+  top: 21rem;
   font-size: 2rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -144,7 +146,7 @@ nav ul li {
 .linkedinIconHeader {
   position: absolute;
   left: 0.5rem;
-  top: 21rem;
+  top: 25rem;
   font-size: 2rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -166,6 +168,7 @@ nav ul li {
 .my-name-color {
   color: red;
   font-weight: bold;
+  
 }
 
 
@@ -209,7 +212,7 @@ nav ul li {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   text-decoration: none;
-  margin-top: 2rem;
+  
 }
 
 .btn-main-offer:hover {
@@ -222,14 +225,17 @@ nav ul li {
 /************************************/
  /************** particles ************/
 /************************************/
-
-.particles-canvas {
+.tsparticles-canvas-el {
   position: absolute;
-  height: 90vh;
-  width: 100vw;
+  height: 100vh !important;
+  width: 100vw !important;
   z-index: 3;
-  
+  pointer-events:none !important;
 }
+/* .particles-canvas {
+
+  
+} */
 @media(max-width: 767px) {
   .particles-canvas {
     display: none;
@@ -293,7 +299,6 @@ nav ul li {
   flex-direction: column;
   flex: 50%;
   text-align: center;
-  height: 70%;
   border-radius: 10%;
   background-color: white;
 }
@@ -303,19 +308,30 @@ nav ul li {
   margin: 0 auto;
   padding: 1rem 1rem 1rem 1rem;
   height: 20%;
-  
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
 }
 
 .project1-img {
   display: flex;
   height: 40%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .project1-button {
-  width: 80%;
+  width: 40%;
   height: 10%;
   margin: 0 auto;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 0;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
 }
 
 .project-desc {
@@ -349,6 +365,25 @@ nav ul li {
 @media(max-width: 767px) {
   .projects-wrapper {
     flex-direction: column;
+
+  }
+  .project1-img {
+    display: none;
+  }
+  .project1-button {
+    margin-top: 5rem;
+    width: fit-content;
+  }
+  .project-desc {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    padding: 0rem 0rem 0rem 0rem;
+  }
+  .projects-wrapper {
+    display: flex;
+    width: 80vw;
+    height: 35vh;
+    margin-top: 2rem;
   }
 }
 

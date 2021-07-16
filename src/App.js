@@ -13,54 +13,37 @@ import { faLinkedin, faGithub, faHtml5, faBootstrap, faReact, faJsSquare } from 
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import Particles from 'react-particles-js';
+import { Bubble } from 'tsparticles/Options/Classes/Interactivity/Modes/Bubble';
 
 // need to make contact actually work
 //change hamburger button color? kinda did
-// {
-//   <Particles
-//     className="particles-canvas"
-//     params={{
-
-//       particles: {
-//         number: {
-//           value: 100,
-//           density: {
-//             enable: true,
-//             value_area: 1000
-//           }
-//         },
-//         line_linked: {
-//           enable: false
-//         },
-//         move: {
-//           direction: "right",
-//           speed: 0.05
-//         },
-//         size: {
-//           value: 2
-//         },
-//         opacity: {
-//           anim: {
-//             enable: true,
-//             speed: 1,
-//             opacity_min: 0.05
-//           }
-//         }
-//       },
-//       retina_detect: true
-//     }}
-//   />
-// }
 
 library.add(faLinkedin, faGithub, faBars, faHtml5, faBootstrap, faReact, faJsSquare);
 
 function App() {
   return (
     <>
-    { <Particles
+      <Particles
         className="particles-canvas"
-        params={{
 
+        params={{
+          fpsLimit: 60,
+          interactivity: {
+            detectsOn: "header-wrapper",
+            events: {
+              onHover: {
+                enable: true,
+                mode: "repulse",
+              },
+              resize: true,
+            },
+            modes: {
+              repulse: {
+                distance: 200,
+                duration: 0.4,
+              },
+            },
+          },
           particles: {
             number: {
               value: 100,
@@ -68,6 +51,9 @@ function App() {
                 enable: true,
                 value_area: 1000
               }
+            },
+            color: {
+              value: ["#000000", "#ffffff"]
             },
             line_linked: {
               enable: false
@@ -77,7 +63,7 @@ function App() {
               speed: 0.05
             },
             size: {
-              value: 2
+              value: 3
             },
             opacity: {
               anim: {
@@ -85,11 +71,17 @@ function App() {
                 speed: 1,
                 opacity_min: 0.05
               }
-            }
+            },
+            // links: {
+            //   color: "#ffffff",
+            //   distance: 150,
+            //   enable: true,
+            // }
           },
           retina_detect: true
         }}
-      />}
+
+      />
       <Navbar />
       <Header />
       <Projects />
