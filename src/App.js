@@ -53,13 +53,13 @@ function App() {
               }
             },
             color: {
-              value: ["#000000", "#ffffff"]
+              value: ["#ffffff", "#ffffff"]
             },
             line_linked: {
               enable: false
             },
             move: {
-              direction: "right",
+              direction: "none",
               speed: 0.05
             },
             size: {

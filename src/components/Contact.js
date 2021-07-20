@@ -16,25 +16,22 @@ function Contact() {
            
             <div className="contact-info">
 
-                <input type="text" id="name" className="name" placeholder="Your Name" data-aos="fade-right">
+                <input type="text" id="name" className="name" placeholder="Your Name" >
                 </input>
                 
-                <input type="text" id="email" className="email" placeholder="Your e-mail address" data-aos="fade-right">
+                <input type="text" id="email" className="email" placeholder="Your e-mail address" >
                 </input>
 
-                <input id="subject" className="subject" placeholder="Subject" data-aos="fade-right">
-                </input>
-
-                <textarea id="message" className="message" placeholder="Type your message here.." data-aos="fade-left">
+                <textarea id="message" className="message" placeholder="Type your message here.." >
                 </textarea>
-
+                <div className="button-container" id="button-container" data-aos="fade-left">
+                    <button className="submit-message" id="submit-message">
+                        Submit
+                    </button>
+                </div>
             </div>
 
-            <div className="button-container" id="button-container" data-aos="fade-left">
-                <button className="submit-message" id="submit-message">
-                    Submit!
-                </button>
-            </div>
+            
 
             <div className="external-links-wrapper">
                     <a className="githubIcon" href='https://github.com/GuestG' data-aos="fade-right">
@@ -44,6 +41,9 @@ function Contact() {
                         <FontAwesomeIcon icon={["fab","linkedin"]} />
                     </a>
             </div>
+            <p className="footers">
+                Gehry Guest <span className="my-name-color">©2021</span>
+            </p>
         </div>
     )
 }
