@@ -717,7 +717,6 @@ nav ul li {
 }
 
 .footers {
-  background-color: var(--primary-dark);
   color: var(--primary-white);
   width: 100%;
   padding-top: 1rem;
@@ -725,7 +724,7 @@ nav ul li {
   text-align: center;
   text-transform: uppercase;
   font-family: 'Roboto Slab', serif;
-  opacity: 80%;
+  z-index: 10;
 }
 
 
