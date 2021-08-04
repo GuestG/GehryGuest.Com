@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import MyPic from "../assets/my-photo.jpeg";
+import MyPic from "../assets/My-Photo-close.JPG";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

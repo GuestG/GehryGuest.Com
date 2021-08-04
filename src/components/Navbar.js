@@ -11,13 +11,10 @@ const Navbar = () => {
                 <p className="my-name">Gehry Guest</p>
 
                 <button className="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    {/* uncomment this to just have regular hamburger. */}
-                    <span className="navbar-toggler-icon"></span>
-                    {/* <FontAwesomeIcon icon={["fab","faBars"]}/>    */}
+                    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet"></link>
+                    <i className="fas fa-bars fa-lg"></i>
                 </button>
-
-
-
+                
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
                     <ul className="navbar-nav ms-auto">

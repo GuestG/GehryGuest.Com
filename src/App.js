@@ -17,6 +17,9 @@ import { Bubble } from 'tsparticles/Options/Classes/Interactivity/Modes/Bubble';
 
 // need to make contact actually work
 //change hamburger button color? kinda did
+//make contact work,
+//redo projects
+//upload to github
 
 library.add(faLinkedin, faGithub, faBars, faHtml5, faBootstrap, faReact, faJsSquare);
 
