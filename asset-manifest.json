@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GehryGuestPortfolio/static/css/main.4b9c12dc.chunk.css",
+    "main.css": "/GehryGuestPortfolio/static/css/main.a8a7bc77.chunk.css",
     "main.js": "/GehryGuestPortfolio/static/js/main.5e715f72.chunk.js",
     "main.js.map": "/GehryGuestPortfolio/static/js/main.5e715f72.chunk.js.map",
     "runtime-main.js": "/GehryGuestPortfolio/static/js/runtime-main.fadab84f.js",
@@ -12,7 +12,7 @@
     "static/js/3.0940947d.chunk.js.map": "/GehryGuestPortfolio/static/js/3.0940947d.chunk.js.map",
     "index.html": "/GehryGuestPortfolio/index.html",
     "static/css/2.2cee9e3c.chunk.css.map": "/GehryGuestPortfolio/static/css/2.2cee9e3c.chunk.css.map",
-    "static/css/main.4b9c12dc.chunk.css.map": "/GehryGuestPortfolio/static/css/main.4b9c12dc.chunk.css.map",
+    "static/css/main.a8a7bc77.chunk.css.map": "/GehryGuestPortfolio/static/css/main.a8a7bc77.chunk.css.map",
     "static/js/2.c157762a.chunk.js.LICENSE.txt": "/GehryGuestPortfolio/static/js/2.c157762a.chunk.js.LICENSE.txt",
     "static/media/My-Photo-close.8490d065.JPG": "/GehryGuestPortfolio/static/media/My-Photo-close.8490d065.JPG",
     "static/media/temp.db73fc16.png": "/GehryGuestPortfolio/static/media/temp.db73fc16.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.fadab84f.js",
     "static/css/2.2cee9e3c.chunk.css",
     "static/js/2.c157762a.chunk.js",
-    "static/css/main.4b9c12dc.chunk.css",
+    "static/css/main.a8a7bc77.chunk.css",
     "static/js/main.5e715f72.chunk.js"
   ]
 }
