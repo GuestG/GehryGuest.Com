@@ -57,7 +57,7 @@ function About() {
                             </div>
                         </div>
                         <p className="code-text" id="about-text">
-                            JavaScript, React,
+                            JavaScript, React
                         </p>
 
                     </div>
@@ -72,7 +72,7 @@ function About() {
                         </div>
                         <p className="tools-text" id="about-text">
 
-                            Github, Visual Studio Code,
+                            Github, Visual Studio Code
                         </p>
 
                     </div>
