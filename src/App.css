@@ -413,7 +413,8 @@ nav ul li {
 .my-photo {
   display: flex;
   flex: 30%;
-  max-width: 100%;
+  max-width: 40%;
+  max-height: 90%;
   clip-path: polygon(0 0, 100% 2%, 90% 95%, 5% 100%, 0 10%);
   z-index: 3;
 }
