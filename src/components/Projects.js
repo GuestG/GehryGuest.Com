@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos';
 import "aos/dist/aos.css";
-
+import DesignProject from "../assets/design.png";
 import MagicProject from "../assets/temp.png";
 
 const Projects = () => {
@@ -36,7 +36,7 @@ const Projects = () => {
                         
                     </div>
                     <div className="card" data-aos="fade-left">
-                        <img src={MagicProject} alt="" className="design-project-img" />
+                        <img src={DesignProject} alt="" className="design-project-img" />
                         <div className="text">
                             <span className="text-highlight">Webpress / Saas</span>
 
