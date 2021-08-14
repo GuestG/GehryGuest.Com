@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GehryGuestPortfolio/static/css/main.a8a7bc77.chunk.css",
-    "main.js": "/GehryGuestPortfolio/static/js/main.a20fbd75.chunk.js",
-    "main.js.map": "/GehryGuestPortfolio/static/js/main.a20fbd75.chunk.js.map",
+    "main.js": "/GehryGuestPortfolio/static/js/main.27569ed3.chunk.js",
+    "main.js.map": "/GehryGuestPortfolio/static/js/main.27569ed3.chunk.js.map",
     "runtime-main.js": "/GehryGuestPortfolio/static/js/runtime-main.fadab84f.js",
     "runtime-main.js.map": "/GehryGuestPortfolio/static/js/runtime-main.fadab84f.js.map",
     "static/css/2.2cee9e3c.chunk.css": "/GehryGuestPortfolio/static/css/2.2cee9e3c.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.a8a7bc77.chunk.css.map": "/GehryGuestPortfolio/static/css/main.a8a7bc77.chunk.css.map",
     "static/js/2.c157762a.chunk.js.LICENSE.txt": "/GehryGuestPortfolio/static/js/2.c157762a.chunk.js.LICENSE.txt",
     "static/media/My-Photo-close.8490d065.JPG": "/GehryGuestPortfolio/static/media/My-Photo-close.8490d065.JPG",
-    "static/media/design.0ce4c069.png": "/GehryGuestPortfolio/static/media/design.0ce4c069.png",
+    "static/media/design.66ebe4a3.png": "/GehryGuestPortfolio/static/media/design.66ebe4a3.png",
     "static/media/temp.db73fc16.png": "/GehryGuestPortfolio/static/media/temp.db73fc16.png"
   },
   "entrypoints": [
@@ -23,6 +23,6 @@
     "static/css/2.2cee9e3c.chunk.css",
     "static/js/2.c157762a.chunk.js",
     "static/css/main.a8a7bc77.chunk.css",
-    "static/js/main.a20fbd75.chunk.js"
+    "static/js/main.27569ed3.chunk.js"
   ]
 }
