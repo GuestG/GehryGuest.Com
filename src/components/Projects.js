@@ -45,7 +45,7 @@ const Projects = () => {
                         <button type="button" className="learn-more-button" id="maricellas-design-button"
                             onClick={(e) => {
                             e.preventDefault();
-                            window.location.href='https://scryfall.com/';
+                            window.location.href='https://maricellasdesign.wordpress.com/';
                         }}>
                             Learn More
                         </button>
