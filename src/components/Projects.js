@@ -19,7 +19,7 @@ const Projects = () => {
 
 
                 <div className="gallery-wrapper">
-                    <div className="card" data-aos="fade-right">
+                    {/* <div className="card" data-aos="fade-right">
                         <img src={MagicProject} alt="" className="magic-project-img" />
                         <div className="text">
                             <span className="text-highlight">React JS / API's</span>
@@ -34,7 +34,7 @@ const Projects = () => {
                             Learn More
                         </button>
                         
-                    </div>
+                    </div> */}
                     <div className="card" data-aos="fade-left">
                         <img src={DesignProject} alt="" className="design-project-img" />
                         <div className="text">

@@ -19,10 +19,10 @@ function About() {
                     <div className="text-wrapper" data-aos="fade-left">
                         <h1 className="about-title"> About Me</h1>
                         <p className="about-text" id="about-text">
-                            Energetic front-end Devopler using React to create responsive websites.
-                            I love working in teams to deliver quality products and learning new librarys to create work with. 
-                            Speclizing in JavaScript, React and building responsive websites. I prefer a 
-                            mimimallistic and elegant design solutions for users. 
+                            Energetic front-end Developer using React to create responsive websites.
+                            I love working in teams to deliver quality products. 
+                            Specializing in JavaScript, React and building responsive websites. I prefer a 
+                            minimalistic and elegant design solution for users. 
                         </p>
                     </div>
                 </div>
