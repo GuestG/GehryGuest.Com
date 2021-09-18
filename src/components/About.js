@@ -19,10 +19,15 @@ function About() {
                     <div className="text-wrapper" data-aos="fade-left">
                         <h1 className="about-title"> About Me</h1>
                         <p className="about-text" id="about-text">
-                            Energetic front-end Developer using React to create responsive websites.
-                            I love working in teams to deliver quality products. 
-                            Specializing in JavaScript, React and building responsive websites. I prefer a 
-                            minimalistic and elegant design solution for users. 
+                        Graduate from University of Washington with a Bachelors of 
+                        Science in Computer Science. I'm an energetic front-end 
+                        developer specializing in creating elegant, responsive 
+                        websites using JavaScript and React. I feel very passionate
+                         about working in a team to deliver quality products and 
+                         expand my skill set while helping my fellow team members
+                          achieve success. I am also a capable back-end developer 
+                          with experience in Java, and Python, along with knowledge
+                           on managing databases with SQL.
                         </p>
                     </div>
                 </div>
