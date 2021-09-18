@@ -456,7 +456,7 @@ nav ul li {
   display: flex;
   margin: 0 auto;
   margin-top: 3rem;
-  width: 100%;
+  max-width: 100%;
   height: fit-content;
   font-family: 'Roboto Slab', serif;
   color: var(--primary-dark);
