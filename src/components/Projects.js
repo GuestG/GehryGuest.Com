@@ -38,7 +38,7 @@ const Projects = () => {
                     <div className="card" data-aos="fade-left">
                         <img src={DesignProject} alt="" className="design-project-img" />
                         <div className="text">
-                            <span className="text-highlight">Webpress / Saas</span>
+                            <span className="text-highlight">Webpress / User Stories</span>
 
                         </div>
                         
