@@ -18,6 +18,8 @@ import { Bubble } from 'tsparticles/Options/Classes/Interactivity/Modes/Bubble';
 // need to make contact actually work
 //change hamburger button color? kinda did
 //make header in mobile more interesting.
+// add extra slot for project,
+// add picture.
 
 library.add(faLinkedin, faGithub, faBars, faHtml5, faBootstrap, faReact, faJsSquare);
 
