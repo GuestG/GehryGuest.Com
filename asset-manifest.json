@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/GehryGuestPortfolio/static/css/main.6f74b2c8.chunk.css",
-    "main.js": "/GehryGuestPortfolio/static/js/main.df3f68b6.chunk.js",
-    "main.js.map": "/GehryGuestPortfolio/static/js/main.df3f68b6.chunk.js.map",
+    "main.css": "/GehryGuestPortfolio/static/css/main.537a3360.chunk.css",
+    "main.js": "/GehryGuestPortfolio/static/js/main.64af4009.chunk.js",
+    "main.js.map": "/GehryGuestPortfolio/static/js/main.64af4009.chunk.js.map",
     "runtime-main.js": "/GehryGuestPortfolio/static/js/runtime-main.fadab84f.js",
     "runtime-main.js.map": "/GehryGuestPortfolio/static/js/runtime-main.fadab84f.js.map",
     "static/css/2.2cee9e3c.chunk.css": "/GehryGuestPortfolio/static/css/2.2cee9e3c.chunk.css",
-    "static/js/2.c157762a.chunk.js": "/GehryGuestPortfolio/static/js/2.c157762a.chunk.js",
-    "static/js/2.c157762a.chunk.js.map": "/GehryGuestPortfolio/static/js/2.c157762a.chunk.js.map",
+    "static/js/2.8e857ba4.chunk.js": "/GehryGuestPortfolio/static/js/2.8e857ba4.chunk.js",
+    "static/js/2.8e857ba4.chunk.js.map": "/GehryGuestPortfolio/static/js/2.8e857ba4.chunk.js.map",
     "static/js/3.0940947d.chunk.js": "/GehryGuestPortfolio/static/js/3.0940947d.chunk.js",
     "static/js/3.0940947d.chunk.js.map": "/GehryGuestPortfolio/static/js/3.0940947d.chunk.js.map",
     "index.html": "/GehryGuestPortfolio/index.html",
     "static/css/2.2cee9e3c.chunk.css.map": "/GehryGuestPortfolio/static/css/2.2cee9e3c.chunk.css.map",
-    "static/css/main.6f74b2c8.chunk.css.map": "/GehryGuestPortfolio/static/css/main.6f74b2c8.chunk.css.map",
-    "static/js/2.c157762a.chunk.js.LICENSE.txt": "/GehryGuestPortfolio/static/js/2.c157762a.chunk.js.LICENSE.txt",
+    "static/css/main.537a3360.chunk.css.map": "/GehryGuestPortfolio/static/css/main.537a3360.chunk.css.map",
+    "static/js/2.8e857ba4.chunk.js.LICENSE.txt": "/GehryGuestPortfolio/static/js/2.8e857ba4.chunk.js.LICENSE.txt",
     "static/media/My-Photo-close.8490d065.JPG": "/GehryGuestPortfolio/static/media/My-Photo-close.8490d065.JPG",
     "static/media/design.66ebe4a3.png": "/GehryGuestPortfolio/static/media/design.66ebe4a3.png",
-    "static/media/temp.db73fc16.png": "/GehryGuestPortfolio/static/media/temp.db73fc16.png"
+    "static/media/App.css": "/GehryGuestPortfolio/static/media/hero.c8823d8d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fadab84f.js",
     "static/css/2.2cee9e3c.chunk.css",
-    "static/js/2.c157762a.chunk.js",
-    "static/css/main.6f74b2c8.chunk.css",
-    "static/js/main.df3f68b6.chunk.js"
+    "static/js/2.8e857ba4.chunk.js",
+    "static/css/main.537a3360.chunk.css",
+    "static/js/main.64af4009.chunk.js"
   ]
 }
