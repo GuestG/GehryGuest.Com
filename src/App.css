@@ -211,6 +211,7 @@ nav ul li {
   border: 2px solid var(--primary-white);
   text-transform: uppercase;
   border-radius: 0;
+  font-size: 1.15rem;
   padding: 1rem 1.5rem 1rem 1.5rem;
   color: var(--primary-white);
   text-decoration: none;
