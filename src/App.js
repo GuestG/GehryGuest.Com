@@ -9,19 +9,19 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faLinkedin, faGithub, faHtml5, faBootstrap, faReact, faJsSquare } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub, faHtml5, faBootstrap, faReact, faJsSquare, faFigma } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import Particles from 'react-particles-js';
 import { Bubble } from 'tsparticles/Options/Classes/Interactivity/Modes/Bubble';
 
 // need to make contact actually work
-//change hamburger button color? kinda did
-//make header in mobile more interesting.
 // add extra slot for project,
-// add picture.
 
-library.add(faLinkedin, faGithub, faBars, faHtml5, faBootstrap, faReact, faJsSquare);
+// NPM start, NPM run build, NPM run deploy
+// git add . , git status, git commit -m "" , git push
+
+library.add(faLinkedin, faGithub, faBars, faFigma, faHtml5, faBootstrap, faReact, faJsSquare);
 
 function App() {
   return (

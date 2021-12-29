@@ -33,10 +33,10 @@ function Contact() {
                         <input type="text" name="name" id="name" className="name" placeholder="Your Name" required>
                         </input>
 
-                        <input type="email" name="email" id="email" className="email" placeholder="Your e-mail address" required>
+                        <input type="email" name="email" id="email" className="email" placeholder="Your E-mail Address" required>
                         </input>
 
-                        <textarea type="text" name="textarea" id="message" className="message" placeholder="Type your message here.." required>
+                        <textarea type="text" name="textarea" id="message" className="message" placeholder="Type Message Here.." required>
                         </textarea>
 
                         <input type="hidden" name="_next" value="http://localhost:3000/">

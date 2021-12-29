@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import DesignProject from "../assets/design.png";
-import MagicProject from "../assets/temp.png";
 
 const Projects = () => {
     useEffect(() => {

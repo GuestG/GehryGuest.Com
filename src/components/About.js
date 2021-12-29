@@ -46,7 +46,7 @@ function About() {
                             </div>
                         </div>
                         <p className="design-text" id="about-text">
-                            HTML5, CSS, Boostrap, Responsive Web Design
+                            HTML5, CSS3, Boostrap, Responsive Web Design
                         </p>
                     </div>
                     <div className="about-me-icon-text-wrapper" data-aos="fade-up">
@@ -55,10 +55,10 @@ function About() {
                         </p>
                         <div className="about-me-icons">
                             <div className="icon">
-                                <FontAwesomeIcon icon={["fab", "react"]} />
+                                <FontAwesomeIcon icon={["fab", "js-square"]} />
                             </div>
                             <div className="icon">
-                                <FontAwesomeIcon icon={["fab", "js-square"]} />
+                                <FontAwesomeIcon icon={["fab", "react"]} />
                             </div>
                         </div>
                         <p className="code-text" id="about-text">
@@ -74,10 +74,13 @@ function About() {
                             <div className="icon">
                                 <FontAwesomeIcon icon={["fab", "github"]} />
                             </div>
+                            <div className="icon">
+                                <FontAwesomeIcon icon={["fab", "figma"]} />
+                            </div>
                         </div>
                         <p className="tools-text" id="about-text">
 
-                            Github, Visual Studio Code
+                            Github, Visual Studio Code, Figma
                         </p>
 
                     </div>
