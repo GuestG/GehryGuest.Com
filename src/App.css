@@ -211,7 +211,8 @@ nav ul li {
   border: 2px solid var(--primary-white);
   text-transform: uppercase;
   border-radius: 0;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
+  font-weight: bolder;
   padding: 1rem 1.5rem 1rem 1.5rem;
   color: var(--primary-white);
   text-decoration: none;
@@ -268,11 +269,18 @@ nav ul li {
   align-items: center;
   font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 2.4rem;
   color: var(--primary-dark);
   padding: 0rem 0.5rem 0.5rem 0.5rem;
   border-bottom: 0.0625rem solid var(--primary-dark);
+}
+
+.text-highlight {
+  font-size: 1.35rem;
+  font-weight: bolder;
+  color: var(--primary-white);
+  text-shadow: 2px 2px #000;
 }
 
 .gallery-wrapper {
@@ -281,29 +289,20 @@ nav ul li {
 }
 
 .card {
-  display: flex;
-  position: relative;
-  width: 40rem;
-  height: fit-content;
   margin: 0 auto;
   margin-top: 1rem;
+  border: none !important;
+  border-radius: 0.25rem;
 }
 
-.magic-project-img  {
+.gabis-kids-img,
+.design-project-img  {
   position: relative;
-  max-width: 100%;
-  max-height: 100%;
-  z-index: 1;
+
+  width: 35rem;
+  max-height: 18rem;
+  border-radius: 0.25rem;
 }
-
-.design-project-img {
-  position: relative;
-  max-width: 100%;
-  max-height: 100%;
-  z-index: 2;
-}
-
-
 
 .text {
   display: none;
@@ -332,11 +331,14 @@ nav ul li {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-family: 'Roboto Slab', serif;
+  font-size: 1.25rem;
+  font-weight: bolder;
   text-transform: uppercase;
   transition: .2s ease-in-out;
+  border-radius: 5px;
   z-index: 4;
-  border: 1px solid var(--primary-dark);
-  background-color: var(--primary-about);
+  border: 2px solid var(--primary-dark);
+  background-color: var(--primary-white);
 
 }
 
@@ -344,14 +346,18 @@ nav ul li {
   background-color: var(--primary-orange);
 }
 
-.card:hover .magic-project-img {
+.card:hover .gabis-kids-img {
+  opacity: 0.4;
+  transition: 0.4s linear;
+}
+
+.card:hover .design-project-img {
   opacity: 0.4;
   transition: 0.4s ease-in-out;
 }
 
-.card:hover .design-project-img {
-  opacity: 0.5;
-  transition: 0.4s ease-in-out;
+.card:hover  {
+  background-color: var(--primary-dark);
 }
 
 .card:hover .learn-more-button {
@@ -417,7 +423,7 @@ nav ul li {
 .my-photo {
   display: flex;
   flex: 30%;
-  max-width: 395px;
+  max-width: 380px;
   height: auto;
   /* clip-path: polygon(0 0, 100% 2%, 90% 95%, 5% 100%, 0 10%); */
   z-index: 3;
@@ -559,6 +565,7 @@ nav ul li {
   .my-photo {
     flex: 50%;
     margin-left: 1rem;
+    margin-right: 1rem;
     margin-bottom: 2rem;
     max-width: 100%;
     height: auto;
