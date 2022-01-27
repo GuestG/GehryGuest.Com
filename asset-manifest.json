@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GehryGuestPortfolio/static/css/main.c4ac8c09.chunk.css",
+    "main.css": "/GehryGuestPortfolio/static/css/main.8427e2c4.chunk.css",
     "main.js": "/GehryGuestPortfolio/static/js/main.1bcba30f.chunk.js",
     "main.js.map": "/GehryGuestPortfolio/static/js/main.1bcba30f.chunk.js.map",
     "runtime-main.js": "/GehryGuestPortfolio/static/js/runtime-main.fadab84f.js",
@@ -12,7 +12,7 @@
     "static/js/3.0940947d.chunk.js.map": "/GehryGuestPortfolio/static/js/3.0940947d.chunk.js.map",
     "index.html": "/GehryGuestPortfolio/index.html",
     "static/css/2.2cee9e3c.chunk.css.map": "/GehryGuestPortfolio/static/css/2.2cee9e3c.chunk.css.map",
-    "static/css/main.c4ac8c09.chunk.css.map": "/GehryGuestPortfolio/static/css/main.c4ac8c09.chunk.css.map",
+    "static/css/main.8427e2c4.chunk.css.map": "/GehryGuestPortfolio/static/css/main.8427e2c4.chunk.css.map",
     "static/js/2.8e857ba4.chunk.js.LICENSE.txt": "/GehryGuestPortfolio/static/js/2.8e857ba4.chunk.js.LICENSE.txt",
     "static/media/Gabis-Kids-Img.95ac8034.png": "/GehryGuestPortfolio/static/media/Gabis-Kids-Img.95ac8034.png",
     "static/media/My-Photo-close.8490d065.JPG": "/GehryGuestPortfolio/static/media/My-Photo-close.8490d065.JPG",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.fadab84f.js",
     "static/css/2.2cee9e3c.chunk.css",
     "static/js/2.8e857ba4.chunk.js",
-    "static/css/main.c4ac8c09.chunk.css",
+    "static/css/main.8427e2c4.chunk.css",
     "static/js/main.1bcba30f.chunk.js"
   ]
 }
