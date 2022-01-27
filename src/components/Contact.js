@@ -22,13 +22,11 @@ function Contact() {
             <form action="https://formsubmit.co/e231169454c6ef1a337769280ec551af" method="POST" className="contact-info">
 
                 {/* make to where it goes back to homepage and ignores capchta. */}
-                {/* <input type="text" name="_honey" style="display: none;">
-                </input>
 
                     <input type="hidden" name="_captcha" value="false">
                     </input>
                         <input type="hidden" name="_next" value="https://guestg.github.io/GehryGuestPortfolio/">
-                        </input> */}
+                        </input>
 
                         <input type="text" name="name" id="name" className="name" placeholder="Your Name" required>
                         </input>
