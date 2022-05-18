@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import DesignProject from "../assets/design.png";
-import GabisProject from "../assets/Gabis-Kids-Img.png";
+import { HashLink as Link } from 'react-router-hash-link';
+// import {Link } from "react-router-dom";
 
 const Projects = () => {
     useEffect(() => {
@@ -11,93 +11,79 @@ const Projects = () => {
         });
     }, []);
     return (
-        <section className="project-outer-wrapper">
+        <section className="project-outer-wrapper" id="project-outer-wrapper">
             <div className="project-wrapper" id="project-wrapper">
-                <h1 className="projects-title" data-aos="fade-up">
+                <h1 className="projects-title">
                     Projects
                 </h1>
 
 
                 <div className="gallery-wrapper">
-                    
-                    <div className="card" data-aos="fade-right">
-                        <img src={GabisProject} alt="" className="gabis-kids-img" />
-                        <div className="text">
-                            <span className="text-highlight">UX Design / Accessablity</span>
 
+
+                    <div className="projects" id="projects">
+
+                        <div className="projects_colum">
+                            <div className="project_card" id="project1" data-aos="fade-right">
+                                <div className="card_content">
+                                    <h2 className="card_title">
+                                        Rito
+                                        </h2>
+                                    <h3 className="card_body">
+                                        Food Truck application to make ordering food seemless.
+                                        </h3>
+
+                                    <Link className='button' to='Rito/#ritoWrapper'>See Case Study</Link>
+
+                                </div>
+                            </div>
+                            {/* <div className="project_card" id="project3" data-aos="fade-right">
+                                <div className="card_content">
+                                    <h2 className="card_title">
+                                        project 3
+                                        </h2>
+                                    <h3 className="card_body">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                        </h3>
+                                        <Link className='button'to='Rito'>Learn More</Link>
+                                    
+                                </div>
+                            </div> */}
                         </div>
-                        
-                        <button type="button" className="learn-more-button" id="gabis-kids"
-                            onClick={(e) => {
-                            e.preventDefault();
-                            window.location.href='https://GabisKids.com/';
-                        }}>
-                            Learn More
-                        </button>
-                        
+
+                        <div className="projects_colum">
+                            {/* <div className="project_card" id="project2" data-aos="fade-left">
+
+                                <div className="card_content">
+                                    <h2 className="card_title">
+                                        LA Fitness
+                                            </h2>
+                                    <h3 className="card_body">
+                                        Rework of the LA Fitness app for an improved experience.
+                                            </h3>
+                                    <Link className='button' to='Rito'>Learn More</Link>
+
+                                </div>
+                            </div>
+                            <div className="project_card" id="project4" data-aos="fade-left">
+                                <div className="card_content">
+                                    <h2 className="card_title">
+                                        project 4
+                                        </h2>
+                                    <h3 className="card_body">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </h3>
+                                    <Link className='button' to='Rito'>Learn More</Link>
+
+                                </div>
+                            </div> */}
+                        </div>
                     </div>
-                
-                    <div className="card" data-aos="fade-left">
-                        <img src={DesignProject} alt="" className="design-project-img" />
-                        <div className="text">
-                            <span className="text-highlight">Webpress / User Stories</span>
 
-                        </div>
 
-                        <button type="button" className="learn-more-button" id="maricellas-design-button"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                window.location.href = 'https://maricellasdesign.wordpress.com/';
-                            }}>
-                            Learn More
-                        </button>
-
-                    </div>
                 </div>
-                {/* <div className="project1" data-aos="fade-right">
-                    <h1 className="project-header">Mana Filter</h1>
-                    <img className="project1-img" />
-                    <p className="project-desc">This personal project of mine,
-                    I used a public API to query Magic the Gathering cards images.
-                    The application has users inputing text/name of the card, in order to retrieve card image from the
-                    API's database.
-                            </p>
-                    <button className="project1-button" id="project1-button">
-                        Check it out
-                            </button>
-                </div>
-                <div className="project2">
-                    <h1 className="project-header"></h1>
-                    <p className="project-desc">
-
-                    </p>
-                </div>
-
-                <div className="break"></div> */}
-
-                {/* <div className="project3">
-                            <h1 className="project-header">Scryfall</h1>
-                            <p className="project-desc">This personal project of mine,
-                            I used a public API to query Magic the Gathering cards images.
-                            The application filtered based on user choices on what to fetch.</p>
-                        </div>
-                        <div className="project4">
-                            <h1 className="project-header">Scryfall</h1>
-                            <p className="project-desc">This personal project of mine,
-                            I used a public API to query Magic the Gathering cards images.
-                            The application filtered based on user choices on what to fetch.</p>
-                        </div> */}
-
-
-                {/* <container className="project-cards">
-                        <row>
-                            <col> </col>
-
-                        </row>
-                        
-                    </container> */}
             </div>
-        </section>
+        </section >
     )
 }
 

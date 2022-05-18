@@ -1,0 +1,316 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/************************************/
+ /************** Root ************/
+/************************************/
+:root {
+    --primary-white: white;
+    --primary-orange: #ff4e00;
+    --primary-blue: #748cab;
+    --primary-dark: #2a2b2a;
+    --primary-about: #d2b48c;
+    --primary-projects: #fdf9eb;
+}
+
+/************************************/
+/************** Body ************/
+/************************************/
+html {
+    overflow-x: hidden;
+}
+  
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: auto;
+}
+  
+
+/************************************/
+/************** Header ************/
+/************************************/
+.ritoSection {
+    height: auto;
+    background-color: var(--primary-projects);
+    
+}
+
+.ritoWrapper {
+    background-color: var(--primary-projects);
+}
+
+/* intro */
+.introTitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-top: 8.5rem;
+    margin-bottom: 2rem;
+}
+
+.introSubTitle {
+    color: var(--primary-dark);
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.3em;
+}
+
+
+/* users problems */
+.problemTitle, .processTitle, .userReaseachTitle, .prototypeTitle, .optimizationTitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 6.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.problemText, .processText, .userReaseachText, .prototypeText, .optimizationText {
+    line-height: 2.25rem;
+    margin-right: 18vw;
+    margin-left: 18vw;
+    font-size: 1rem;
+}
+
+.processSubTitles, .userReaseachSubTitles, .prototypeHeaders {
+
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 18vw;
+    margin-left: 18vw;
+    font-size: 1.5rem;
+}
+
+/************************************/
+ /************** Process ************/
+/************************************/
+
+
+.processImgWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.processImg {
+    width: 65vw;
+    max-width: 80vw;
+    height: 14rem;
+    background: url('./assets/process.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+/************************************/
+ /************** Research ************/
+/************************************/
+
+.icons {
+    display: flex;
+    height: auto;
+    margin: 0;
+    font-size: 5.5rem;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.iconsCard {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.iconsText {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#clock {
+    margin-right: 10rem;
+}
+
+#clipboard {
+    margin-left: 10rem;
+}
+
+
+/************************************/
+ /************** Prototypes ************/
+/************************************/
+
+.cardWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imageCard {
+  width: 11.25rem;
+  max-width: 11.25rem;
+  height: 25rem;
+  margin: 1rem 1rem 4rem 1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#imageCard1 {
+    background-image: url("../src/assets/ritoPhotos/1.\ Homepage.png");
+}
+
+#imageCard2 {
+    background-image: url("../src/assets/ritoPhotos/1.\ Homepage\ a..png");
+}
+
+#imageCard3 {
+    background-image: url("../src/assets/ritoPhotos/2.\ Rito\ Menu.png");
+}
+
+#imageCard4 {
+    background-image: url("../src/assets/ritoPhotos/5.\ Rito\ Customize\ Item.png");
+}
+
+
+
+#imageCard5 {
+    background-image: url("../src/assets/ritoPhotos/1.\ HomepageRE.png");
+}
+
+#imageCard6 {
+    background-image: url("../src/assets/ritoPhotos/MaplocationaddedRE.png");
+}
+
+#imageCard7 {
+    background-image: url("../src/assets/ritoPhotos/2.\ RitoMenuRE.png");
+}
+
+#imageCard8 {
+    background-image: url("../src/assets/ritoPhotos/5.\ RitoCustomizeItemRE.png");
+}
+
+/************************************/
+ /************** Optimzation ************/
+/************************************/
+
+
+
+
+
+/************************************/
+ /************** Footer ************/
+/************************************/
+
+.footers {
+    background-color: var(--primary-dark);
+    color: var(--primary-white);
+    width: 100%;
+    padding-top: 1rem;
+    margin: 0rem;
+    margin-top: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    z-index: 10;
+  }
+
+
+
+
+
+/************************************/
+ /************** Mobile ************/
+/************************************/
+
+  @media(max-width: 767px) {
+    
+    .introSubTitle {
+        color: var(--primary-dark);
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.05rem;
+        line-height: 1.3em;
+    }
+
+
+    .problemTitle, .processTitle, .userReaseachTitle, .prototypeTitle, .optimizationTitle {
+        text-align: center;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-top: 6.5rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    .problemText, .processText, .userReaseachText, .prototypeText, .optimizationText {
+        line-height: 2.25rem;
+        margin-right: 6vw;
+        margin-left: 6vw;
+        font-size: 1rem;
+    }
+    
+    .processSubTitles, .userReaseachSubTitles, .prototypeHeaders {
+    
+        font-weight: 600;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        margin-right: 6vw;
+        margin-left: 6vw;
+        font-size: 1.25rem;
+    }
+
+    .processImg {
+        width: 90vw;
+        max-width: 100vw;
+        margin-top: 2rem;
+        height: 6rem;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        font-size: 2.5rem;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #clock {
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    
+    #clipboard {
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .cardWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imageCard {
+      width: 12rem;
+      max-width: 12rem;
+      height: 25rem;
+      margin: 1rem 1rem 1.5rem 1rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }

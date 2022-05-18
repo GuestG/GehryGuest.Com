@@ -21,15 +21,17 @@ const Header = () => {
                         <FontAwesomeIcon icon={["fab","linkedin"]}/>
                     </a>
                     
-                    <h1 className="intro-message">Hey! I'm <span className="my-name-color">Gehry Guest.</span> <br/> A front-end developer.</h1>
-                    {/* <Typed
+                    <h1 className="intro-message">Hey! I'm <span className="my-name-color">Gehry Guest.</span> </h1>
+                    <Typed
                         className="typed-text"
-                        strings={["Web Development", "React", "Python", "JavaScript"]}
-                        typeSpeed={30}
+                        strings={["A UX Designer.", "A Web Developer.", "A Team Player."]}
+                        typeSpeed={80}
                         backSpeed={60}
+                        backDelay={2000}
+                        smartBackspace={false}
                         loop
-                    /> */}
-                    <a href="#contact-wrapper" className="btn-main-offer">Contact Me</a>    
+                    />
+                    <a href="#project-outer-wrapper" className="btn-main-offer">See Work</a>    
                     
                 </div>
             </div>

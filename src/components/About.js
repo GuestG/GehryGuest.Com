@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import MyPic from "../assets/My-Photo-close.JPG";
+import MyPic from "../assets/me.jpg";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,12 +12,13 @@ function About() {
     return (
         <section className="square">
             <div className="about-wrapper" id="about-wrapper">
+            <h1 className="about-title"> About Me</h1>
                 <div className="about-inner-warpper">
 
                     <img src={MyPic} alt="" className="my-photo" id="my-photo" data-aos="fade-right" />
 
                     <div className="text-wrapper" data-aos="fade-left">
-                        <h1 className="about-title"> About Me</h1>
+                        
                         <p className="about-text" id="about-text">
                         Graduate from University of Washington with a Bachelors of 
                         Science in Computer Science. I'm an energetic front-end 
@@ -46,7 +47,7 @@ function About() {
                             </div>
                         </div>
                         <p className="design-text" id="about-text">
-                            HTML5, CSS3, Boostrap, Responsive Web Design
+                            Responsive and Minimal designs.
                         </p>
                     </div>
                     <div className="about-me-icon-text-wrapper" data-aos="fade-up">
@@ -62,7 +63,7 @@ function About() {
                             </div>
                         </div>
                         <p className="code-text" id="about-text">
-                            JavaScript, React
+                            JavaScript, React.
                         </p>
 
                     </div>
@@ -80,7 +81,7 @@ function About() {
                         </div>
                         <p className="tools-text" id="about-text">
 
-                            Github, Visual Studio Code, Figma
+                            Adobe XD, Figma, Github.
                         </p>
 
                     </div>

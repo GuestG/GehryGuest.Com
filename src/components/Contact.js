@@ -12,7 +12,7 @@ function Contact() {
     }, []);
     return (
         <div className="contact-wrapper" id="contact-wrapper">
-            <h1 className="contact-me-title" id="contact-me-title" data-aos="fade-up">
+            <h1 className="contact-me-title" id="contact-me-title">
                 Contact Me
             </h1>
             <p className="contact-query" data-aos="fade-up">
@@ -28,15 +28,21 @@ function Contact() {
                         <input type="hidden" name="_next" value="https://guestg.github.io/GehryGuestPortfolio/">
                         </input>
 
-                        <input type="text" name="name" id="name" className="name" placeholder="Your Name" required>
+                        {/* <label for="name" className="form-placeholder">Name</label> */}
+                        <p className="input-titles">Name</p>
+                        <input type="text" name="name" id="name" className="name" required>
                         </input>
 
-                        <input type="email" name="email" id="email" className="email" placeholder="Your E-mail Address" required>
+                        {/* <label for="email" className="form-placeholder">Email</label> */}
+                        <p className="input-titles">Email</p>
+                        <input type="email" name="email" id="email" className="email" required>
                         </input>
 
-                        <textarea type="text" name="textarea" id="message" className="message" placeholder="Type Message Here.." required>
+                        {/* <label for="textarea" className="form-placeholder">Message</label> */}
+                        <p className="input-titles">Message</p>
+                        <textarea type="text" name="textarea" id="message" className="message" required>
                         </textarea>
-
+                        
                         <input type="hidden" name="_next" value="http://localhost:3000/">
                         </input>
 

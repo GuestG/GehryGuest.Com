@@ -40,7 +40,7 @@ body {
   background-color: var(--primary-dark) !important;
 }
 .navbar-toggler {
-  border:none !important;
+  border: none !important;
   color: var(--primary-orange) !important;
 }
 
@@ -53,26 +53,40 @@ body {
   text-transform: uppercase;
   font-family: 'shadows into light';
   letter-spacing: 0.1rem;
+  text-decoration: none;
 }
+
+.my-name:link { text-decoration: none; }
+
+
+.my-name:visited { text-decoration: none; }
+
+
+.my-name:hover { text-decoration: none;
+                  color: var(--primary-orange); }
+
+
+.my-name:active { text-decoration: none; }
 
 
 
 nav a.nav-link {
   font-weight: 400;
-  letter-spacing: 0.0375rem;
+  letter-spacing: 0.1rem;
   margin-top: 0.5rem;
   cursor: pointer;
-  text-align: center;
 }
 
 nav ul li {
   text-transform: uppercase;
+  text-align: center;
   font-family: 'Roboto Slab', serif;
 }
 
 .navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  width: 6.5rem;
   color: var(--primary-white) !important;
   border-top: 0.1875rem solid var(--primary-white);
 }
@@ -88,10 +102,40 @@ nav ul li {
 @media(max-width: 767px) {
   .my-name {
     font-weight: 400;
-    margin-left: 22%;
+  }
+  .navbar-nav > li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .navbar-nav > li > a {
+    width: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: none;
+    border-radius: 1rem;
+  }
+
+  .navbar-nav > li > a:hover {
+    border-top: none;
+    color: var(--primary-orange) !important;
+  }
+  
+  .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+    border-top: none;
+    color: var(--primary-orange) !important;
+  }
+
+  #home {
+    background-color: #3a3a3a;
+  }
+  
+  #about{
+    background-color: #3a3a3a;
   }
 }
-
 
 /************************************/
  /************** Header ************/
@@ -105,8 +149,8 @@ nav ul li {
 }
 
 .header-wrapper {
-  background: url(assets/hero.png);
-  background-color: var(--primary-blue);
+  background: url(assets/hero.jpg);
+  /* background-color: var(--primary-blue); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,9 +176,12 @@ nav ul li {
 
 .main-info h1{
   color: var(--primary-white);
+  font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
-  margin-bottom: 1rem;
-  
+  font-size: 2.5rem;
+  /* margin-bottom: 1rem; */
+  font-weight: 500;
+  text-shadow: 2px 2px black;
 }
 
 .githubIconHeader {
@@ -179,10 +226,10 @@ nav ul li {
 /* for mobile users, will change font for smaller screens */
 @media(max-width: 767px) {
   .main-info h1 {
-    font-size: 1.6rem !important;
+    font-size: 2.4rem !important;
   }
   .typed-text {
-    font-size: 1.3rem !important;
+    font-size: 2.4rem !important;
   }
 
   .githubIconHeader {
@@ -199,7 +246,12 @@ nav ul li {
 /************************************/
 
 .typed-text {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: 500 !important;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 2px 2px black;
   color: var(--primary-white);
 }
 
@@ -210,10 +262,13 @@ nav ul li {
 .btn-main-offer {
   border: 2px solid var(--primary-white);
   text-transform: uppercase;
-  border-radius: 0;
+
+  height: 44px;
+  width: 200px;
+  border-radius: 1rem;
   font-size: 1.25rem;
   font-weight: bolder;
-  padding: 1rem 1.5rem 1rem 1.5rem;
+  padding: 0.25rem 1.5rem 0rem 1.5rem;
   color: var(--primary-white);
   text-decoration: none;
   
@@ -245,18 +300,20 @@ nav ul li {
 /************************************/
  /************** Projects ************/
 /************************************/
+
 .project-outer-wrapper {
   position: relative;
   z-index: 2;
-  clip-path: polygon(100% 0, 100% 100% ,0 calc(100% - 10vw), 0 0);
-  margin-bottom: -10vw;
+  /* clip-path: polygon(100% 0, 100% 100% ,0 calc(100% - 10vw), 0 0); */
+  /* margin-bottom: -10vw; */
 }
-
+/* uncomment these three to get back angled line. */
 .project-wrapper {
   position: relative;
   background-color: var(--primary-projects);
-  height: 110vh;
-  padding-top: 5.4rem;
+  height: auto;
+  /* padding-bottom: 20vh; */
+  padding-top: 5.5rem;
 }
 
 .projects-title {
@@ -270,7 +327,7 @@ nav ul li {
   font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
   font-weight: bolder;
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   color: var(--primary-dark);
   padding: 0rem 0.5rem 0.5rem 0.5rem;
   border-bottom: 0.0625rem solid var(--primary-dark);
@@ -288,92 +345,181 @@ nav ul li {
   width: 100vw;
 }
 
-.card {
-  margin: 0 auto;
-  margin-top: 1rem;
-  border: none !important;
-  border-radius: 0.25rem;
+.projects {
+  height: auto;
+  display: flex;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  width: 100%;
 }
 
-.gabis-kids-img,
-.design-project-img  {
+.projects_colum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.project_card {
+  background-color: var(--primary-white);
+  background-size: cover;
+  padding: 6rem 0 0;
+  margin: 1rem;
+  flex-grow: 1;
+  border-radius: 1rem;
+  width: 36ch;
+  max-width: 36ch;
+  height: 20rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+  color: var(--White);
+}
+
+.project_card:hover,
+.project_card:focus-within {
+  transform: scale(1.05) !important;
+}
+
+.card_content {
+  --padding: 1.5rem;
+  padding: var(--padding);
+  background: linear-gradient(
+      hsl(0 0% 0% / 0),
+      hsl(0 0% 0% / 0.3) 20%,
+      hsl(0 0% 0% / 1)
+      );
+}
+
+
+.project_card:hover .card_content > *:not(.card_title),
+.project_card:focus-within .card_content > *:not(.card_title) {
+  opacity: 1;
+  transition-delay: 1000ms;
+}
+
+
+.project_card:focus-within .card_content > *:not(.card_title) {
+  transition-delay: 0ms;
+}
+
+.card_title {
   position: relative;
-
-  width: 35rem;
-  max-height: 18rem;
-  border-radius: 0.25rem;
-}
-
-.text {
-  display: none;
-  position: absolute;
-  font-size: larger;
-  font-weight: bolder;
-  margin: 0;
-  top: 70%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  width: max-content;
+  padding-bottom: 0.25rem;
   font-family: 'Roboto Slab', serif;
-  color: var(--primary-dark);
-  z-index: 12;
+  text-transform: uppercase;
+  color: var(--primary-white);
+  text-shadow: 2px 2px black;
 }
 
-.learn-more-button {
-  display: none;
+.card_title::after {
+  content: "";
   position: absolute;
-  font-weight: bold;
-  width: 10rem;
-  height: 4rem;
-  margin: 0;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  left: calc(var(--padding) * -1 );
+  bottom: 0;
+  height: 4px;
+  width: calc(100% + var(--padding));
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background: var(--primary-orange);
+  transition: transform 500ms ease;
+  transform-origin: left;
+  
+}
+
+.project_card:hover .card_title::after,
+.project_card:focus-within .card_title::after {
+  transform: scaleX(1);
+}
+
+.card_body {
+  color: rgb(255 255 255 / .95);
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
   font-family: 'Roboto Slab', serif;
   font-size: 1.25rem;
-  font-weight: bolder;
+  text-shadow: 1px 1px black;
+}
+
+.button {
+  cursor: pointer;
+  display: inline;
+  text-decoration: none;
+  color: var(--primary-white);
   text-transform: uppercase;
-  transition: .2s ease-in-out;
-  border-radius: 5px;
-  z-index: 4;
-  border: 2px solid var(--primary-dark);
-  background-color: var(--primary-white);
-
+  background-color: transparent;
+  padding: 0.60rem 1.25rem;
+  border-radius: 0.5rem;
+  transition: all 1s ease;
+  border: 2px solid var(--primary-white);
+  
 }
 
-.learn-more-button:hover {
+.button:hover,
+.button:focus { 
+  color: var(--primary-white);
+  background-color: transparent;
   background-color: var(--primary-orange);
+  border: 2px solid var(--primary-white);
 }
 
-.card:hover .gabis-kids-img {
-  opacity: 0.4;
-  transition: 0.4s linear;
+#project1 {
+
+  background-image: url("../src/assets/ritoPhotos/RitoIcon.png");
 }
 
-.card:hover .design-project-img {
-  opacity: 0.4;
-  transition: 0.4s ease-in-out;
+#project2 {
+
+  background-image: url("../src/assets/me.jpg");
 }
 
-.card:hover  {
-  background-color: var(--primary-dark);
+#project3 {
+
+   background-image: url("../src/assets/me.jpg"); 
 }
 
-.card:hover .learn-more-button {
-  display: block;
+#project4 { 
+
+  background-image: url("../src/assets/me.jpg"); 
 }
 
-.card:hover .text {
-  display: block;
+@media (hover) {
+  .card_content {
+      transform: translateY(62%);
+      transition: transform 500ms ease; 
+  }
+  .card_content > *:not(.card_title) {
+      opacity: 0;
+      transition: opacity 500ms linear;
+  }
+  
+  .project_card:hover .card_content,
+  .project_card:focus-within .card_content {
+      transform: translateY(0%);
+      transition-delay: 500ms;
+  }
+  
+  .project_card:focus-within .card_content {
+      transition-duration: 0ms;
+  }
+
+  .card_title::after {
+      transform: scaleX(0);
+  }
 }
 
 
 @media(max-width: 767px) {
-  .project-wrapper {
+  /* .project-wrapper {
+    display: block;
+  } */
+  .projects {
     flex-direction: column;
-    height: 100vh;
-    
+  }
+
+  .projects-title {
+    margin-bottom: 0;
   }
 
   .project-info {
@@ -381,17 +527,12 @@ nav ul li {
   }
   
   .gallery-wrapper {
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
     width: 95vw;
   }
 
-  .card {
-    margin: 0 auto;
-    margin-top: 1rem;
-    width: fit-content;
-
+  .project_card {
+    padding-top: 6.5rem;
   }
 
   .text {
@@ -410,24 +551,24 @@ nav ul li {
   background-color: var(--primary-about);
   justify-content: center;
   align-items: center;
-  height: 105vh;
+  height: auto;
 }
 
 .about-inner-warpper {
   display: flex;
   flex-direction: row;
   width: 80vw;
-  height: 40vh;
+  height: auto;
+  margin-top: 1rem;
 }
 
 .my-photo {
   display: flex;
   flex: 30%;
-  
-  width: 30%;
-  /* max-width: 2992px; */
-  height: auto;
-  object-fit: contain;
+  min-width: 35%;
+  max-width: 35%;
+  height: 100%;
+  border-radius: 50%;
   /* clip-path: polygon(0 0, 100% 2%, 90% 95%, 5% 100%, 0 10%); */
   z-index: 3;
 }
@@ -440,14 +581,14 @@ nav ul li {
 .about-title {
   display: flex;
   margin: 0 auto;
-  width: fit-content;
+  margin-top: 5.5rem;
   text-align: center;
   justify-content: center;
   align-items: center;
   font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   padding: 0rem 0.5rem 0.5rem 0.5rem;
   color: var(--primary-dark);
   border-bottom: 0.0625rem solid var(--primary-dark);
@@ -456,12 +597,12 @@ nav ul li {
 .about-text {
   display: flex;
   margin: 0 auto;
-  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
-  text-align: center;
+  padding: 1.75rem 0.75rem 0.75rem 5.75rem;
   justify-content: center;
   align-items: center;
   font-family: 'Roboto Slab', serif;
   font-size: 1.25rem;
+  line-height: 2.25rem;
   color: var(--primary-dark);
 }
 
@@ -484,6 +625,7 @@ nav ul li {
   font-size: 1.25rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  z-index: 20;
 }
 
 .about-me-icons {
@@ -509,7 +651,7 @@ nav ul li {
   font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   color: black;
   padding: 0rem 0.5rem 0.5rem 0.5rem;
   border-bottom: 0.0625rem solid var(--primary-dark);
@@ -550,12 +692,7 @@ nav ul li {
 /* 768 was default, but chaned for ipad users */
 @media(max-width: 767px) {
 
-  .about-wrapper {
-    height: 200vh;
-  }
-
   .about-inner-warpper {
-    height: 100vh;
     width: 90vw;
     flex-direction: column;
     margin-top: 0rem;
@@ -568,16 +705,16 @@ nav ul li {
   .my-photo {
     flex: 50%;
     width: 100%;
-    margin-bottom: 2rem;
+    border-radius: 50%;
     max-width: 100%;
     height: auto;
     object-fit: contain;
-    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
   }
 
   .about-title {
     flex: 50%;
-    font-size: 2rem;
     padding: 0 0 0 0;
   }
 
@@ -608,8 +745,8 @@ nav ul li {
   display: flex;
   flex-direction: column;
   background-color: var(--primary-dark);
-  height: 100vh;
-  padding-top: 4rem;
+  height: auto;
+  padding-top: 5.5rem;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -623,7 +760,7 @@ nav ul li {
   font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   color: var(--primary-white);
   padding: 0rem 0.5rem 0.5rem 0.5rem;
   border-bottom: 0.0625rem solid var(--primary-white);
@@ -649,11 +786,21 @@ nav ul li {
   width: 100%;
 }
 
+.input-titles {
+  color: var(--primary-white);
+  width: 50%;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  float: left;
+  padding: 0rem;
+  margin: 0.25rem;
+}
+
 
 .name {
   height: 10%;
   width: 50%;
-  margin: 1.5rem 1rem 0.2rem 1rem;
+  margin: 0rem 1rem 0.4rem 1rem;
   padding: 1rem 1rem 1rem 1rem;
   border: none;
   background-color: var(--primary-blue);
@@ -663,7 +810,7 @@ nav ul li {
 .email {
   height: 10%;
   width: 50%;
-  margin: 0.2rem 1rem 0.4rem 1rem;
+  margin: 0rem 1rem 0.4rem 1rem;
   padding: 1rem 1rem 1rem 1rem;
   border: none;
   background-color: var(--primary-blue);
@@ -671,7 +818,7 @@ nav ul li {
 }
 
 .message {
-  height: 80%;
+  height: 10rem;
   width: 50%;
   margin: 0rem 1rem 2rem 1rem;
   padding: 1rem 1rem 1rem 1rem;
@@ -682,8 +829,10 @@ nav ul li {
 
 .submit-message {
   display: flex;
-  width: 10rem;
-  height: 4rem;
+  height: 44px;
+  width: 200px;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 1rem;
   text-transform: uppercase;
   justify-content: center;
   align-items: center;
@@ -757,33 +906,33 @@ nav ul li {
 
 @media(max-width: 767px) {
 
-  .contact-wrapper {
-    height: 100vh;
-  }
-
   .contact-info {
-    height:45vh;
+    height:auto;
     grid-template-columns: repeat(1, 1fr);
   }
   
   .contact-me-title {
-    font-size: 2rem;
     padding: 0 0 0 0;
+  }
+
+  .contact-query {
+    padding-bottom: 2rem;
+  }
+
+  .input-titles {
+    width: 90%;
   }
 
   .name {
     width: 90%;
-    margin: 3rem 0.5rem 0.5rem 0.5rem;
   }
 
   .email {
     width: 90%;
-    margin: 0rem 0.5rem 0.5rem 0.5rem;
   }
 
   .message {
     width: 90%;
-    margin: 0rem 0.5rem 0rem 0.5rem;
     padding-bottom: 8rem;
   }
 
@@ -799,7 +948,6 @@ nav ul li {
     margin: 0 auto;
     font-size: 1.15rem;
     padding: 1rem 1rem 1rem 1rem;
-    margin-top: 2rem;
     margin-bottom: 1rem;
   }
 
@@ -823,3 +971,4 @@ nav ul li {
 ::placeholder {
   color: var(--primary-white);
 }
+
