@@ -63,7 +63,7 @@ function About() {
                             </div>
                         </div>
                         <p className="code-text" id="about-text">
-                            JavaScript, React.
+                            HTML, CSS, JavaScript, React.
                         </p>
 
                     </div>
@@ -81,7 +81,7 @@ function About() {
                         </div>
                         <p className="tools-text" id="about-text">
 
-                            Adobe XD, Figma, Github.
+                            Adobe XD, Figma, Sketch, Github.
                         </p>
 
                     </div>
