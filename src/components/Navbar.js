@@ -27,7 +27,7 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item" id="projects">
-                            <Link className="nav-link" to="/#project-wrapper">Projects<span className="sr-only"></span></Link>
+                            <Link className="nav-link" to="/#project-wrapper">Work<span className="sr-only"></span></Link>
                             {/* <a className="nav-link" href="#project-wrapper">Projects</a> */}
                         </li>
 
