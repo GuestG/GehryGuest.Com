@@ -12,23 +12,22 @@ function About() {
     return (
         <section className="square">
             <div className="about-wrapper" id="about-wrapper">
-            <h1 className="about-title"> About Me</h1>
+                <h1 className="about-title"> About Me</h1>
                 <div className="about-inner-warpper">
 
                     <img src={MyPic} alt="" className="my-photo" id="my-photo" data-aos="fade-right" />
 
                     <div className="text-wrapper" data-aos="fade-left">
-                        
+
                         <p className="about-text" id="about-text">
-                        Graduate from University of Washington with a Bachelors of 
-                        Science in Computer Science. I'm an energetic front-end 
-                        developer specializing in creating elegant, responsive 
-                        websites using JavaScript and React. I feel very passionate
-                         about working in a team to deliver quality products and 
-                         expand my skill set while helping my fellow team members
-                          achieve success. I am also a capable back-end developer 
-                          with experience in Java, and Python, along with knowledge
-                           on managing databases with SQL.
+                        I'm an energetic self taught UX Designer,
+                           life long designer from websites to dungeon and dragon campaigns.
+                           I embrace human centered design and accessibility, creating an applications
+                           that everyone can use is a win for the user and the company. Being a
+                           Graduate from University of Washington with a Bachelors of
+                           Science in Computer Science. I bring the software developer aspect to UX
+                           field, exceptional for working in teams and knowing the limits of software.
+
                         </p>
                     </div>
                 </div>
@@ -39,11 +38,12 @@ function About() {
                             Design
                         </p>
                         <div className="about-me-icons">
-                            <div className="icon">
-                                <FontAwesomeIcon icon={["fab", "html5"]} />
-                            </div>
+
                             <div className="icon">
                                 <FontAwesomeIcon icon={["fab", "bootstrap"]} />
+                            </div>
+                            <div className="icon">
+                                <FontAwesomeIcon icon={["fab", "react"]} />
                             </div>
                         </div>
                         <p className="design-text" id="about-text">
@@ -56,10 +56,10 @@ function About() {
                         </p>
                         <div className="about-me-icons">
                             <div className="icon">
-                                <FontAwesomeIcon icon={["fab", "js-square"]} />
+                                <FontAwesomeIcon icon={["fab", "html5"]} />
                             </div>
                             <div className="icon">
-                                <FontAwesomeIcon icon={["fab", "react"]} />
+                                <FontAwesomeIcon icon={["fab", "js-square"]} />
                             </div>
                         </div>
                         <p className="code-text" id="about-text">
@@ -73,10 +73,10 @@ function About() {
                         </p>
                         <div className="about-me-icons">
                             <div className="icon">
-                                <FontAwesomeIcon icon={["fab", "github"]} />
+                                <FontAwesomeIcon icon={["fab", "figma"]} />
                             </div>
                             <div className="icon">
-                                <FontAwesomeIcon icon={["fab", "figma"]} />
+                                <FontAwesomeIcon icon={["fab", "github"]} />
                             </div>
                         </div>
                         <p className="tools-text" id="about-text">
