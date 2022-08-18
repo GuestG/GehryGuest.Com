@@ -12,6 +12,7 @@ const Header = () => {
         <section className="header-outer-wrapper">
             
             <div className="header-wrapper" id="header-wrapper">
+                
                 <div className="main-info">
                     
                     <a className="githubIconHeader" href='https://github.com/GuestG' data-aos="fade-right">
@@ -31,7 +32,7 @@ const Header = () => {
                         smartBackspace={false}
                         loop
                     />
-                    <a href="#project-outer-wrapper" className="btn-main-offer">See Work</a>    
+                    <a href="#project-outer-wrapper" className="btn-main-offer">View Work</a>    
                     
                 </div>
             </div>

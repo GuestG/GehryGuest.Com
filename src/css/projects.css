@@ -1,0 +1,340 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/************************************/
+ /************** Root ************/
+/************************************/
+:root {
+    --primary-white: white;
+    --primary-orange: #ff4e00;
+    --primary-blue: #748cab;
+    --primary-dark: #2a2b2a;
+    --primary-about: #f3eade;
+    --primary-projects: #fdf9eb;
+}
+
+/************************************/
+/************** Body ************/
+/************************************/
+html {
+    overflow-x: hidden;
+}
+  
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: auto;
+    color: black;
+    font-size: 1.10rem;
+    background-color: var(--primary-projects);
+}
+
+/************************************/
+/************** General ************/
+/************************************/
+.bulletTitle {
+    margin: 0.25rem;
+}
+
+.sectionTitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 6.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/************************************/
+/************** Header ************/
+/************************************/
+.bodySection {
+    height: auto;
+ 
+}
+
+.bodyWrapper {
+    width: auto;
+}
+
+
+/* Intro */
+/* ***** */
+.introWrapper {
+    padding-bottom: 5rem;
+}
+
+
+
+/* Header */
+/* ****** */
+.headerWrapper {
+    margin-bottom: 1rem;
+}
+
+.headerTitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.headerText {
+    line-height: 2.25rem;
+    margin-right: 18vw;
+    margin-left: 18vw;
+    margin-bottom: 5rem;
+}
+
+/************************************/
+ /************** Fonts ************/
+/************************************/
+
+
+/* intro */
+.introTitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-top: 8.5rem;
+    margin-bottom: 2rem;
+}
+
+.introSubTitle {
+    color: var(--primary-dark);
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.3em;
+}
+
+
+/* users problems */
+.problemTitle, .processTitle, .userReaseachTitle, .prototypeTitle, .optimizationTitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 6.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.problemText, .processText, .userReaseachText, .prototypeText, .optimizationText {
+    line-height: 2.25rem;
+    margin-right: 18vw;
+    margin-left: 18vw;
+    font-size: 1rem;
+}
+
+.processSubTitles, .userReaseachSubTitles, .prototypeHeaders {
+
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 18vw;
+    margin-left: 18vw;
+    font-size: 1.5rem;
+}
+
+
+
+/********************/
+/* Project Overview */
+/********************/
+.OverviewWrapper {
+    display: flex;
+}
+
+.overviewTitle {
+    width: 100%;
+    margin-bottom: 1.25rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.overviewText {
+    width: 100%;
+}
+
+#breakLine {
+    content: "";
+    height: 0.1rem;
+    /* opacity: 100%;  */
+    color: black;
+}
+
+
+.columns {
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#edgeColumnLeft {
+
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
+
+#edgeColumnRight {
+
+    margin-left: 3rem;
+    margin-right: 5rem;
+}
+
+/************************************/
+ /************** Pictures ************/
+/************************************/
+
+.gifHolder {
+    text-align: center;
+
+    padding-bottom: 1rem;
+}
+
+.giphy-embed {
+    width: 220px;
+    height: 460px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.HiFiMobilePhoto {
+    width: 80vw;
+    text-align: center;
+
+    padding-bottom: 5rem;
+}
+
+.personaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personas {
+    padding-bottom: 1rem;
+    max-width: 60vw;
+}
+
+.sketch {
+    max-width: 45vw;
+    padding-bottom: 1rem;
+}
+
+.web {
+    max-width: 45vw;
+    padding-bottom: 1rem;
+}
+
+.buttonContainer {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.hiFiButton {
+    border: 4px solid var(--primary-dark);
+    text-transform: uppercase;
+    border-radius: 1rem;
+    font-size: 1.55rem;
+    font-weight: bolder;
+    padding: 0.55rem 3.5rem 0.55rem 3.5rem;
+    color: var(--primary-dark);
+    text-decoration: none;
+}
+
+.hiFiButton:hover {
+    border: 4px solid var(--primary-orange);
+    color: var(--primary-orange);
+}
+
+
+
+/************************************/
+ /************** Prototypes ************/
+/************************************/
+
+.cardWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imageCard {
+  width: 11.25rem;
+  max-width: 11.25rem;
+  height: 25rem;
+  margin: 1rem 1rem 4rem 1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.HiFiMobilePhoto {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+/************************************/
+ /************** Footer ************/
+/************************************/
+
+.footers {
+    background-color: var(--primary-dark);
+    color: var(--primary-white);
+    width: 100%;
+    padding-top: 1rem;
+    margin: 0rem;
+    margin-top: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    z-index: 10;
+}
+
+/************************************/
+ /************** Mobile ************/
+/************************************/
+
+@media(max-width: 767px) {
+
+    /* Project Overview */
+    .OverviewWrapper {
+        flex-direction: column;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    #edgeColumnLeft {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    
+    #edgeColumnRight {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    /* pictures */
+    .personas {
+        padding-bottom: 1rem;
+        max-width: 80vw;
+    }
+    
+    .sketch {
+        max-width: 80vw;
+        padding-bottom: 1rem;
+    
+        border-radius: 1rem;
+    }
+    
+    .web {
+        max-width: 80vw;
+        padding-bottom: 1rem;
+    }
+
+}

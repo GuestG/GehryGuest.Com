@@ -1,9 +1,17 @@
-import '../Rito.css';
 import React, { useEffect } from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUsers, faClock, faClipboard } from "@fortawesome/free-solid-svg-icons";
+import '../css/projects.css';
+import HiFi from "../assets/ritoPhotos/RitoHiFi.png";
+
+import Persona1 from "../assets/ritoPhotos/Kyle.jpg";
+import Persona2 from "../assets/ritoPhotos/Amy.jpg";
+
+import Sketch1 from "../assets/ritoPhotos/Rito1.jpg";
+import Sketch2 from "../assets/ritoPhotos/Rito2.jpg";
+
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {faSearch, faCheckCircle, faExclamationCircle, faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 
 function Rito() {
     useEffect(() => {
@@ -13,219 +21,302 @@ function Rito() {
         });
     }, []);
     return (
-        <section className="ritoSection" >
-            <div id="ritoWrapper">
+        <section className="bodySection" >
+            <div id="bodyWrapper">
+
+                <div className="introWrapper">
+                    <h1 className="introTitle">Rito</h1>
+                    <p className="introSubTitle">2022 | Mobile App | Food Truck</p>
+                </div>
+
 
                 <div className="headerWrapper">
-                    <h1 className="introTitle">Rito</h1>
-                    <p className="introSubTitle">2022-2022 | UX Research | Personas | Hi-Fidelity Prototype</p>
+                    <h2 className="headerTitle">The Rito in Burrito</h2>
+                    <p className="headerText">
+                       Rito is a mobile app for a food truck company. These truck are located in many large cities and serve 
+                       mexican style food. The truck previously didn't have an app, the main purpose is reduce
+                       wait times by allowing group orders and ordering before being physically present.
+                        
+
+                    </p>
+
                 </div>
 
+                {/* **************** */}
+                {/* Project Overview */}
+                {/* **************** */}
+                <div className="OverviewWrapper">
+            
+                    <div className="columns" id="edgeColumnLeft">
+                        <hr id="breakLine"/>
+                        <h2 className="overviewTitle">Deliverables</h2>
+                        <p className="overviewText">
+                            
+                        </p>  
+                        <p className="bulletTitle"> 
+                            UX / UI Design:
+                        </p>
+                        <p>
+                            <ul>
+                                <li>Competitive Analysis</li>
+                                <li>User Journey</li>
+                                <li>Design Systems</li>
+                                <li>Low fidelity wireframes and prototype</li>
+                                <li>High fidelity prototype</li>
+                            </ul>
+                        </p>
+                        <br></br>
+                        <p className="bulletTitle">
+                            UX Research:
+                        </p>
+                        <p>
+                            <ul>
+                                <li>Personas</li>
+                                <li>Usability tests and findings</li>
+                            </ul>
+                        </p>
+                    </div>
+                    
 
-                <div className="problemWrapper">
-                    <h2 className="problemTitle">User Problems</h2>
+                    <div className="columns" id="edgeColumnCenter">
+                        <hr id="breakLine"/>
+                        <h2 className="overviewTitle">Role</h2>
+                        <p className="overviewText">
+                            This is a redesign project where I assumed the following positions:
+                            </p>
+                        <p className="bulletTitle">
+                            Roles:
+                        </p>
+                        <p>
+                            <ul>
+                                <li>Visual Designer</li>
+                                <li>User Interface (UI) Designer</li>
+                                <li>User Experience (UXR) Researcher</li>
+                            </ul>
+                        </p>
+                    </div>
+
+
+                    <div className="columns" id="edgeColumnRight">
+                        <hr id="breakLine"/>
+                        <h2 className="overviewTitle">Project Specifications</h2>
+                        <p className="overviewText">
+                            Duration: 2 weeks
+
+                        </p>
+                        <p className="bulletTitle">
+                            Tools: 
+                        </p>
+                        <p>
+                            <ul>
+                                <li>Figma</li>
+                                <li>Unsplash</li>
+                                <li>Google Suite</li>
+                            </ul>
+                        </p>
+                        <br></br>
+                        <p className="bulletTitle">
+                            Process Overview: 
+                        </p>
+                        <p>
+                            <ol className="processList">
+                                <li>Empathize</li>
+                                <li>Define</li>
+                                <li>Ideate</li>
+                                <li>Low fidelity prototype</li>
+                                <li>Test</li>
+                                <li>High fidelity prototype</li>
+                            </ol>
+                        </p>
+                    </div>
+                
+            </div>
+            <hr id="breakLine"/>
+
+                    {/* **************** */}
+                    {/*     Research     */}
+                    {/* **************** */}
+                    <h2 className="sectionTitle">Research</h2>
                     <p className="problemText">
-                        Ordering food was causing users long
-                        wait times for the Rito Food Trucks.
-                        Wanting to speed up the process by
-                        allowing users to order beforehand.
-                        Rito wanted to develope a mobile app
-                        and keep the ordering process as easy
-                        as possible. Being a new application with a fresh
-                        design, the I wanted to understand the
-                        flow of the application along with any pain
-                        points the user might encounter when using the application.
-            </p>
-                </div>
-
-
-
-
-
-                <div className="processWrapper">
-                    <h2 className="processTitle">Process</h2>
-                    <div className="processImgWrapper">
-                        <div className="processImg">
-
-                        </div>
+                        
+                        To this end I set these research goals:
+                        <ul>
+                            <li>How long does it take to order food from the app?</li>
+                            <li>Determining whether the app is easy to use.</li>
+                        </ul>
+                        <br></br>
+                        I also wanted to answer the following questions for Rito:
+                        <ul>
+                            <li>What designs are users already familiar with for mobile food apps and how to apply that to Rito</li>
+                            <li>How should I design the user flow</li>
+                            <li>what tone should I use for the app</li>
+                        </ul>
+                        
+                    </p>
+                    <p className="sectionTitle">Developing Empathy With Rito Customers</p>
+                    <p className="processText">
+                        who is this for?
+                    </p>
+                    <p className="processText">
+                        Rito has two target audiences those who are busy workers and families/individuals who are craving mexican food.
+                        
+                    </p>
+                    <p className="processText">
+                        what problems do these users have?
+                    </p>
+                    <p className="processText">
+                        <ul>
+                            <li>Seeing menu and order beforehand, to shorten wait time at food truck</li>
+                            <li>ability to quickly checkout food in cart</li>
+                            <li>locating closest food truck</li>
+                        </ul>            
+                    </p>
+                    <p className="processText">
+                        I understand peoples time is valuable, especially if the target group is on workers. So I need to make the App
+                        very easy to use and with a clean user flow.
+                        
+                    </p>
+                    <h2 className="sectionTitle">Personas</h2>
+                    <div className="personaContainer">
+                        <img className="personas" src={Persona1} alt="Kyle"/>
+                        <img className="personas" src={Persona2} alt="Amy"/>
                     </div>
-                    <p className="processSubTitles">Empathize, Define, Ideate</p>
+                    
+
+
+                    <h2 className="sectionTitle">Competitive Analysis</h2>
                     <p className="processText">
-                        To understand the struggles of the user you need to empathize with the user
-                        allowing you to see the product from their perspective.
-                        Define is where we narrow down the problems users are having and why. Then in the Ideate
-                        portion we design solutions for the problems found in the define phase. These
-                        first steps are crucial to the identify what portions of the app need to be improved.
+                        Starting the research with a competitive audit, in order to see what other food trucks are doing successfully and
+                        what they are failing at.
+                        <br/>
+                        <br/>
+                        I looked at 4 food truck apps to see their ordering processes and visual style. 3 were direct competitors, 1 was indirect
+                        the establishments I audited were California Tacos, Port Taco Truck and Bar, El Camion and YumBit (the only indirect competitor).
+                        All are located in Washington and business size varied from small to medium, all targeting families as an audience. Some offered alcohol
+                        so they targeted a older demographic.
+                        <br/>
+                        <br/>
+                        The bad: Many had issues with outdated applications, poor images of food, no real brand identity to the food truck and
+                        ability to not even order online.
+                        The Good: Other language accessible, user flow from menu to payment is very easy, very detailed ingredient descriptions.
+                        <br/>
+                        <br/>
+                        This prompted me to design for a strong brand identity, the ability to see good photos / prices with detailed ingredient descriptions and order online easily.
+                        
                     </p>
-                    <p className="processSubTitles">Low Fedelity Prototype</p>
+
+                    <p className="sectionTitle">Ideate</p>
                     <p className="processText">
-                        Creating an early layout of the application with no photos, minimal text just bare
-                        functionality. This tests whether any early features or if navigation is a user pain point.
-
+                        Brainstorming numerous amounts of ideas through sketches of a prototype the users can interact with & test.
                     </p>
-                    <p className="processSubTitles">Testing</p>
+                    <div className="personaContainer">
+                        <img className="sketch" src={Sketch1} alt="Sketch1"/>
+                        <img className="sketch" src={Sketch2} alt="Sketch2"/>
+                    </div>
+                    
+
+                    <p className="sectionTitle">Testing User Flow Through Low Fidelity Prototyping</p>
                     <p className="processText">
-                        Through study sessions with users that will test the prototypes. 
-                        A series of questions and tasks are given to participants and they 
-                        give their feedback. This feedback is consolidated and taken into 
-                        consideration for the applications improvement.
+                        New insights with user flow and users needs were gained from testing the low fidelity prototype.
                     </p>
-                    <p className="processSubTitles">High Fedelity Prototype</p>
-                    <p className="processText">
-                        This mockup application will contain pictures, fonts, color
-                        schemes in order to make it appear as close as possible to
-                        the final product. At this point the users needs should have been taken
-                        into consideration and improved for the high fedelity prototype.
-                    </p>
-                    <p className="processSubTitles">Repeat</p>
-                    <p className="processText">
-                        Repeating these processes many times are how on each iteration of the application
-                        are improved, though being defined, designed for, then tested. Keeping a healthy
-                        flow of user feedback and building off of previous versions increases our chance
-                        of building a successful product for both user and company.
-                    </p>
-                </div>
-
-
-
-
-
-
-                <div className="userResearchWrapper">
-                    <h2 className="userReaseachTitle">User Research Experience</h2>
-                    <img alt=""></img>
-                    {/* <p className="userReaseachText">Unmoderated Usablity Session.</p> */}
-                    <p className="userReaseachSubTitles">Research Methods</p>
-                    <p className="userReaseachText">
-                        Through the use of unmodereated usablity sessions,
-                        we answered our questions of how long does it take
-                        to complete a task? What portion of the user flow causes
-                        the most confusion to the user. Conducting primary research
-                        for this project using methods such as time on task, use of navigation and
-                        conversion rates. These methods gave the me quantitative results
-                        and the viewing of the unmoderated sessions gave qualitative insights.
-                </p>
-
-                    <div className="icons">
-                        {/* <div className="iconsCardWrapper"> */}
-                        <div className="iconsCard" id="clock">
-                            <FontAwesomeIcon icon={faClock} />
-                            <p className="iconsText">Time on Task</p>
-                        </div>
-
-                        <div className="iconsCard" id="users">
-                            <FontAwesomeIcon icon={faUsers} />
-                            <p className="iconsText">Use of Navigation</p>
-                        </div>
-
-                        <div className="iconsCard" id="clipboard">
-                            <FontAwesomeIcon icon={faClipboard} />
-                            <p className="iconsText">Conversion Rate</p>
-                        </div>
-                        {/* </div> */}
+                    <div className="gifHolder">
+                        <iframe src="https://giphy.com/embed/VhQlP5VyucFsXk7QJR" className="giphy-embed" title="LowFi"/>
                     </div>
 
-                    <p className="userReaseachText">
-                        With these new understandings the next iteration of
-                        prototypes would be improved to address the pain points found with
-                        early wireframes. Those user pain points include order review before
-                        purchasing food, customization menu is lackluster and font sizes/some buttons
-                        were too small. These user pain points were taken into consideration during our next
-                        iteration of ideate and test phases.
 
-                </p>
+                    <p className="sectionTitle">Goals & Surfacing Issues</p>
+                    <p className="processText">
+                        Key performance indicators to keep track of success rates are very important here. I choose to
+                        use time on task and conversion rates for the key performance indicators in these tests. Conducting
+                        a Moderated usability study with 5 participants. Duration was 20 minutes and users were chosen for the 
+                        study based on visiting a food truck at least once a month.
 
-                    <p className="userReaseachSubTitles">Personas</p>
-                    <p className="userReaseachText">
-                        Personas were created to identify a particular user group.
-                        This group included adults who during there busy work day, had little time to
-                        cook their own meals. These personas are used during the creation of the app in order
-                        to relate to the users, in a sense put a face to the users we tested for me to
-                        empathize with.
-                </p>
-                </div>
+                    </p>
+                    <p className="processText">
+                        Test Objectives:
+                    </p>
+                    <p className="processText">
+                        <ul>
+                            <li>What parts of the user flow do the users get stuck in?</li>
+                            <li>Any features that the app is missing and that users would like?</li>
+                            <li>Is the overall design of the app easy to use and visually appealing?</li>
+                            <li>Time is takes user to complete the ordering process?</li>
+                        </ul>
+                    </p>
+                    <p className="processText">
+                        Results:
+                    </p>
+                    <p className="processText">
+                        <ul>
+                            <li>100% of users had a very easy time with navigating menus</li>
+                            <li>80% of users mentioned they at least wanted an order review screen before finalizing the order</li>
+                            <li>Location selection was a bit vague as 40% of users had trouble proceeding to checkout due to not seeing the selection location button</li>
+                        </ul>
 
+                        
+                    </p>
 
-
-
-                <div className="prototypeWrapper">
-                    <h2 className="prototypeTitle">Prototyping</h2>
-                    <p className="prototypeText">
-                        During this project I learned how to use Figma. Creating wireframes,
-                        both low and high fedelity prototypes. These were used to determine
-                        user pain points during tests and the visual design of the application.
-                        The begging stages were very bare bones with no different font and only
-                        a two color scheme. Later high fedelity portions went with a warm color scheme
-                        including orange as an action color, a golden yellow and white for background.
-                        The font evolved into a more cowboy theme, the final version of Rito went for a more
-                        minimal and open apporach rather then boxing everything together.
-                </p>
-
-                    <p className="prototypeHeaders" id="prototypeHeaders">Low-Fidelity Prototype</p>
-                    <div className="cardWrapper">
-
-
-                        <div className="imageCard" id="imageCard1">
-
-
-                        </div>
-                        <div className="imageCard" id="imageCard2">
-
-
-                        </div>
-                        <div className="imageCard" id="imageCard3">
-
-
-                        </div>
-                        <div className="imageCard" id="imageCard4">
-
-
-                        </div>
+                    
+                    <p className="sectionTitle">High-Fidelity Prototype</p>
+                    <p className="processText">
+                       Redesigning & reimagining the prototype from the feedback gathered. This prototype will be a similar to the 
+                       final release as possible. Testing will be necessary on this prototype to create better iterations in the future.
+                    </p>
+                    <div>
+                        <img className="HiFiMobilePhoto" src={HiFi} alt="HiFi"/>
+                    </div>
+                    <div className="buttonContainer">
+                        <a href="https://www.figma.com/proto/MmifNGBemA2OwLV4micVER/Rito-Reworked?node-id=324%3A3130&scaling=min-zoom&page-id=324%3A3094&starting-point-node-id=324%3A3130" className="hiFiButton">View Hi-Fi Prototype</a>
                     </div>
 
-                    <p className="prototypeHeaders" id="prototypeHeaders">High-Fidelity Prototype</p>
-                    <div className="cardWrapper">
-                        <div className="imageCard" id="imageCard5">
-
-
-                        </div>
-                        <div className="imageCard" id="imageCard6">
-
-
-                        </div>
-                        <div className="imageCard" id="imageCard7">
-
-
-                        </div>
-                        <div className="imageCard" id="imageCard8">
-
-
-                        </div>
-                    </div>
-                </div>
-
-
-
+                {/* **************** */}
+                {/*    Conclusion    */}
+                {/* **************** */}
 
                 <div className="optimizationWrapper">
-                    <h2 className="optimizationTitle">Results</h2>
-                    <p className="optimizationText">
-                        Sometimes less is more, less drop downs, a more open design,
-                        visual on ingredients. This made the user expierence much simpler
-                        and more visually appealing. I also learned the design process to 
-                        successfully create a user application, to empathize and define problems. 
-                        The tools to make prototypes such as figma taught me the visual design portion
-                        of the application.
-
-
-                        The most important lession I learned that users will guide your path as a UX developer. 
-                        The creation of a product takes repetition of user studies to 
-                        build a better and improve a product. 
-                    </p>
+                    <h2 className="optimizationTitle">What's Next</h2>
+                        <p className="optimizationText">
+                            Several subject areas in the current iteration will need to be worked into 
+                            the user flows:
+                        </p>
+                        <p className="optimizationText">
+                            <ul>
+                                <li>Add a favorite food option to the app</li>
+                                <li>Preform more usability testing on high fidelity prototype to create better Rito iterations</li>
+                                <li>Refine select location button and make users more aware that a location is selected</li>
+                                <li>Add a rewards system for loyal customers</li>
+                            </ul>
+                        </p>
+                        <h2 className="optimizationTitle">Lessons Learned</h2>
+                        <p className="optimizationText">
+                            Being my very first UX project, I learned a lot about the UX process, mockups and prototypes. How these
+                            all are determined by the user, creating a user centered design that in the end benefits the user and the business.
+                        </p>
+                        <p className="optimizationText">
+                            <ol>
+                                <li>
+                                    Going through each step one by one really helps make a great product,along with user research being the pinnacle of feedback.
+                                </li>
+                                <li>
+                                    People search for foods in many different ways, and if those variables are available for filtering purposes, they would rather have more, not less options.
+                                </li>
+                                <li>
+                                    I am not a user, Many times during the project I wanted to make assumptions on the empathize process.
+                                    But thats wrong, I am not everybody, each user is different and will make their own decisions.
+                                </li>
+                            </ol>
+                            
+                           
+                        </p>
                 </div>
 
-
-
+{/* FOR RITO People search for things to watch in many different ways, and if those variables are available for filtering purposes, they would rather have more, not less options. */}
+       
+       {/* One test user commented that the tasks were "almost too simple." Like many others, 
+                        the tasks were correctly executed but their simplicity left a lot of room for 
+                        speculation and possible improvement.      */}
+                
+            
                 <p className="footers">
                     Gehry Guest <span className="my-name-color">©2021</span>
                 </p>

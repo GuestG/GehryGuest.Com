@@ -149,7 +149,8 @@ nav ul li {
 }
 
 .header-wrapper {
-  background: url(assets/hero.jpg);
+  background: url(../src/assets/Other/hero.jpg);
+  
   /* background-color: var(--primary-blue); */
   background-position: center;
   background-repeat: no-repeat;
@@ -342,7 +343,8 @@ nav ul li {
 
 .gallery-wrapper {
   display: flex;
-  width: 100vw;
+  height: auto;
+  width: 100%;
 }
 
 .projects {
@@ -366,7 +368,7 @@ nav ul li {
   background-size: cover;
   padding: 6rem 0 0;
   margin: 1rem;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   border-radius: 1rem;
   width: 36ch;
   max-width: 36ch;
@@ -374,6 +376,9 @@ nav ul li {
   overflow: hidden;
   transition: transform 500ms ease;
   color: var(--White);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project_card:hover,
@@ -464,24 +469,22 @@ nav ul li {
   border: 2px solid var(--primary-white);
 }
 
-#project1 {
 
-  background-image: url("../src/assets/ritoPhotos/RitoIcon.png");
+#algoAcademy {
+  background-image: url("../src/assets/algoPhotos/AlgoAcademy.png");
+  background-position: left;
 }
 
-#project2 {
-
-  background-image: url("../src/assets/me.jpg");
+#laFitness {
+   background-image: url("../src/assets/LAPhotos/LAFitnessSplash.png"); 
 }
 
-#project3 {
-
-   background-image: url("../src/assets/me.jpg"); 
+#rito { 
+  background-image: url("../src/assets/ritoPhotos/RitoMenu.png");
 }
 
-#project4 { 
-
-  background-image: url("../src/assets/me.jpg"); 
+#kiwi {
+  background-image: url("../src/assets/kiwiPhotos/kiwi.png");
 }
 
 @media (hover) {
