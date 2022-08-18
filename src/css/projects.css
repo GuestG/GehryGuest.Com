@@ -309,6 +309,11 @@ body {
         margin-right: 5rem;
     }
 
+    .sectionTitle {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
     #edgeColumnLeft {
         margin-left: 0rem;
         margin-right: 0rem;
@@ -335,6 +340,12 @@ body {
     .web {
         max-width: 80vw;
         padding-bottom: 1rem;
+    }
+
+    .hiFiButton {
+        border-radius: 1rem;
+        font-size: 1.25rem;
+        padding: 0.55rem 1.5rem 0.55rem 1.5rem;
     }
 
 }

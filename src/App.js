@@ -13,7 +13,6 @@ import Home from './components/Home';
 // NPM start, NPM run build, NPM run deploy
 // git add . , git status, git commit -m "" , git push
 
-//change use of navigation to arrow and conversion rates to check mar
 library.add(faLinkedin, faGithub, faBars, faFigma, faHtml5, faBootstrap, faReact, faJsSquare, faUser, faExclamationCircle);
 
 function App() {
