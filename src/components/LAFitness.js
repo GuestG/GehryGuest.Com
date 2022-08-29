@@ -37,13 +37,13 @@ function LAFitness() {
 
                 <div className="headerWrapper">
                     <h2 className="headerTitle">Trimming the Fat</h2>
-                    <p className="headerText">
+                    <p className="processText">
                         The current design of LA Fitness has trouble with
                         user navigation, too many useless features that actually take away from the user experience.
                         In this case study I reduced the clutter and generally minimalize the website. 
                         Designing the website to be responsive so users with any device can use the website.
                         But also simplifying the process it takes to become a member of the gym
-                        itself./////
+                        itself.
                         
 
                     </p>
@@ -146,7 +146,7 @@ function LAFitness() {
                     {/*     Research     */}
                     {/* **************** */}
                     <h2 className="sectionTitle">Research</h2>
-                    <p className="problemText">
+                    <p className="processText">
                         
                         My research first centered around the competition space in order to understand how other gyms are 
                         addressing similar issues. To this end I set these research goals:
@@ -164,14 +164,14 @@ function LAFitness() {
                         
                     </p>
                     <p className="sectionTitle">Developing Empathy With LA Fitness Patrons</p>
-                    <p className="processText">
+                    <p className="processText" id="boldProcessText">
                         who is this for?
                     </p>
                     <p className="processText">
                         This redesign is for the current and incoming members of LA Fitness gyms. To facilitate 
                         there questions and sign ups for memberships or gym classes. 
                     </p>
-                    <p className="processText">
+                    <p className="processText" id="boldProcessText">
                         what problems do these users have?
                     </p>
                     <p className="processText">

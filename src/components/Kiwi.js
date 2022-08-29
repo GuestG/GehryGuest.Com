@@ -33,7 +33,7 @@ function Kiwi() {
 
                 <div className="headerWrapper">
                     <h2 className="headerTitle">Saving a National Icon</h2>
-                    <p className="headerText">
+                    <p className="processText">
                         Kiwi Oasis is a charity devoted to the conservation of New Zealand's national bird the Kiwi. 
                         The goal of the Non-profit charity is to spread awareness of the kiwis population decline and to actively 
                         try to reverse the decline. The creation of sanctuaries, restoration of habitat and removal of pests are some of 
@@ -140,7 +140,7 @@ function Kiwi() {
                     {/*     Research     */}
                     {/* **************** */}
                     <h2 className="sectionTitle">Research</h2>
-                    <p className="problemText">
+                    <p className="processText">
                         
                         At the outset of this project, I felt it was important to identify as best as I 
                         could what aspects of the app user experience and user interface that users largely 
@@ -159,14 +159,14 @@ function Kiwi() {
                         
                     </p>
                     <p className="sectionTitle">Empathizing With The User</p>
-                    <p className="processText">
+                    <p className="processText" id="boldProcessText">
                         who is this for?
                     </p>
                     <p className="processText">
                         Its for users who want to support a species conservation effort. Or
                         any animal lovers who have heard of the kiwi and its endeavors.
                     </p>
-                    <p className="processText">
+                    <p className="processText" id="boldProcessText">
                         what problems do these users have?
                     </p>
                     <p className="processText">

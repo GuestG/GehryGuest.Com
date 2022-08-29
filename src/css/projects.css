@@ -124,8 +124,8 @@ body {
 
 .problemText, .processText, .userReaseachText, .prototypeText, .optimizationText {
     line-height: 2.25rem;
-    margin-right: 18vw;
-    margin-left: 18vw;
+    margin-right: 25%;
+    margin-left: 25%;
     font-size: 1rem;
 }
 
@@ -137,6 +137,12 @@ body {
     margin-right: 18vw;
     margin-left: 18vw;
     font-size: 1.5rem;
+}
+
+
+#boldProcessText {
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 
@@ -322,6 +328,11 @@ body {
     #edgeColumnRight {
         margin-left: 0rem;
         margin-right: 0rem;
+    }
+
+    .processText, .optimizationText {
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 
     /* pictures */

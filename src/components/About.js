@@ -13,7 +13,7 @@ function About() {
         <section className="square">
             <div className="about-wrapper" id="about-wrapper">
                 <h1 className="about-title"> About Me</h1>
-                <div className="about-inner-warpper">
+                <div className="about-inner-wrapper">
 
                     <img src={MyPic} alt="" className="my-photo" id="my-photo" data-aos="fade-right" />
 

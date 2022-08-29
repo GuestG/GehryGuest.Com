@@ -550,14 +550,14 @@ nav ul li {
 .about-wrapper {
   display: flex;
   position: relative;
-  flex-direction:column;
+  flex-direction: column;
   background-color: var(--primary-about);
   justify-content: center;
   align-items: center;
   height: auto;
 }
 
-.about-inner-warpper {
+.about-inner-wrapper {
   display: flex;
   flex-direction: row;
   width: 80vw;
@@ -600,7 +600,7 @@ nav ul li {
 .about-text {
   display: flex;
   margin: 0 auto;
-  padding: 1.75rem 0.75rem 0.75rem 5.75rem;
+  padding: 1.75rem 0.75rem 0.75rem 3.75rem;
   justify-content: center;
   align-items: center;
   font-family: 'Roboto Slab', serif;
@@ -695,7 +695,7 @@ nav ul li {
 /* 768 was default, but chaned for ipad users */
 @media(max-width: 767px) {
 
-  .about-inner-warpper {
+  .about-inner-wrapper {
     width: 90vw;
     flex-direction: column;
     margin-top: 0rem;

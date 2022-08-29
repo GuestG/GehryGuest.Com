@@ -32,7 +32,7 @@ function Rito() {
 
                 <div className="headerWrapper">
                     <h2 className="headerTitle">The Rito in Burrito</h2>
-                    <p className="headerText">
+                    <p className="processText">
                        Rito is a mobile app for a food truck company. These truck are located in many large cities and serve 
                        mexican style food. The truck previously didn't have an app, the main purpose is reduce
                        wait times by allowing group orders and ordering before being physically present.
@@ -51,7 +51,9 @@ function Rito() {
                         <hr id="breakLine"/>
                         <h2 className="overviewTitle">Deliverables</h2>
                         <p className="overviewText">
-                            
+                            Determine what users struggles are for ordering food from Rito. Compare to 
+                            other competitors and build a mobile UI for users to smoothly order from the 
+                            company app. 
                         </p>  
                         <p className="bulletTitle"> 
                             UX / UI Design:
@@ -137,7 +139,7 @@ function Rito() {
                     {/*     Research     */}
                     {/* **************** */}
                     <h2 className="sectionTitle">Research</h2>
-                    <p className="problemText">
+                    <p className="processText">
                         
                         To this end I set these research goals:
                         <ul>
@@ -154,14 +156,14 @@ function Rito() {
                         
                     </p>
                     <p className="sectionTitle">Developing Empathy With Rito Customers</p>
-                    <p className="processText">
+                    <p className="processText" id="boldProcessText">
                         who is this for?
                     </p>
                     <p className="processText">
                         Rito has two target audiences those who are busy workers and families/individuals who are craving mexican food.
                         
                     </p>
-                    <p className="processText">
+                    <p className="processText" id="boldProcessText">
                         what problems do these users have?
                     </p>
                     <p className="processText">
