@@ -50,6 +50,18 @@ const Projects = () => {
 
                                 </div>
                             </div>
+                            <div className="project_card" id="Marcella" data-aos="fade-right">
+                                <div className="card_content">
+                                    <h2 className="card_title">
+                                        Marcella's Design
+                                        </h2>
+                                    <h3 className="card_body">
+                                        Developed a portfolio for upholsterer to show her work and ways to get in touch.
+                                        </h3>
+                                    <a className='button' href='https://maricellasdesign.com/'>See Website</a>
+
+                                </div>
+                            </div>
                             
 
                         </div>
@@ -76,6 +88,18 @@ const Projects = () => {
                                         Designing for social good, an app to aid in adopting an endangered bird species.
                                         </h3>
                                     <Link className='button' to='Kiwi/#bodyWrapper'>See Case Study</Link>
+
+                                </div>
+                            </div>
+                            <div className="project_card" id="Gabi" data-aos="fade-left">
+                                <div className="card_content">
+                                    <h2 className="card_title">
+                                        Gabi's Kids
+                                        </h2>
+                                    <h3 className="card_body">
+                                        Created webapge for a charity for low income families, Providing food and other services.
+                                        </h3>
+                                    <a className='button' href='https://guestg.github.io/GabisKids/'>See Website</a>
 
                                 </div>
                             </div>

@@ -27,18 +27,13 @@ function About() {
                         Science in Computer Science. I bring the software developer aspect to UX
                         field, exceptional for working in teams and knowing the limits of software. */}
                         
-                        My name is Gehry Guest. I am a aspiring UX/UI designer based in Washington. I have a great passion 
+                        My name is Gehry Guest. I am an aspiring UX/UI designer based in Washington. I have a great passion 
                         for modern and minimalist interfaces. I have been a part of different teams to help design
                         user centric interfaces for their softwares.
 ‍
-                        Being a graduating with a bachelors in computer science I found my passion for design 
+                        As a graduate in computer science I found my passion for design 
                         when building & designing front end for software.
                         
-
-
-                        I am currently looking for a full-time position to join a team where I could
-                        use my skills to bring value to the company while learning to grow for the better. 
-
                         I know how frustrating some interfaces could be and my goal is to make the 
                         lives of people effortless, so they can concentrate on
                         what's really important.

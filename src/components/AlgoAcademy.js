@@ -16,10 +16,17 @@ function AlgoAcademy() {
 
                 <div className="introWrapper">
                     <h1 className="introTitle">AlgoAcademy</h1>
-                    <p className="introSubTitle">2022 | Web Design | Interview Course</p>
+                    <p className="introSubTitle">2022 | UI Design | Coding Interviews</p>
                     <h1 className="introTitle">This project is in the works.</h1>
                 </div>
             </div>
+            <div className="headerWrapper">
+                    <h2 className="headerTitle">Saving a National Icon</h2>
+                    <p className="processText">
+              
+                    </p>
+
+                </div>
         </section>
         )
     }

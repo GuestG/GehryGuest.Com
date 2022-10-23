@@ -487,6 +487,14 @@ nav ul li {
   background-image: url("../src/assets/kiwiPhotos/kiwi.png");
 }
 
+#Gabi {
+  background-image: url("../src/assets/Other/GabisKids.png");
+}
+
+#Marcella {
+  background-image: url("../src/assets/Other/MarcellasDesign.png");
+}
+
 @media (hover) {
   .card_content {
       transform: translateY(62%);
