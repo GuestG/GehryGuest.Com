@@ -29,12 +29,8 @@ function About() {
                         
                         My name is Gehry Guest. I am an aspiring UX/UI designer based in Washington. I have a great passion 
                         for modern and minimalist interfaces. I have been a part of different teams to help design
-                        user centric interfaces for their softwares.
-‍
-                        As a graduate in computer science I found my passion for design 
-                        when building & designing front end for software.
-                        
-                        I know how frustrating some interfaces could be and my goal is to make the 
+                        user centric interfaces for their softwares. As a graduate in computer science I found my passion for design 
+                        when building & designing front end for software. I know how frustrating some interfaces could be and my goal is to make the 
                         lives of people effortless, so they can concentrate on
                         what's really important.
                          {/* Interaction Design Foundation IxDF is my primary source of learning
