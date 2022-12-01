@@ -22,7 +22,7 @@ const Header = () => {
                         <FontAwesomeIcon icon={["fab","linkedin"]}/>
                     </a>
                     
-                    <h1 className="intro-message">Hey! I'm <span className="my-name-color">Gehry Guest.</span> </h1>
+                    <h1 className="intro-message">Hi! I'm <span className="my-name-color">Gehry Guest.</span> </h1>
                     <Typed
                         className="typed-text"
                         strings={["A UX Designer.", "A Web Developer.", "A Team Player."]}
