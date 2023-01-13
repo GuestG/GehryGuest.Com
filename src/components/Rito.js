@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import '../css/projects.css';
-import HiFi from "../assets/ritoPhotos/RitoHiFi.png";
+// import HiFi from "../assets/ritoPhotos/RitoHiFi.png";
+
+import Presentation from "../assets/ritoPhotos/RitoPresentation.png";
 
 import Persona1 from "../assets/ritoPhotos/Kyle.jpg";
 import Persona2 from "../assets/ritoPhotos/Amy.jpg";
@@ -63,8 +65,8 @@ function Rito() {
                                 <li>Competitive Analysis</li>
                                 <li>User Journey</li>
                                 <li>Design Systems</li>
-                                <li>Low fidelity wireframes and prototype</li>
-                                <li>High fidelity prototype</li>
+                                <li>Low Fidelity Wireframes and Prototype</li>
+                                <li>High Fidelity Prototype</li>
                             </ul>
                         </p>
                         <br></br>
@@ -74,7 +76,7 @@ function Rito() {
                         <p>
                             <ul>
                                 <li>Personas</li>
-                                <li>Usability tests and findings</li>
+                                <li>Usability Tests and Findings</li>
                             </ul>
                         </p>
                     </div>
@@ -125,9 +127,9 @@ function Rito() {
                                 <li>Empathize</li>
                                 <li>Define</li>
                                 <li>Ideate</li>
-                                <li>Low fidelity prototype</li>
+                                <li>Low Fidelity Prototype</li>
                                 <li>Test</li>
-                                <li>High fidelity prototype</li>
+                                <li>High Fidelity Prototype</li>
                             </ol>
                         </p>
                     </div>
@@ -149,9 +151,9 @@ function Rito() {
                         <br></br>
                         I also wanted to answer the following questions for Rito:
                         <ul>
-                            <li>What designs are users already familiar with for mobile food apps and how to apply that to Rito</li>
-                            <li>How should I design the user flow</li>
-                            <li>what tone should I use for the app</li>
+                            <li>What designs are users already familiar with for mobile food apps and how to apply that to Rito?</li>
+                            <li>How should I design the user flow?</li>
+                            <li>what tone should I use for the app?</li>
                         </ul>
                         
                     </p>
@@ -265,10 +267,10 @@ function Rito() {
                        final release as possible. Testing will be necessary on this prototype to create better iterations in the future.
                     </p>
                     <div>
-                        <img className="HiFiMobilePhoto" src={HiFi} alt="HiFi"/>
+                        <img className="HiFiMobilePhoto" src={Presentation} alt="Presentation"/>
                     </div>
                     <div className="buttonContainer">
-                        <a href="https://www.figma.com/proto/MmifNGBemA2OwLV4micVER/Rito-Reworked?node-id=324%3A3130&scaling=min-zoom&page-id=324%3A3094&starting-point-node-id=324%3A3130" className="hiFiButton">View Hi-Fi Prototype</a>
+                        <a href="https://www.figma.com/proto/MmifNGBemA2OwLV4micVER/Rito-Reworked?node-id=324%3A3130&scaling=min-zoom&page-id=324%3A3094&starting-point-node-id=324%3A3130" className="hiFiButton">View Prototype</a>
                     </div>
 
                 {/* **************** */}

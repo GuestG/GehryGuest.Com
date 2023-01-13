@@ -182,7 +182,7 @@ nav ul li {
   font-size: 2.5rem;
   /* margin-bottom: 1rem; */
   font-weight: 500;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
 }
 
 .githubIconHeader {
@@ -227,10 +227,14 @@ nav ul li {
 /* for mobile users, will change font for smaller screens */
 @media(max-width: 767px) {
   .main-info h1 {
-    font-size: 2.4rem !important;
+    font-size: 2rem !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .typed-text {
-    font-size: 2.4rem !important;
+    font-size: 2rem !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .githubIconHeader {
@@ -252,7 +256,7 @@ nav ul li {
   text-transform: uppercase;
   font-weight: 500 !important;
   font-family: 'Roboto Slab', serif;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
   color: var(--primary-white);
 }
 
@@ -345,6 +349,9 @@ nav ul li {
   display: flex;
   height: auto;
   width: 100%;
+
+  padding-left: 22.5vw;
+  padding-right: 22.5vw;
 }
 
 .projects {
@@ -391,7 +398,9 @@ nav ul li {
   padding: var(--padding);
   background: linear-gradient(
       hsl(0 0% 0% / 0),
-      hsl(0 0% 0% / 0.3) 20%,
+      hsl(0 0% 0% / 0.25),
+      hsl(0 0% 0% / 0.50),
+      hsl(0 0% 0% / 0.65) 15%,
       hsl(0 0% 0% / 1)
       );
 }
@@ -415,7 +424,6 @@ nav ul li {
   font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
   color: var(--primary-white);
-  text-shadow: 2px 2px black;
 }
 
 .card_title::after {

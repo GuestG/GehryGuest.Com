@@ -48,7 +48,7 @@ function Contact() {
 
                         <button type="submit" className="submit-message" id="submit-message">
                             Submit
-                    </button>
+                        </button>
                 </form>
 
                     {/* </div> */}

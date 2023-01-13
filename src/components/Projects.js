@@ -27,12 +27,12 @@ const Projects = () => {
                             <div className="project_card" id="algoAcademy" data-aos="fade-right">
                                 <div className="card_content">
                                     <h2 className="card_title">
-                                        Algo Academy
+                                        Aceable
                                         </h2>
                                     <h3 className="card_body">
                                         Teaching software developers the skills they need to pass that interview.
                                         </h3>
-                                    <Link className='button' to='AlgoAcademy/#bodyWrapper'>See Case Study</Link>
+                                    <Link className='button' to='Aceable/#bodyWrapper'>See Case Study</Link>
 
                                 </div>
                             </div>

@@ -8,13 +8,13 @@ import Persona2 from "../assets/LAPhotos/Mia.png";
 import Sketch1 from "../assets/LAPhotos/LA1.jpg";
 import Sketch2 from "../assets/LAPhotos/LA2.jpg";
 
+// import MobilePresentation from "../assets/LAPhotos/LAMobilePresentation.png";
+import presentation from "../assets/LAPhotos/LAFitnessPresentation.png";
+
 import low1 from "../assets/LAPhotos/lowFi.png";
 import low2 from "../assets/LAPhotos/aboutus.png";
 import low3 from "../assets/LAPhotos/map.png";
 
-import Web1 from "../assets/LAPhotos/LAHome.png";
-import Web2 from "../assets/LAPhotos/plans.png";
-import Web3 from "../assets/LAPhotos/Account.png";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import {faSearch, faCheckCircle, faExclamationCircle, faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -69,8 +69,8 @@ function LAFitness() {
                                 <li>Competitive Analysis</li>
                                 <li>Site Maps</li>
                                 <li>Design Systems</li>
-                                <li>Low fidelity wireframes and prototype</li>
-                                <li>High fidelity prototype</li>
+                                <li>Low Fidelity Wireframes and Prototype</li>
+                                <li>High Fidelity Prototype</li>
                             </ul>
                         </p>
                         <br></br>
@@ -80,7 +80,7 @@ function LAFitness() {
                         <p>
                             <ul>
                                 <li>Personas</li>
-                                <li>Usability tests and findings</li>
+                                <li>Usability Tests and Findings</li>
                             </ul>
                         </p>
                     </div>
@@ -132,9 +132,9 @@ function LAFitness() {
                                 <li>Empathize</li>
                                 <li>Define</li>
                                 <li>Ideate</li>
-                                <li>Low fidelity prototype</li>
+                                <li>Low Fidelity Prototype</li>
                                 <li>Test</li>
-                                <li>High fidelity prototype</li>
+                                <li>High Fidelity Prototype</li>
                             </ol>
                         </p>
                     </div>
@@ -157,9 +157,9 @@ function LAFitness() {
                         <br></br>
                         I also wanted to answer the following questions for LA Fitness:
                         <ul>
-                            <li>How users interact with the responsive design</li>
-                            <li>How many users need the features from the current website</li>
-                            <li>How to pull in people to sign up</li>
+                            <li>How users interact with the responsive design?</li>
+                            <li>How many users need the features from the current website?</li>
+                            <li>How to pull in people to sign up?</li>
                         </ul>
                         
                     </p>
@@ -281,13 +281,12 @@ function LAFitness() {
                         hi fidelity prototype.
                     </p>
                     <div className="personaContainer">
-                        <img className="web" src={Web1} alt="Web1"/>
-                        <img className="web" src={Web2} alt="Web2"/>
-                        <img className="web" src={Web3} alt="Web3"/>
+                        {/* <img className="web" src={MobilePresentation} alt="MobilePresentation"/> */}
+                        <img className="web" src={presentation} alt="presentation"/>
                     </div>
 
                     <div className="buttonContainer">
-                        <a href="https://xd.adobe.com/view/284d905f-44f9-4e1b-a9d1-43ca4a01fae4-7d1e/?fullscreen" className="hiFiButton">View Hi-Fi Prototype</a>
+                        <a href="https://www.figma.com/file/XjIPFSVRWSR2Khht3y7fMa/LA-Fitness-Redesign?node-id=0%3A1&t=h27PRFUjYLYeL5ou-1" className="hiFiButton">View Prototype</a>
                     </div>
 
                 {/* **************** */}

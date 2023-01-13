@@ -8,7 +8,7 @@ import Home from './components/Home';
 import Rito from './components/Rito';
 import LAFitness from "./components/LAFitness";
 import Kiwi from "./components/Kiwi";
-import AlgoAcademy from './components/AlgoAcademy';
+import Aceable from './components/Aceable';
 
 
 export default function Router() {
@@ -17,7 +17,7 @@ export default function Router() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/AlgoAcademy" element={<AlgoAcademy />} />
+                <Route path="/Aceable" element={<Aceable />} />
                 <Route path="/Rito" element={<Rito />} />
                 <Route path="/LAFitness" element={<LAFitness />} />
                 <Route path="/Kiwi" element={<Kiwi />} />

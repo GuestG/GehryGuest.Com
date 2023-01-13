@@ -63,8 +63,8 @@ function Kiwi() {
                             <ul>
                                 <li>Competitive Analysis</li>
                                 <li>Site Maps</li>
-                                <li>Low fidelity wireframes and prototype</li>
-                                <li>High fidelity prototype</li>
+                                <li>Low Fidelity Wireframes and Prototype</li>
+                                <li>High Fidelity Prototype</li>
                             </ul>
                         </p>
                         <br></br>
@@ -74,7 +74,7 @@ function Kiwi() {
                         <p>
                             <ul>
                                 <li>User personas</li>
-                                <li>Usability tests and findings </li>
+                                <li>Usability Tests and Findings </li>
                             </ul>
                         </p>
                     </div>
@@ -126,9 +126,9 @@ function Kiwi() {
                                 <li>Empathize</li>
                                 <li>Define</li>
                                 <li>Ideate</li>
-                                <li>Low fidelity prototype</li>
+                                <li>Low Fidelity Prototype</li>
                                 <li>Test</li>
-                                <li>High fidelity prototype</li>
+                                <li>High Fidelity Prototype</li>
                             </ol>
                         </p>
                     </div>
@@ -152,9 +152,9 @@ function Kiwi() {
                         <br></br>
                         I also resolved to answer the following questions for both the responsive website and mobile versions of Kiwi Oasis:
                         <ul>
-                            <li>Which features do Kiwi Oasis users like and dislike</li>
-                            <li>What aspects of the Kiwi Oasis app UI would users like to see improved</li>
-                            <li>What aspects of the Kiwi Oasis helps promote a sense of progress</li>
+                            <li>Which features do Kiwi Oasis users like and dislike?</li>
+                            <li>What aspects of the Kiwi Oasis app UI would users like to see improved?</li>
+                            <li>What aspects of the Kiwi Oasis helps promote a sense of progress?</li>
                         </ul>
                         
                     </p>
@@ -270,7 +270,7 @@ function Kiwi() {
                     </div>
                     
                     <div className="buttonContainer">
-                        <a href="https://www.figma.com/proto/P6MGwsfgecwsoTgVB3tm1U/Kiwi?node-id=221%3A227&scaling=min-zoom&page-id=216%3A215&starting-point-node-id=221%3A227&show-proto-sidebar=1" className="hiFiButton">View Hi-Fi Prototype</a>
+                        <a href="https://www.figma.com/proto/P6MGwsfgecwsoTgVB3tm1U/Kiwi?node-id=221%3A227&scaling=min-zoom&page-id=216%3A215&starting-point-node-id=221%3A227&show-proto-sidebar=1" className="hiFiButton">View Prototype</a>
                     </div>
 
 
