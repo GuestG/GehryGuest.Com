@@ -160,14 +160,14 @@ function Kiwi() {
                     </p>
                     <p className="sectionTitle">Empathizing With The User</p>
                     <p className="processText" id="boldProcessText">
-                        who is this for?
+                        Who is this for?
                     </p>
                     <p className="processText">
                         Its for users who want to support a species conservation effort. Or
                         any animal lovers who have heard of the kiwi and its endeavors.
                     </p>
                     <p className="processText" id="boldProcessText">
-                        what problems do these users have?
+                        What problems do these users have?
                     </p>
                     <p className="processText">
                         <ul>

@@ -119,7 +119,7 @@ function Aceable() {
                     <p>
                         <ol className="processList">
                             <li>Define</li>
-                            <li>Ideate</li>
+                            <li>Empathize</li>
                             <li>High Fidelity Prototype</li>
                         </ol>
                     </p>
@@ -153,7 +153,7 @@ function Aceable() {
             </p>
             <p className="sectionTitle">Empathizing With The User</p>
             <p className="processText" id="boldProcessText">
-                who is this for?
+                Who is this for?
             </p>
             <p className="processText">
                 For users who want to get a job in software engineering, this course was created to 
@@ -161,14 +161,23 @@ function Aceable() {
                 dream job and salary the user wants.
             </p>
             <p className="processText" id="boldProcessText">
-                what problems do these users have?
+                What goals do the users have?
             </p>
             <p className="processText">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>A structured plan on what to study.</li>
+                    <li>Knowledge of what to expect during interviews.</li>
+                    <li>Desire to network with other individuals who have taken the course.</li>
+                </ul>            
+            </p>
+            <p className="processText" id="boldProcessText">
+                What issues do the users have?
+            </p>
+            <p className="processText">
+                <ul>
+                    <li>Manage their account and payments.</li>
+                    <li>Navigate the courses content efficiently and see what has been completed.</li>
+                    <li>Ability to run code on the browser for course tests.</li>
                 </ul>            
             </p>
             <p className="processText">
@@ -208,26 +217,25 @@ function Aceable() {
                         {/* <img className="web" src={low3} alt="low3"/> */}
             </div>
             
-            <p className="sectionTitle">Ideate</p>
+            {/* <p className="sectionTitle">Ideate</p>
             <p className="processText">
                 Several rounds of rapid sketching on paper to get the foundation of future prototypes.
-            </p>
-            <div className="personaContainer">
+            </p> */}
+            {/* <div className="personaContainer"> */}
                         {/* <img className="web" src={low1} alt="low1"/> */}
                         {/* <img className="web" src={low2} alt="low2"/> */}
                         {/* <img className="web" src={low3} alt="low3"/> */}
-            </div>
+            {/* </div> */}
 
 
 
             <p className="sectionTitle">Prototype</p>
             <p className="processText">
-                After the sketching I made the user flow into a high fidelity Prototype.
+                After understanding the requirements I made the user flow into a high fidelity Prototype.
             </p>
             <div className="personaContainer">
-                        <img className="web" src={presentation} alt="presentation"/>
+                <img className="web" src={presentation} alt="presentation"/>
             </div>
-
 
 
             <p className="sectionTitle">Visit the Site</p>
@@ -236,12 +244,19 @@ function Aceable() {
             </p>
 
             <div className="buttonContainer">
-                <a href="https://guestg.github.io/GabisKids/" className="hiFiButton">View Course</a>
+                <a href="https://guestg.github.io/GabisKids/" className="hiFiButton">View Aceable</a>
             </div>
 
             <p className="sectionTitle">What's Next?</p>
             <p className="processText">
-                Heres a link to the final version of the courses website.
+                If I were to continue work on Aceable, the first thing I would do is 
+                usability testing for course navigation and code tests. Determine any user
+                struggles and start brainstorming ideas for solutions to these problems.
+                <br/>
+                <br/>
+                Another task would be to make a mobile application for the course and its readings. 
+                Many users or any product are mobile users, so this would be a method to attract 
+                that demographic to Aceable.
             </p>
 
         

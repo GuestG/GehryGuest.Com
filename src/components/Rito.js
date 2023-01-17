@@ -159,14 +159,14 @@ function Rito() {
                     </p>
                     <p className="sectionTitle">Developing Empathy With Rito Customers</p>
                     <p className="processText" id="boldProcessText">
-                        who is this for?
+                        Who is this for?
                     </p>
                     <p className="processText">
                         Rito has two target audiences those who are busy workers and families/individuals who are craving mexican food.
                         
                     </p>
                     <p className="processText" id="boldProcessText">
-                        what problems do these users have?
+                        What problems do these users have?
                     </p>
                     <p className="processText">
                         <ul>

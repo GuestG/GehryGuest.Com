@@ -165,14 +165,14 @@ function LAFitness() {
                     </p>
                     <p className="sectionTitle">Developing Empathy With LA Fitness Patrons</p>
                     <p className="processText" id="boldProcessText">
-                        who is this for?
+                        Who is this for?
                     </p>
                     <p className="processText">
                         This redesign is for the current and incoming members of LA Fitness gyms. To facilitate 
                         there questions and sign ups for memberships or gym classes. 
                     </p>
                     <p className="processText" id="boldProcessText">
-                        what problems do these users have?
+                        What problems do these users have?
                     </p>
                     <p className="processText">
                         <ul>
@@ -281,7 +281,6 @@ function LAFitness() {
                         hi fidelity prototype.
                     </p>
                     <div className="personaContainer">
-                        {/* <img className="web" src={MobilePresentation} alt="MobilePresentation"/> */}
                         <img className="web" src={presentation} alt="presentation"/>
                     </div>
 
