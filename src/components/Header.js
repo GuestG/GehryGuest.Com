@@ -3,10 +3,11 @@ import Typed from "react-typed";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Header = () => {
     useEffect(() => {
-        Aos.init({duration: 1000});
+        Aos.init({duration: 800});
     }, []);
     return (
         <section className="header-outer-wrapper">
@@ -16,10 +17,10 @@ const Header = () => {
                 <div className="main-info">
                     
                     <a className="githubIconHeader" href='https://github.com/GuestG' data-aos="fade-right">
-                        <FontAwesomeIcon icon={["fab","github"]} />
+                        <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a className="linkedinIconHeader" href='https://linkedin.com/in/gehry-guest-903570177' data-aos="fade-right">
-                        <FontAwesomeIcon icon={["fab","linkedin"]}/>
+                        <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                     
                     <h1 className="intro-message">Hi! I'm <span className="my-name-color">Gehry Guest.</span> </h1>

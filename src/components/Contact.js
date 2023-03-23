@@ -2,11 +2,12 @@ import React, { useEffect } from 'react'
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Contact() {
     useEffect(() => {
         Aos.init({
-            duration: 1000,
+            duration: 800,
             offset: -100
         });
     }, []);
@@ -57,10 +58,10 @@ function Contact() {
 
                     <div className="external-links-wrapper">
                         <a className="githubIcon" href='https://github.com/GuestG' data-aos="fade-right">
-                            <FontAwesomeIcon icon={["fab", "github"]} />
+                            <FontAwesomeIcon icon={faGithub} />
                         </a>
                         <a className="linkedinIcon" href='https://linkedin.com/in/gehry-guest-903570177' data-aos="fade-left">
-                            <FontAwesomeIcon icon={["fab", "linkedin"]} />
+                            <FontAwesomeIcon icon={faLinkedin} />
                         </a>
                     </div>
                     <p className="footers">

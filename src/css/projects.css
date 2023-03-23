@@ -60,11 +60,38 @@ body {
     width: auto;
 }
 
+.BackLink {
+    display: flex;
+    text-decoration: none;
+    margin-left: 28%;
+    margin-right: 100%;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:var(--primary-dark);
+}
+
+.BackLink:hover svg path,
+.BackLink:hover {
+    
+    color:var(--primary-orange);
+    fill: var(--primary-orange);
+}
+
+.backButtonIcon {
+    float: left;
+}
+
+.backButtonText {
+    float: right;
+    padding-left: 0.25rem;
+}
+
 
 /* Intro */
 /* ***** */
 .introWrapper {
     padding-bottom: 5rem;
+    padding-top: 12vh;
 }
 
 
@@ -100,7 +127,7 @@ body {
     text-align: center;
     font-weight: 800;
     font-size: 2.5rem;
-    padding-top: 8.5rem;
+    padding-top: 4rem;
     margin-bottom: 2rem;
 }
 
@@ -262,6 +289,7 @@ body {
     /* padding-bottom: 1rem; */
 }
 
+
 .buttonContainer {
     display: flex;
     text-align: center;
@@ -366,6 +394,12 @@ body {
     }
 
     .processText, .optimizationText {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .BackLink {
+
         margin-left: 2rem;
         margin-right: 2rem;
     }

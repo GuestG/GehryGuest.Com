@@ -350,8 +350,8 @@ nav ul li {
   height: auto;
   width: 100%;
 
-  padding-left: 22.5vw;
-  padding-right: 22.5vw;
+  /* padding-left: 22.5vw; */
+  /* padding-right: 22.5vw; */
 }
 
 .projects {
@@ -359,7 +359,9 @@ nav ul li {
   display: flex;
   padding-top: 1.5rem;
   padding-bottom: 2rem;
-  width: 100%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 80%;
 }
 
 .projects_colum {
@@ -381,7 +383,7 @@ nav ul li {
   max-width: 36ch;
   height: 20rem;
   overflow: hidden;
-  transition: transform 500ms ease;
+  transition: transform 100ms ease;
   color: var(--White);
   background-position: center center;
   background-size: cover;
@@ -409,7 +411,7 @@ nav ul li {
 .project_card:hover .card_content > *:not(.card_title),
 .project_card:focus-within .card_content > *:not(.card_title) {
   opacity: 1;
-  transition-delay: 1000ms;
+  transition-delay: 100ms;
 }
 
 
@@ -436,7 +438,7 @@ nav ul li {
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
   background: var(--primary-orange);
-  transition: transform 500ms ease;
+  transition: transform 400ms ease;
   transform-origin: left;
   
 }
@@ -503,20 +505,33 @@ nav ul li {
   background-image: url("../src/assets/Other/MarcellasDesign.png");
 }
 
+#TheSailingFish {
+  background-image: url("../src/assets/TheSailingFish/TheSailingFishSplash.png");
+}
+
+#LifeTracker {
+  background-image: url("../src/assets/LifeTracker/LifeTracker.png");
+}
+
+
+#comingSoon {
+  background-image: url("../src/assets/Other/comingSoon.png");
+}
+
 @media (hover) {
   .card_content {
       transform: translateY(62%);
-      transition: transform 500ms ease; 
+      transition: transform 400ms ease; 
   }
   .card_content > *:not(.card_title) {
       opacity: 0;
-      transition: opacity 500ms linear;
+      transition: opacity 400ms linear;
   }
   
   .project_card:hover .card_content,
   .project_card:focus-within .card_content {
       transform: translateY(0%);
-      transition-delay: 500ms;
+      transition-delay: 400ms;
   }
   
   .project_card:focus-within .card_content {

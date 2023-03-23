@@ -1,19 +1,12 @@
 
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faLinkedin, faGithub, faHtml5, faBootstrap, faReact, faJsSquare, faFigma} from "@fortawesome/free-brands-svg-icons";
-import { faBars, faExclamationCircle, faUser} from "@fortawesome/free-solid-svg-icons";
-
 import Home from './components/Home';
 
 // need to make contact actually work
 
 // NPM start, NPM run build, NPM run deploy
 // git add . , git status, git commit -m "" , git push
-
-library.add(faLinkedin, faGithub, faBars, faFigma, faHtml5, faBootstrap, faReact, faJsSquare, faUser, faExclamationCircle);
 
 function App() {
   return (

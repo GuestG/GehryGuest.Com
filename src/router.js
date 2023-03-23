@@ -9,6 +9,7 @@ import Rito from './components/Rito';
 import LAFitness from "./components/LAFitness";
 import Kiwi from "./components/Kiwi";
 import Aceable from './components/Aceable';
+import TheSailingFish from './components/TheSailingFish';
 
 
 export default function Router() {
@@ -21,6 +22,7 @@ export default function Router() {
                 <Route path="/Rito" element={<Rito />} />
                 <Route path="/LAFitness" element={<LAFitness />} />
                 <Route path="/Kiwi" element={<Kiwi />} />
+                <Route path="/TheSailingFish" element={<TheSailingFish />} />
             </Routes>
         </BrowserRouter>
     );

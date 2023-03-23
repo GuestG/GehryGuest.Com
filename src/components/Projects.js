@@ -7,7 +7,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 const Projects = () => {
     useEffect(() => {
         Aos.init({
-            duration: 1000
+            duration: 800
         });
     }, []);
     return (
@@ -23,6 +23,7 @@ const Projects = () => {
 
                     <div className="projects" id="projects">
 
+                        {/* Column One */}
                         <div className="projects_colum">
                             <div className="project_card" id="algoAcademy" data-aos="fade-right">
                                 <div className="card_content">
@@ -36,15 +37,14 @@ const Projects = () => {
 
                                 </div>
                             </div>
-                            <div className="project_card" id="rito" data-aos="fade-right">
+                            <div className="project_card" id="rito" data-aos="fade-left">
                                 <div className="card_content">
                                     <h2 className="card_title">
                                         Rito
-                                        </h2>
+                                    </h2>
                                     <h3 className="card_body">
                                         Food Truck application to make ordering food quick and seemless.
-                                        
-                                        </h3>
+                                    </h3>
 
                                     <Link className='button' to='Rito/#bodyWrapper'>See Case Study</Link>
 
@@ -54,10 +54,10 @@ const Projects = () => {
                                 <div className="card_content">
                                     <h2 className="card_title">
                                         Marcella's Design
-                                        </h2>
+                                    </h2>
                                     <h3 className="card_body">
                                         Developed a portfolio for upholsterer to show her work and ways to get in touch.
-                                        </h3>
+                                    </h3>
                                     <a className='button' href='https://maricellasdesign.com/'>See Website</a>
 
                                 </div>
@@ -65,16 +65,18 @@ const Projects = () => {
                             
 
                         </div>
+
+                        {/* Column Two */}
                         <div className="projects_colum">
 
-                            <div className="project_card" id="laFitness" data-aos="fade-left">
+                            <div className="project_card" id="laFitness" data-aos="fade-right">
                                 <div className="card_content">
                                     <h2 className="card_title">
                                         LA Fitness
-                                        </h2>
+                                    </h2>
                                     <h3 className="card_body">
                                         Complete rework of the LA Fitness website. Reducing clutter & improving user flow.
-                                        </h3>
+                                    </h3>
                                     <Link className='button' to='LAFitness/#bodyWrapper'>See Case Study</Link>
 
                                 </div>
@@ -83,77 +85,77 @@ const Projects = () => {
                                 <div className="card_content">
                                     <h2 className="card_title">
                                         Kiwi Oasis
-                                        </h2>
+                                    </h2>
                                     <h3 className="card_body">
                                         Designing for social good, an app to aid in adopting an endangered bird species.
-                                        </h3>
+                                    </h3>
                                     <Link className='button' to='Kiwi/#bodyWrapper'>See Case Study</Link>
 
                                 </div>
                             </div>
-                            <div className="project_card" id="Gabi" data-aos="fade-left">
+                            <div className="project_card" id="Gabi" data-aos="fade-right">
                                 <div className="card_content">
                                     <h2 className="card_title">
                                         Gabi's Kids
-                                        </h2>
+                                    </h2>
                                     <h3 className="card_body">
                                         Created webapge for a charity for low income families, Providing food and other services.
-                                        </h3>
+                                    </h3>
                                     <a className='button' href='https://guestg.github.io/GabisKids/'>See Website</a>
 
                                 </div>
                             </div>
                         </div>
 
-                        {/* <div className="projects_colum"> */}
-                            
-
-
-                            
-                            {/* <div className="project_card" id="project3" data-aos="fade-right">
-                                <div className="card_content">
-                                    <h2 className="card_title">
-                                        placeholder
+                        {/* Column Three */}
+                        <div className="projects_colum">
+                        
+                                <div className="project_card" id="TheSailingFish" data-aos="fade-right">
+                                    <div className="card_content">
+                                        <h2 className="card_title">
+                                            The Sailing Fish
                                         </h2>
-                                    <h3 className="card_body">
-                                        A complete rework of LA Fitness website.
+                                        <h3 className="card_body">
+                                            Using basic design principles to create a minimalist seafood restaurant's menu.
                                         </h3>
-                                    <Link className='button' to='LAFitness/#LAWrapper'>See Case Study</Link>
+                                        <Link className='button' to='TheSailingFish/#bodyWrapper'>See Menu</Link>
 
+                                    </div>
                                 </div>
-                            </div> */}
-                        {/* </div> */}
-                        {/* <div className="project_card" id="project2" data-aos="fade-left">
 
-                                <div className="card_content">
-                                    <h2 className="card_title">
-                                        LA Fitness
-                                            </h2>
-                                    <h3 className="card_body">
-                                        Rework of the LA Fitness app for an improved experience.
-                                            </h3>
-                                    <Link className='button' to='Rito'>Learn More</Link>
+                                <div className="project_card" id="LifeTracker" data-aos="fade-left">
+                                    <div className="card_content">
+                                        <h2 className="card_title">
+                                            MTG Life Tracker
+                                        </h2>
+                                        <h3 className="card_body">
+                                            Collaboration with a mobile developer to bring a MTG utility app to life.
+                                        </h3>
+                                        <Link className='button' to=''>See App</Link>
 
+                                    </div>
                                 </div>
+
+                                <div className="project_card" id="comingSoon" data-aos="fade-right">
+                                    <div className="card_content">
+                                        <h2 className="card_title">
+                                            Coming Soon...
+                                        </h2>
+                                        <h3 className="card_body">
+                                            This Project currently has nothing in it, but it will soon! but here's a hint: Hiking.
+                                        </h3>
+                                        <Link className='button' to=''>Not Available</Link>
+
+                                    </div>
+                                </div>
+                        
                             </div>
-                            <div className="project_card" id="project4" data-aos="fade-left">
-                                <div className="card_content">
-                                    <h2 className="card_title">
-                                        project 4
-                                        </h2>
-                                    <h3 className="card_body">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        </h3>
-                                    <Link className='button' to='Rito'>Learn More</Link>
-
-                                </div>
-                            </div> */}
-                        {/* </div> */}
+                        </div>
                     </div>
 
 
                 </div>
-            </div>
+            {/* </div> */}
         </section >
     )
 }
