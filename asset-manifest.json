@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f3d61dc.chunk.css",
-    "main.js": "/static/js/main.5a1a8bed.chunk.js",
-    "main.js.map": "/static/js/main.5a1a8bed.chunk.js.map",
+    "main.css": "/static/css/main.e92067d4.chunk.css",
+    "main.js": "/static/js/main.0d7ba2e0.chunk.js",
+    "main.js.map": "/static/js/main.0d7ba2e0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8b1770d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.8b1770d5.js.map",
     "static/css/2.2cee9e3c.chunk.css": "/static/css/2.2cee9e3c.chunk.css",
-    "static/js/2.8a17713e.chunk.js": "/static/js/2.8a17713e.chunk.js",
-    "static/js/2.8a17713e.chunk.js.map": "/static/js/2.8a17713e.chunk.js.map",
+    "static/js/2.3f75f11f.chunk.js": "/static/js/2.3f75f11f.chunk.js",
+    "static/js/2.3f75f11f.chunk.js.map": "/static/js/2.3f75f11f.chunk.js.map",
     "static/js/3.283c7c8b.chunk.js": "/static/js/3.283c7c8b.chunk.js",
     "static/js/3.283c7c8b.chunk.js.map": "/static/js/3.283c7c8b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.2cee9e3c.chunk.css.map": "/static/css/2.2cee9e3c.chunk.css.map",
-    "static/css/main.6f3d61dc.chunk.css.map": "/static/css/main.6f3d61dc.chunk.css.map",
-    "static/js/2.8a17713e.chunk.js.LICENSE.txt": "/static/js/2.8a17713e.chunk.js.LICENSE.txt",
+    "static/css/main.e92067d4.chunk.css.map": "/static/css/main.e92067d4.chunk.css.map",
+    "static/js/2.3f75f11f.chunk.js.LICENSE.txt": "/static/js/2.3f75f11f.chunk.js.LICENSE.txt",
     "static/media/AceablePresentation.542794eb.png": "/static/media/AceablePresentation.542794eb.png",
     "static/media/App.css": "/static/media/kiwi.61a3d488.png",
     "static/media/Amy.2a262adb.jpg": "/static/media/Amy.2a262adb.jpg",
     "static/media/Ben.d93cc7c3.png": "/static/media/Ben.d93cc7c3.png",
     "static/media/Donate.151e11c8.png": "/static/media/Donate.151e11c8.png",
+    "static/media/FancyCoverBack.74ffa6ab.png": "/static/media/FancyCoverBack.74ffa6ab.png",
+    "static/media/FancyCoverFront.da4aa0a5.png": "/static/media/FancyCoverFront.da4aa0a5.png",
+    "static/media/FancyMenu.52aec801.png": "/static/media/FancyMenu.52aec801.png",
     "static/media/Homepage.02357a9d.png": "/static/media/Homepage.02357a9d.png",
     "static/media/Jenna.3e817fcf.png": "/static/media/Jenna.3e817fcf.png",
     "static/media/Jones.9c521009.png": "/static/media/Jones.9c521009.png",
@@ -46,8 +49,8 @@
   "entrypoints": [
     "static/js/runtime-main.8b1770d5.js",
     "static/css/2.2cee9e3c.chunk.css",
-    "static/js/2.8a17713e.chunk.js",
-    "static/css/main.6f3d61dc.chunk.css",
-    "static/js/main.5a1a8bed.chunk.js"
+    "static/js/2.3f75f11f.chunk.js",
+    "static/css/main.e92067d4.chunk.css",
+    "static/js/main.0d7ba2e0.chunk.js"
   ]
 }
