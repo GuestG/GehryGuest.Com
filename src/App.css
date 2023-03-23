@@ -135,6 +135,10 @@ nav ul li {
   #about{
     background-color: #3a3a3a;
   }
+
+  #resume {
+    background-color: #3a3a3a;
+  }
 }
 
 /************************************/
@@ -150,12 +154,11 @@ nav ul li {
 
 .header-wrapper {
   background: url(../src/assets/Other/hero.jpg);
-  
-  /* background-color: var(--primary-blue); */
+  /* background-color: var(--primary-white); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 75vh;
   width: 100%;
   overflow: hidden;
 }

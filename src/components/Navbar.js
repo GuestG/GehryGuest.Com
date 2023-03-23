@@ -1,7 +1,6 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Pdf from "/Users/gehryguest/GuestG_Portfolio/portfolio/src/resume/GehryGuestResume.pdf";
 
 const Navbar = () => {
     return (
@@ -23,22 +22,22 @@ const Navbar = () => {
 
                         <li className="nav-item active" id="home">
                             <Link className="nav-link" to="/#header-wrapper">Home<span className="sr-only"></span></Link>
-                            {/* <a className="nav-link" href="#header-wrapper">Home <span className="sr-only"></span></a> */}
                         </li>
 
                         <li className="nav-item" id="projects">
                             <Link className="nav-link" to="/#project-wrapper">Work<span className="sr-only"></span></Link>
-                            {/* <a className="nav-link" href="#project-wrapper">Projects</a> */}
                         </li>
 
                         <li className="nav-item" id="about" >
                             <Link className="nav-link" to="/#about-wrapper">About<span className="sr-only"></span></Link>
-                            {/* <a className="nav-link" href="#about-wrapper">About</a> */}
                         </li>
 
                         <li className="nav-item" id="contact">
                             <Link className="nav-link" to="/#contact-wrapper">Contact<span className="sr-only"></span></Link>
-                            {/* <a className="nav-link" href="#contact-wrapper">Contact</a> */}
+                        </li>
+
+                        <li className="nav-item" id="resume">
+                            <a className="nav-link" href={Pdf} target="_blank" rel="noreferrer">Resume</a>
                         </li>
                     </ul>
                 </div>
