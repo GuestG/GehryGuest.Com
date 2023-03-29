@@ -348,7 +348,7 @@ function LAFitness() {
                         speculation and doubt.      */}
                 
             
-                <p className="footers">
+                <p className="footers" id="projectFooters">
                     Gehry Guest <span className="my-name-color">©2021</span>
                 </p>
             </div>

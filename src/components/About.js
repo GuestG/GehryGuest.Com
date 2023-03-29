@@ -17,9 +17,9 @@ function About() {
                 <h1 className="about-title"> About Me</h1>
                 <div className="about-inner-wrapper">
 
-                    <img src={MyPic} alt="" className="my-photo" id="my-photo" data-aos="fade-right" />
+                    <img src={MyPic} alt="" className="my-photo" id="my-photo" />
 
-                    <div className="text-wrapper" data-aos="fade-left">
+                    <div className="text-wrapper">
 
                         <p className="about-text" id="about-text">
                         {/* I'm an energetic self taught UX Designer.
@@ -61,7 +61,7 @@ function About() {
                 </div>
                 <div className="break"></div>
                 <div className="about-me-more-info-wrapper">
-                    <div className="about-me-icon-text-wrapper" data-aos="fade-right">
+                    <div className="about-me-icon-text-wrapper" data-aos="fade-right" data-aos-once="true">
                         <p className="about-me-titles">
                             Design
                         </p>
@@ -78,7 +78,7 @@ function About() {
                             User Centered Design, Interface Designer, Accessibility & User Research.
                         </p>
                     </div>
-                    <div className="about-me-icon-text-wrapper" data-aos="fade-up">
+                    <div className="about-me-icon-text-wrapper" data-aos="fade-up" data-aos-once="true">
                         <p className="about-me-titles">
                             Code
                         </p>
@@ -95,7 +95,7 @@ function About() {
                         </p>
 
                     </div>
-                    <div className="about-me-icon-text-wrapper" data-aos="fade-left">
+                    <div className="about-me-icon-text-wrapper" data-aos="fade-left" data-aos-once="true">
                         <p className="about-me-titles">
                             Tools
                         </p>

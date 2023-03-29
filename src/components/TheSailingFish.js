@@ -37,17 +37,34 @@ function TheSailingFish() {
                     </Link>
 
                     <h1 className="introTitle">The Sailing Fish</h1>
-                    <p className="introSubTitle">2023 | Seafood Restaurant | Product Design</p>
+                    <p className="introSubTitle">2023 | Restaurant Menu | Product Design</p>
                 </div>
 
 
                 <div className="headerWrapper">
                     <h2 className="headerTitle">Time to cook</h2>
                     <p className="processText">
-                        I wanted to try my hand at a more physical product and decided to design
-                        a restaurant menu.
+                        Creating restaurant menus is an art that requires careful planning and 
+                        attention to detail. The menu is a key component of a restaurant's brand, 
+                        as it communicates the type of cuisine and dining experience that customers 
+                        can expect. I will outline the process of creating two 
+                        different types of menus: one for a seafood restaurant and one for a high-end 
+                        meats menu. 
+                        <br></br>
+                        <br></br>
+                        Seafood Restaurant Menu:
+                        <br></br>
+                            A minimal digital menu, with simple colored icons and simple graphics to determine what is vegan,
+                            gluten free and spicy. Focused on a simple two column layout with a disclosure at the
+                            bottom of the menu.
+                        <br></br>
+                        <br></br>
+                        Meats Menu:
+                        <br></br>
+                            Using Adobe Photoshop & Adobe Illustrator I added a picture of delicious meat to to the front of the menu. As this will
+                            sell the product more than any words on the menu. On the back is a simple three item menu, with
+                            a Great visual hierarchy and standard practice for pricing on restaurant menus.
                         
-
                     </p>
 
                 </div>
@@ -57,8 +74,11 @@ function TheSailingFish() {
                     <img className="personas" src={Menu2} alt="Menu2"/>
                     <img className="personas" src={Menu3} alt="Menu3"/>
                 </div>
-
+                <p className="footers" id="projectFooters">
+                    Gehry Guest <span className="my-name-color">©2021</span>
+                </p>
             </div>
+            
         </section>
     )
 

@@ -1,5 +1,5 @@
 import React, { useEffect }  from "react";
-import Typed from "react-typed";
+// import Typed from "react-typed";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,23 +16,32 @@ const Header = () => {
                 
                 <div className="main-info">
                     
-                    <a className="githubIconHeader" href='https://github.com/GuestG' data-aos="fade-right">
+                    <a className="githubIconHeader" href='https://github.com/GuestG' data-aos="fade-right" data-aos-once="true">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <a className="linkedinIconHeader" href='https://linkedin.com/in/gehry-guest-903570177' data-aos="fade-right">
+                    <a className="linkedinIconHeader" href='https://linkedin.com/in/gehry-guest-903570177' data-aos="fade-right" data-aos-once="true">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                     
-                    <h1 className="intro-message">Hi! I'm <span className="my-name-color">Gehry Guest.</span> </h1>
-                    <Typed
+                    <h1 className="intro-message">
+                        Hi! I'm 
+                        <span className="my-name-color"> Gehry Guest.</span> 
+                    </h1>
+                    <p className="designer-statement">
+                        A UX Designer focusing on crafting user experiences & design Systems
+                        for software, web & mobile products. My goal as a UX designer is to 
+                        create designs that make people's lives easier, more enjoyable, and more productive! 
+                        I'm currently open to work opportunities.
+                    </p>
+                    {/* <Typed
                         className="typed-text"
-                        strings={["A UX Designer.", "A Web Developer.", "A Team Player."]}
+                        strings={["A UX Designer.", "A Web Developer."]}
                         typeSpeed={80}
                         backSpeed={60}
                         backDelay={2000}
                         smartBackspace={false}
                         loop
-                    />
+                    /> */}
                     <a href="#project-outer-wrapper" className="btn-main-offer">View Work</a>    
                     
                 </div>

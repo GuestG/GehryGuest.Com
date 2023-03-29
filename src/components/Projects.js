@@ -18,17 +18,17 @@ const Projects = () => {
                 </h1>
 
 
-                <div className="gallery-wrapper">
+                <div className="gallery-wrapper" id="gallery-wrapper">
 
 
                     <div className="projects" id="projects">
 
                         {/* Column One */}
                         <div className="projects_colum">
-                            <div className="project_card" id="algoAcademy" data-aos="fade-right">
+                            <div className="project_card" id="algoAcademy" data-aos="fade-right" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                 <div className="card_content">
                                     <h2 className="card_title">
-                                        Aceable
+                                        Aceable Course
                                         </h2>
                                     <h3 className="card_body">
                                         Teaching software developers the skills they need to pass that interview.
@@ -37,20 +37,19 @@ const Projects = () => {
 
                                 </div>
                             </div>
-                            <div className="project_card" id="rito" data-aos="fade-left">
+                            <div className="project_card" id="kiwi" data-aos="fade-right" data-aos-delay="600" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                 <div className="card_content">
                                     <h2 className="card_title">
-                                        Rito
+                                        Kiwi Oasis Charity
                                     </h2>
                                     <h3 className="card_body">
-                                        Food Truck application to make ordering food quick and seemless.
+                                        Designing for social good, an app to aid in adopting an endangered bird species.
                                     </h3>
-
-                                    <Link className='button' to='Rito/#bodyWrapper'>See Case Study</Link>
+                                    <Link className='button' to='Kiwi/#bodyWrapper'>See Case Study</Link>
 
                                 </div>
                             </div>
-                            <div className="project_card" id="Marcella" data-aos="fade-right">
+                            <div className="project_card" id="Marcella" data-aos="fade-right" data-aos-delay="900" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                 <div className="card_content">
                                     <h2 className="card_title">
                                         Marcella's Design
@@ -69,10 +68,10 @@ const Projects = () => {
                         {/* Column Two */}
                         <div className="projects_colum">
 
-                            <div className="project_card" id="laFitness" data-aos="fade-right">
+                            <div className="project_card" id="laFitness" data-aos="fade-right" data-aos-delay="600" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                 <div className="card_content">
-                                    <h2 className="card_title">
-                                        LA Fitness
+                                    <h2 className="card_title" id="LAFitnessCard">
+                                        LA Fitness Gym
                                     </h2>
                                     <h3 className="card_body">
                                         Complete rework of the LA Fitness website. Reducing clutter & improving user flow.
@@ -81,19 +80,19 @@ const Projects = () => {
 
                                 </div>
                             </div>
-                            <div className="project_card" id="kiwi" data-aos="fade-left">
-                                <div className="card_content">
-                                    <h2 className="card_title">
-                                        Kiwi Oasis
-                                    </h2>
-                                    <h3 className="card_body">
-                                        Designing for social good, an app to aid in adopting an endangered bird species.
-                                    </h3>
-                                    <Link className='button' to='Kiwi/#bodyWrapper'>See Case Study</Link>
+                            <div className="project_card" id="LifeTracker" data-aos="fade-right" data-aos-delay="900" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                                    <div className="card_content">
+                                        <h2 className="card_title" id="lifeTracker">
+                                            MTG Life Tracker
+                                        </h2>
+                                        <h3 className="card_body">
+                                            Collaboration with a mobile developer to bring a MTG utility app to life.
+                                        </h3>
+                                        <Link className='button' to=''>See App</Link>
 
-                                </div>
+                                    </div>
                             </div>
-                            <div className="project_card" id="Gabi" data-aos="fade-right">
+                            <div className="project_card" id="Gabi" data-aos="fade-right" data-aos-delay="1200" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                 <div className="card_content">
                                     <h2 className="card_title">
                                         Gabi's Kids
@@ -109,8 +108,22 @@ const Projects = () => {
 
                         {/* Column Three */}
                         <div className="projects_colum">
-                        
-                                <div className="project_card" id="TheSailingFish" data-aos="fade-right">
+
+                            <div className="project_card" id="rito" data-aos="fade-right" data-aos-delay="900" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                                    <div className="card_content">
+                                        <h2 className="card_title">
+                                            Rito Food app
+                                        </h2>
+                                        <h3 className="card_body">
+                                            Food Truck application to make ordering food quick and seemless.
+                                        </h3>
+
+                                        <Link className='button' to='Rito/#bodyWrapper'>See Case Study</Link>
+
+                                    </div>
+                                </div>
+
+                                <div className="project_card" id="TheSailingFish" data-aos="fade-right" data-aos-delay="1200" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                     <div className="card_content">
                                         <h2 className="card_title">
                                             The Sailing Fish
@@ -123,20 +136,7 @@ const Projects = () => {
                                     </div>
                                 </div>
 
-                                <div className="project_card" id="LifeTracker" data-aos="fade-left">
-                                    <div className="card_content">
-                                        <h2 className="card_title">
-                                            MTG Life Tracker
-                                        </h2>
-                                        <h3 className="card_body">
-                                            Collaboration with a mobile developer to bring a MTG utility app to life.
-                                        </h3>
-                                        <Link className='button' to=''>See App</Link>
-
-                                    </div>
-                                </div>
-
-                                <div className="project_card" id="comingSoon" data-aos="fade-right">
+                                <div className="project_card" id="comingSoon" data-aos="fade-right" data-aos-delay="1500" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                     <div className="card_content">
                                         <h2 className="card_title">
                                             Coming Soon...

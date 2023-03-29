@@ -37,7 +37,7 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item" id="resume">
-                            <a className="nav-link" href={Pdf} target="_blank" rel="noreferrer">Resume</a>
+                            <a className="nav-link" href={Pdf} target="_blank" rel="noreferrer">Résumé</a>
                         </li>
                     </ul>
                 </div>

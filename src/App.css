@@ -158,7 +158,7 @@ nav ul li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 75vh;
+  height: 65vh;
   width: 100%;
   overflow: hidden;
 }
@@ -191,7 +191,7 @@ nav ul li {
 .githubIconHeader {
   position: absolute;
   left: 0.5rem;
-  top: 20rem; /* for center try 21rem */
+  top: 15rem; /* for center try 21rem */
   
   font-size: 2rem;
   padding-left: 0.5rem;
@@ -203,7 +203,7 @@ nav ul li {
 .linkedinIconHeader {
   position: absolute;
   left: 0.5rem;
-  top: 24rem; /* for center try 25rem*/
+  top: 19rem; /* for center try 25rem*/
   font-size: 2rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -226,6 +226,23 @@ nav ul li {
   font-weight: bold;
 }
 
+.designer-statement {
+  color: var(--primary-white);
+  display: flex;
+  /* margin: 0 auto; */
+  max-width: 50rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  /* padding: 1.75rem 0.75rem 0.75rem 3.75rem; */
+  /* justify-content: center; */
+  /* align-items: left; */
+  text-shadow: 1px 1px#000;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  /* color: var(--primary-dark); */
+}
+
 
 /* for mobile users, will change font for smaller screens */
 @media(max-width: 767px) {
@@ -246,6 +263,15 @@ nav ul li {
   
   .linkedinIconHeader {
     display: none;
+  }
+
+  .designer-statement {
+    max-width: 45rem;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    padding: 0 0 0 0;
+    /* color: var(--primary-dark); */
   }
 }
 
@@ -321,13 +347,13 @@ nav ul li {
   background-color: var(--primary-projects);
   height: auto;
   /* padding-bottom: 20vh; */
-  padding-top: 5.5rem;
+  padding-top: 4rem;
 }
 
 .projects-title {
   display: flex;
   margin: 0 auto;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   width: fit-content;
   text-align: center;
   justify-content: center;
@@ -361,10 +387,11 @@ nav ul li {
   height: auto;
   display: flex;
   padding-top: 1.5rem;
-  padding-bottom: 2rem;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  width: 80%;
+  padding-bottom: 2.5rem;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .projects_colum {
@@ -372,16 +399,17 @@ nav ul li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
+  max-width: 50rem;
 }
 
 .project_card {
   background-color: var(--primary-white);
   background-size: cover;
   padding: 6rem 0 0;
-  margin: 1rem;
+  margin: 1.5rem;
   /* flex-grow: 1; */
-  border-radius: 1rem;
+  border-radius: 2rem;
   width: 36ch;
   max-width: 36ch;
   height: 20rem;
@@ -485,7 +513,6 @@ nav ul li {
 
 #algoAcademy {
   background-image: url("../src/assets/algoPhotos/AceableSplash.png");
-  background-position: left;
 }
 
 #laFitness {
@@ -596,11 +623,12 @@ nav ul li {
   flex-direction: row;
   width: 80vw;
   height: auto;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 .my-photo {
   display: flex;
+  margin-top: 3rem;
   flex: 30%;
   min-width: 35%;
   max-width: 35%;
@@ -618,7 +646,7 @@ nav ul li {
 .about-title {
   display: flex;
   margin: 0 auto;
-  margin-top: 5.5rem;
+  margin-top: 4rem;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -634,7 +662,7 @@ nav ul li {
 .about-text {
   display: flex;
   margin: 0 auto;
-  padding: 1.75rem 0.75rem 0.75rem 3.75rem;
+  padding: 3rem 0.75rem 0.75rem 3.75rem;
   justify-content: center;
   align-items: center;
   font-family: 'Roboto Slab', serif;
@@ -662,6 +690,7 @@ nav ul li {
   font-size: 1.25rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-bottom: 4rem;
   z-index: 20;
 }
 
@@ -693,6 +722,19 @@ nav ul li {
   padding: 0rem 0.5rem 0.5rem 0.5rem;
   border-bottom: 0.0625rem solid var(--primary-dark);
   margin-bottom: 1rem;
+  color: var(--primary-dark);
+}
+
+#skills-text {
+  display: flex;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
   color: var(--primary-dark);
 }
 
@@ -758,6 +800,9 @@ nav ul li {
   .about-text {
     flex: 50%;
     font-size: 1.2rem;
+
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
     padding: 0 0 0 0;
   }
 
@@ -783,7 +828,7 @@ nav ul li {
   flex-direction: column;
   background-color: var(--primary-dark);
   height: auto;
-  padding-top: 5.5rem;
+  padding-top: 4rem;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -801,7 +846,7 @@ nav ul li {
   color: var(--primary-white);
   padding: 0rem 0.5rem 0.5rem 0.5rem;
   border-bottom: 0.0625rem solid var(--primary-white);
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .contact-query {
@@ -890,21 +935,52 @@ nav ul li {
 .external-links-wrapper {
   display: flex;
   margin: 0 auto;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   align-content: center;
   justify-content: center;
   width: 100%;
 }
 
+.backToTopLink {
+  margin-left: 80vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* position: absolute; */
+  /* z-index: 10; */
+  /* bottom: 1; */
+  /* right: 1; */
+}
+
+#backToTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* align-self: center; */
+  color: var(--primary-white);
+  width: 7.5ch;
+  height: 7.5ch;
+  border-radius: 100%;
+  border: 4px solid white;
+}
+
+#upArrow {
+  font-size: 1.75rem;
+}
+
+#backToTop:hover {
+  color: var(--primary-orange);
+  border: 4px solid var(--primary-orange);
+}
+
 .githubIcon {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   color: var(--primary-white);
 }
 
 .linkedinIcon {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   color: var(--primary-white);
@@ -923,12 +999,16 @@ nav ul li {
 .footers {
   color: var(--primary-white);
   width: 100%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-top: 1rem; */
+  padding-bottom: 2.5rem;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Roboto Slab', serif;
   z-index: 10;
+}
+
+#projectFooters {
+  padding-top: 2.5rem;
 }
 
 

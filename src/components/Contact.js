@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import { HashLink as Link } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
     useEffect(() => {
@@ -16,7 +18,7 @@ function Contact() {
             <h1 className="contact-me-title" id="contact-me-title">
                 Contact Me
             </h1>
-            <p className="contact-query" data-aos="fade-up">
+            <p className="contact-query" data-aos="fade-up" data-aos-once="true">
                 Have a question or want to work together?
             </p>
             {/* <div className="contact-info"> */}
@@ -52,21 +54,30 @@ function Contact() {
                         </button>
                 </form>
 
-                    {/* </div> */}
-
+                <div className="backToTopLink" data-aos="fade-left" data-aos-once="true">
+                    {/* <Link className="nav-link" id="backToTop" to="/#header-wrapper">Return to top<span className="sr-only"></span></Link> */}
+                    <Link className="nav-link" id="backToTop" to="/#header-wrapper"><FontAwesomeIcon id="upArrow" icon={faArrowUp} /></Link>
+                </div>
 
 
                     <div className="external-links-wrapper">
-                        <a className="githubIcon" href='https://github.com/GuestG' data-aos="fade-right">
+                        
+                        <a className="githubIcon" href='https://github.com/GuestG' data-aos="fade-right" data-aos-once="true">
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
-                        <a className="linkedinIcon" href='https://linkedin.com/in/gehry-guest-903570177' data-aos="fade-left">
+                        <a className="linkedinIcon" href='https://linkedin.com/in/gehry-guest-903570177' data-aos="fade-left" data-aos-once="true">
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
-                    </div>
-                    <p className="footers">
+                    </div>   
+
+                        <div>
+                        <p className="footers">
                         Gehry Guest <span className="my-name-color">©2021</span>
-                    </p>
+                        </p>
+                        </div>
+                    
+
+                    
         </div>
     )
 }

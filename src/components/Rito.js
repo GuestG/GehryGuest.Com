@@ -333,7 +333,7 @@ function Rito() {
                         speculation and possible improvement.      */}
                 
             
-                <p className="footers">
+                <p className="footers" id="projectFooters">
                     Gehry Guest <span className="my-name-color">©2021</span>
                 </p>
             </div>
