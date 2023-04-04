@@ -40,18 +40,31 @@ function Rito() {
                         </div>
                     </Link>
                     <h1 className="introTitle">Rito</h1>
-                    <p className="introSubTitle">2022 | Mobile App | Food Truck</p>
+                    <p className="introSubTitle">2022 | IOS App | Food Truck</p>
                 </div>
 
 
                 <div className="headerWrapper">
                     <h2 className="headerTitle">The Rito in Burrito</h2>
                     <p className="processText">
-                       Rito is a mobile app for a food truck company. These truck are located in many large cities and serve 
-                       mexican style food. The truck previously didn't have an app, the main purpose is reduce
-                       wait times by allowing group orders and ordering before being physically present.
+                    Rito is a mobile app developed for a food truck company that serves Mexican-style food. 
+                    The food trucks are located in many large cities, providing customers with easy access 
+                    to their favorite dishes. Previously, the company did not have an app, which meant that 
+                    customers had to wait in long lines or place their orders in-person.
+                    <br></br>
+                    <br></br>
+                    One of the main objectives of Rito is to reduce wait times for customers. By allowing 
+                    group orders and enabling customers to order before they arrive at the truck, Rito 
+                    ensures that customers can skip the line and get their food quickly. This is especially 
+                    important for customers who have limited time during their lunch breaks or for those who 
+                    want to avoid the long lines during peak hours.
+                    <br></br>
+                    <br></br>
+                    Rito was built with busy users in mind, so users are able to rate items, add extra
+                    toppings at a press of a button and choose which truck they are shopping from. This 
+                    case study will outline the process in which the user problems were broken down and 
+                    how the product came to be.
                         
-
                     </p>
 
                 </div>
@@ -65,9 +78,7 @@ function Rito() {
                         <hr id="breakLine"/>
                         <h2 className="overviewTitle">Deliverables</h2>
                         <p className="overviewText">
-                            Determine what users struggles are for ordering food from Rito. Compare to 
-                            other competitors and build a mobile UI for users to smoothly order from the 
-                            company app. 
+                            Design a IOS App to allow a food truck company to improve sales and users to order remotely.
                         </p>  
                         <p className="bulletTitle"> 
                             UX / UI Design:
@@ -98,7 +109,7 @@ function Rito() {
                         <hr id="breakLine"/>
                         <h2 className="overviewTitle">Role</h2>
                         <p className="overviewText">
-                            This is a redesign project where I assumed the following positions:
+                            This is a design project where I assumed the following positions:
                             </p>
                         <p className="bulletTitle">
                             Roles:
@@ -152,46 +163,63 @@ function Rito() {
                     {/* **************** */}
                     {/*     Research     */}
                     {/* **************** */}
-                    <h2 className="sectionTitle">Research</h2>
+                    <h2 className="sectionTitle">Quantitative Research</h2>
                     <p className="processText">
                         
-                        To this end I set these research goals:
-                        <ul>
-                            <li>How long does it take to order food from the app?</li>
-                            <li>Determining whether the app is easy to use.</li>
-                        </ul>
+                        Rito's design came with a lot of questions I needed to answer, the ways to answer these questions 
+                        were to create personas to understand the target audience, conduct usability studies, competitive analysis
+                        <br></br>
                         <br></br>
                         I also wanted to answer the following questions for Rito:
                         <ul>
                             <li>What designs are users already familiar with for mobile food apps and how to apply that to Rito?</li>
                             <li>How should I design the user flow?</li>
-                            <li>what tone should I use for the app?</li>
+                            <li>How long does it take to order food from the app?</li>
+                            <li>What tone should I use for the app?</li>
                         </ul>
+                        <br></br>
+                        A way to start the journey to understanding the customers was to 
+                        first find who the target audience is. 
+                        <br></br>
+                        <br></br>
+                        Conducting a survey of 40 customers who frequent food trucks on google forms.
+                        <ul>
+                            <li>How often do you eat from food trucks? The average was 2-3 times a Month</li>
+                            <li>Does the food truck have a mobile app? 91% said no</li>
+                            <li>Do you go to food truck during work hours? 68% said yes</li>
+                            <li>What is the main reason you chosen to eat at a food truck rather than a 
+                        traditional restaurant? 47% mentioned the convenience, the other 36% for the cuisine</li>
+                        </ul>
+                        <br></br>
+                        So who is this for and what problems are they having?
+                        <br></br>
+                        <br></br>
+                        From the survey I came to the conclusion that Rito has two target audiences those who 
+                        are busy workers and families/individuals who are craving mexican cuisine. Time to empathize 
+                        with the target audience.
+
+    
                         
                     </p>
-                    <p className="sectionTitle">Developing Empathy With Rito Customers</p>
-                    <p className="processText" id="boldProcessText">
-                        Who is this for?
-                    </p>
+                    <p className="sectionTitle">Developing Empathy</p>
+                    
                     <p className="processText">
-                        Rito has two target audiences those who are busy workers and families/individuals who are craving mexican food.
-                        
-                    </p>
-                    <p className="processText" id="boldProcessText">
                         What problems do these users have?
                     </p>
                     <p className="processText">
                         <ul>
                             <li>Seeing menu and order beforehand, to shorten wait time at food truck</li>
-                            <li>ability to quickly checkout food in cart</li>
-                            <li>locating closest food truck</li>
+                            <li>Ability to quickly checkout food in cart</li>
+                            <li>Locating closest food truck</li>
                         </ul>            
                     </p>
                     <p className="processText">
-                        I understand peoples time is valuable, especially if the target group is on workers. So I need to make the App
-                        very easy to use and with a clean user flow.
+                        Peoples time is valuable, especially if the target group is on workers. So I need to make the App
+                        very easy to use and with a clean user flow. From theses problems I made some personas to represent 
+                        the target user.
                         
                     </p>
+
                     <h2 className="sectionTitle">Personas</h2>
                     <div className="personaContainer">
                         <img className="personas" src={Persona1} alt="Kyle"/>
@@ -223,7 +251,7 @@ function Rito() {
 
                     <p className="sectionTitle">Ideate</p>
                     <p className="processText">
-                        Brainstorming numerous amounts of ideas through sketches of a prototype the users can interact with & test.
+                        Brainstorming numerous ideas through sketches of a low fi prototype the users can interact with & test.
                     </p>
                     <div className="personaContainer">
                         <img className="sketch" src={Sketch1} alt="Sketch1"/>
@@ -276,7 +304,8 @@ function Rito() {
                     <p className="sectionTitle">High-Fidelity Prototype</p>
                     <p className="processText">
                        Redesigning & reimagining the prototype from the feedback gathered. This prototype will be a similar to the 
-                       final release as possible. Testing will be necessary on this prototype to create better iterations in the future.
+                       final release as possible. Testing will be necessary on this prototype to create better iterations in the future. 
+                       You can see the first iteration then the second iteration after coming back to redesign this project after learning more UI/UX skills.
                     </p>
                     <div>
                         <img className="HiFiMobilePhoto" src={Presentation} alt="Presentation"/>
@@ -290,7 +319,7 @@ function Rito() {
                 {/* **************** */}
 
                 <div className="optimizationWrapper">
-                    <h2 className="optimizationTitle">What's Next</h2>
+                    <h2 className="optimizationTitle">If I had more time...</h2>
                         <p className="optimizationText">
                             Several subject areas in the current iteration will need to be worked into 
                             the user flows:
