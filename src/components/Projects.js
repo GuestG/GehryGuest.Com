@@ -37,7 +37,7 @@ const Projects = () => {
 
                                 </div>
                             </div>
-                            <div className="project_card" id="kiwi" data-aos="fade-right" data-aos-delay="600" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                            {/* <div className="project_card" id="kiwi" data-aos="fade-right" data-aos-delay="600" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                 <div className="card_content">
                                     <h2 className="card_title">
                                         Kiwi Oasis Charity
@@ -48,7 +48,7 @@ const Projects = () => {
                                     <Link className='button' to='Kiwi/#bodyWrapper'>See Case Study</Link>
 
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="project_card" id="Marcella" data-aos="fade-right" data-aos-delay="900" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                 <div className="card_content">
                                     <h2 className="card_title">
@@ -80,7 +80,7 @@ const Projects = () => {
 
                                 </div>
                             </div>
-                            <div className="project_card" id="LifeTracker" data-aos="fade-right" data-aos-delay="900" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                            {/* <div className="project_card" id="LifeTracker" data-aos="fade-right" data-aos-delay="900" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                     <div className="card_content">
                                         <h2 className="card_title" id="lifeTracker">
                                             MTG Life Tracker
@@ -91,7 +91,7 @@ const Projects = () => {
                                         <Link className='button' to=''>See App</Link>
 
                                     </div>
-                            </div>
+                            </div> */}
                             <div className="project_card" id="Gabi" data-aos="fade-right" data-aos-delay="1200" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                 <div className="card_content">
                                     <h2 className="card_title">
@@ -136,7 +136,7 @@ const Projects = () => {
                                     </div>
                                 </div>
 
-                                <div className="project_card" id="comingSoon" data-aos="fade-right" data-aos-delay="1500" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                                {/* <div className="project_card" id="comingSoon" data-aos="fade-right" data-aos-delay="1500" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                     <div className="card_content">
                                         <h2 className="card_title">
                                             Coming Soon...
@@ -147,7 +147,7 @@ const Projects = () => {
                                         <Link className='button' to=''>Not Available</Link>
 
                                     </div>
-                                </div>
+                                </div> */}
                         
                             </div>
                         </div>

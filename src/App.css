@@ -147,20 +147,36 @@ nav ul li {
 .header-outer-wrapper {
   position: relative;
   z-index: 2;
+  background-color: var(--primary-dark);
+
   /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%); */
   /* margin-bottom: -5vw; */
   /* margin-top: 5%; */
 }
 
 .header-wrapper {
-  background: url(../src/assets/Other/hero.jpg);
-  /* background-color: var(--primary-white); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
   height: 65vh;
   width: 100%;
   overflow: hidden;
+  z-index: 2;
+}
+
+.header-wrapper:before{
+  content:'';
+  background: url(../src/assets/Other/hero.jpg); /*url of image*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto; /*height of image*/
+  width: 100%;  /*width of image*/
+  z-index:-1;
+  top: 0;
+  bottom: 0;
+  opacity:0.60;
+  position: absolute;
+
+  
 }
 
 .main-info {
@@ -230,7 +246,7 @@ nav ul li {
   color: var(--primary-white);
   display: flex;
   /* margin: 0 auto; */
-  max-width: 50rem;
+  max-width: 40rem;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   /* padding: 1.75rem 0.75rem 0.75rem 3.75rem; */

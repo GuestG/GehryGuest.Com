@@ -28,10 +28,7 @@ const Header = () => {
                         <span className="my-name-color"> Gehry Guest.</span> 
                     </h1>
                     <p className="designer-statement">
-                        A UX Designer focusing on crafting user experiences & design Systems
-                        for software, web & mobile products. My goal as a UX designer is to 
-                        create designs that make people's lives easier, more enjoyable, and more productive! 
-                        I'm currently open to work opportunities.
+                        A developer focused on designing user experiences & creating software for web products.
                     </p>
                     {/* <Typed
                         className="typed-text"
