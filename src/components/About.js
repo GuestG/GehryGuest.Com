@@ -4,7 +4,7 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenNib, faUsers} from "@fortawesome/free-solid-svg-icons";
-import { faCss3Alt, faFigma, faHtml5, faSketch } from "@fortawesome/free-brands-svg-icons";
+import { faCss3Alt, faFigma, faHtml5, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function About() {
     useEffect(() => {
