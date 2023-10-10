@@ -74,7 +74,7 @@ function About() {
                             </div>
                         </div>
                         <p className="design-text" id="about-text">
-                            User Centered Design, Interface Designer, Accessibility & User Research.
+                            Interface Designer, Accessibility & User Research.
                         </p>
                     </div>
                     <div className="about-me-icon-text-wrapper" data-aos="fade-up" data-aos-once="true">
@@ -90,7 +90,7 @@ function About() {
                             </div>
                         </div>
                         <p className="code-text" id="about-text">
-                            HTML5, CSS3, Java, JavaScript, Python, React & Responsive Applications.
+                            HTML5, CSS3, JavaScript, Python, React, MongoDB & Responsive Applications.
                         </p>
 
                     </div>
@@ -103,12 +103,12 @@ function About() {
                                 <FontAwesomeIcon icon={faFigma} />
                             </div>
                             <div className="icon">
-                                <FontAwesomeIcon icon={faSketch} />
+                                <FontAwesomeIcon icon={faGithub} />
                             </div>
                         </div>
                         <p className="tools-text" id="about-text">
 
-                            Adobe Creative Suite, Figma, Sketch, InVision, Github & Agile.
+                            Adobe Creative Suite, Figma, InVision, Github & Agile.
                         </p>
 
                     </div>
