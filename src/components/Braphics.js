@@ -1,22 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { HashLink as Link } from 'react-router-hash-link';
-import Aos from 'aos';
 import "aos/dist/aos.css";
 import '../css/projects.css';
 
-import Menu1 from "../assets/TheSailingFish/FancyCoverFront.png";
-import Menu2 from "../assets/TheSailingFish/FancyMenu.png";
-import Menu3 from "../assets/TheSailingFish/FancyCoverBack.png";
 
-
-function TheSailingFish() {
-    useEffect(() => {
-        Aos.init({
-            duration: 800,
-            offset: -100
-        });
-    }, []);
-    return (
+function Braphics() {
+    
         <section className="bodySection" >
             
 
@@ -36,7 +25,7 @@ function TheSailingFish() {
                         </div>
                     </Link>
 
-                    <h1 className="introTitle">The Sailing Fish</h1>
+                    <h1 className="introTitle">braphics</h1>
                     <p className="introSubTitle">2023 | Restaurant Menu | Product Design</p>
                 </div>
 
@@ -70,9 +59,9 @@ function TheSailingFish() {
                 </div>
 
                 <div className="personaContainer">
-                    <img className="personas" src={Menu1} alt="Menu1"/>
+                    {/* <img className="personas" src={Menu1} alt="Menu1"/>
                     <img className="personas" src={Menu2} alt="Menu2"/>
-                    <img className="personas" src={Menu3} alt="Menu3"/>
+                    <img className="personas" src={Menu3} alt="Menu3"/> */}
                 </div>
                 <p className="footers" id="projectFooters">
                     Gehry Guest <span className="my-name-color">©2021</span>
@@ -80,11 +69,11 @@ function TheSailingFish() {
             </div>
             
         </section>
-    )
+    
 
 }
 
-export default TheSailingFish
+export default Braphics
 
 
 

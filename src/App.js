@@ -2,8 +2,10 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './components/Home';
-
+// TODO
 // need to make contact actually work
+//FIx photos
+//edit content in top three.
 
 // NPM start, NPM run build, NPM run deploy
 // git add . , git status, git commit -m "" , git push
@@ -19,7 +21,6 @@ function App() {
 export default App;
 
 // Try this pro tip: Walk through your website while describing who you are, what you do, and the work you’ve completed. If moving through your portfolio feels clunky, consider revising the structure so it flows more naturally. That might mean changing an image carousel layout to a continuous scroll layout or reorganizing your content.
-
 
 // Intro splash or welcome page V
 

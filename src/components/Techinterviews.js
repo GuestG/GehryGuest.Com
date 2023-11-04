@@ -5,15 +5,15 @@ import "aos/dist/aos.css";
 import '../css/projects.css';
 
 
-import presentation from "../assets/algoPhotos/AceablePresentation.png";
+import presentation from "../assets/techinterviews/AceablePresentation.png";
 
-import Competitor1 from "../assets/algoPhotos/educative.png";
-import Competitor2 from "../assets/algoPhotos/algoexpert.png";
-import Competitor3 from "../assets/algoPhotos/cake.png";
+import Competitor1 from "../assets/techinterviews/educative.png";
+import Competitor2 from "../assets/techinterviews/algoexpert.png";
+import Competitor3 from "../assets/techinterviews/cake.png";
 
 
 
-function Aceable() {
+function Techinterviews() {
     useEffect(() => {
         Aos.init({
             duration: 800,
@@ -36,15 +36,15 @@ function Aceable() {
                             Back
                         </div>
                     </Link>
-                    <h1 className="introTitle">Aceable</h1>
+                    <h1 className="introTitle">techinterviews.io</h1>
                     <p className="introSubTitle">2022 | UX/UI Design | Coding Interviews</p>
                 </div>
             </div>
             <div className="headerWrapper">
                     <h2 className="headerTitle">Cracking the Coding Interview</h2>
                     <p className="processText">
-                        Aceable is a code interview prep course. Teaching users both technical and behavioral concepts
-                        in order to ace software engineer interviews. Aceable stands out by teaching users 
+                        techinterviews.io is a code interview prep course. Teaching users both technical and behavioral concepts
+                        in order to ace software engineer interviews. techinterviews.io stands out by teaching users 
                         to break down interview problems and not just memorize solutions to common interview questions, 
                         unlike their competitors. Users practice interview questions and read chapters on critical interview tips.
 
@@ -148,18 +148,18 @@ function Aceable() {
             <p className="processText">
                 
                 This project has a lot of information that needs to be displayed for the user. It was 
-                crucial during the designing of Aceable to condense the information in a user friendly way:
+                crucial during the designing of techinterviews to condense the information in a user friendly way:
                 <ul>
                     <li>Identify best practices for organizing/condensing information. This information includes account information, 
                         subscription plans, course curriculum and coding challenges.</li>
                     <li>Design a clean user flow for subscribing to the product, differentiate between annual pass and 4 month pass.</li>
                 </ul>
                 <br></br>
-                I also resolved to answer the following questions for users of Aceable:
+                I also resolved to answer the following questions for users of techinterviews:
                 <ul>
-                    <li>Which is the best way to present what Aceable is?</li>
+                    <li>Which is the best way to present what techinterviews is?</li>
                     <li>What is the most user friendly way to display the courses curriculum?</li>
-                    <li>What aspects of the Aceable's design will cause user pain points?</li>
+                    <li>What aspects of the techinterviews's design will cause user pain points?</li>
                 </ul>
                 
             </p>
@@ -199,7 +199,7 @@ function Aceable() {
             
             <h2 className="sectionTitle">Competitive Analysis</h2>
             <p className="processText">
-                The main competitors of Aceable are Educative, Algo Expert and Interview Cake
+                The main competitors of techinterviews are Educative, Algo Expert and Interview Cake
                 <br/>
                 <br/>
                 Educative is the largest and is beautifully designed website with many courses for developers.
@@ -209,8 +209,8 @@ function Aceable() {
                 </div>
                 <br/>
                 <br/>
-                Algo Expert is more similar to Aceable, they both focus on coding interviews. Algo Experts 
-                explanations are long winded and only tell you the solutions to the problem at hand. Aceable differs through
+                Algo Expert is more similar to techinterviews, they both focus on coding interviews. Algo Experts 
+                explanations are long winded and only tell you the solutions to the problem at hand. techinterviews differs through
                 more concise videos and teaching coding patterns.
                 <div className="personaContainer">
                         <img className="web" src={Competitor2} alt="other1"/>
@@ -256,19 +256,19 @@ function Aceable() {
             </p>
 
             <div className="buttonContainer">
-                <a href="https://guestg.github.io/GabisKids/" className="hiFiButton">View Aceable</a>
+                <a href="https://techinterviews.io/" className="hiFiButton">View techinterviews.io</a>
             </div>
 
             <p className="sectionTitle">What's Next?</p>
             <p className="processText">
-                If I were to continue work on Aceable, the first thing I would do is 
+                If I were to continue work on techinterviews, the first thing I would do is 
                 usability testing for course navigation and code tests. Determine any user
                 struggles and start brainstorming ideas for solutions to these problems.
                 <br/>
                 <br/>
                 Another task would be to make a mobile application for the course and its readings. 
                 Many users or any product are mobile users, so this would be a method to attract 
-                that demographic to Aceable.
+                that demographic to techinterviews.
             </p>
 
             <p className="footers" id="projectFooters">
@@ -278,5 +278,5 @@ function Aceable() {
         )
     }
     
-    export default Aceable
+    export default Techinterviews
 

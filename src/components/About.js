@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import MyPic from "../assets/Other/me.jpg";
+// import MyPic from "../assets/Other/me.jpg";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -40,7 +40,7 @@ function About() {
                         and trends. */}
                         
                         Hello! My name is Gehry, I'm a web developer who graduated from the University 
-                        of Washington with a Bachelor's degree in Computer Science & Systems.
+                        of Washington with a Bachelor's in Computer Science.
                 
                         I've been interested in frontend development for almost two years now. During my studies
                         at university, during class projects I always focused on the frontend aspect while most
@@ -73,8 +73,8 @@ function About() {
                                 <FontAwesomeIcon icon={faPenNib} />
                             </div>
                         </div>
-                        <p className="design-text" id="about-text">
-                            Interface Designer, Accessibility & User Research.
+                        <p className="skills-text" id="about-text">
+                            User Interface Designer, Accessibility & User Research.
                         </p>
                     </div>
                     <div className="about-me-icon-text-wrapper" data-aos="fade-up" data-aos-once="true">
@@ -89,7 +89,7 @@ function About() {
                                 <FontAwesomeIcon icon={faCss3Alt} />
                             </div>
                         </div>
-                        <p className="code-text" id="about-text">
+                        <p className="skills-text" id="about-text">
                             HTML5, CSS3, JavaScript, Python, React, MongoDB & Responsive Applications.
                         </p>
 
@@ -106,7 +106,7 @@ function About() {
                                 <FontAwesomeIcon icon={faGithub} />
                             </div>
                         </div>
-                        <p className="tools-text" id="about-text">
+                        <p className="skills-text" id="about-text">
 
                             Adobe Creative Suite, Figma, InVision, Github & Agile.
                         </p>

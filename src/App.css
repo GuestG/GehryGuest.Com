@@ -38,6 +38,9 @@ body {
 
 .navbar-dark {
   background-color: var(--primary-dark) !important;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.75);
+  -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,.75);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.75);
 }
 .navbar-toggler {
   border: none !important;
@@ -173,7 +176,7 @@ nav ul li {
   z-index:-1;
   top: 0;
   bottom: 0;
-  opacity:0.60;
+  opacity:0.30;
   position: absolute;
 
   
@@ -188,8 +191,9 @@ nav ul li {
   bottom: 0;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   text-align: center;
+  padding-left: 15vw;
   font-family: 'Roboto Slab', serif;
   z-index: 4;
 }
@@ -199,15 +203,21 @@ nav ul li {
   font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
   font-size: 2.5rem;
+  text-align: left;
   /* margin-bottom: 1rem; */
   font-weight: 500;
   text-shadow: 1px 1px black;
 }
 
+.header-message-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .githubIconHeader {
   position: absolute;
   left: 0.5rem;
-  top: 15rem; /* for center try 21rem */
+  top: 14rem; /* for center try 21rem */
   
   font-size: 2rem;
   padding-left: 0.5rem;
@@ -219,7 +229,7 @@ nav ul li {
 .linkedinIconHeader {
   position: absolute;
   left: 0.5rem;
-  top: 19rem; /* for center try 25rem*/
+  top: 18rem; /* for center try 25rem*/
   font-size: 2rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -246,9 +256,10 @@ nav ul li {
   color: var(--primary-white);
   display: flex;
   /* margin: 0 auto; */
-  max-width: 40rem;
+  max-width: 30rem;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
+  text-align: left;
   /* padding: 1.75rem 0.75rem 0.75rem 3.75rem; */
   /* justify-content: center; */
   /* align-items: left; */
@@ -262,15 +273,21 @@ nav ul li {
 
 /* for mobile users, will change font for smaller screens */
 @media(max-width: 767px) {
+  .main-info {
+    padding-left: 1rem;
+
+  }
+
+
   .main-info h1 {
     font-size: 2rem !important;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
   }
   .typed-text {
     font-size: 2rem !important;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
   }
 
   .githubIconHeader {
@@ -284,11 +301,18 @@ nav ul li {
   .designer-statement {
     max-width: 45rem;
     font-size: 1.2rem;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
+    /* margin-right: 1.5rem; */
+    /* margin-left: 1.5rem; */
     padding: 0 0 0 0;
     /* color: var(--primary-dark); */
   }
+
+  .header-message-container {
+    width: 75%;
+    padding-left: 1rem;
+  }
+
+  
 }
 
 /************************************/
@@ -309,24 +333,59 @@ nav ul li {
 /************************************/
  /************** main btn ************/
 /************************************/
-.btn-main-offer {
-  border: 2px solid var(--primary-white);
-  text-transform: uppercase;
 
+.header-button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.btn-main-offer {
+  border: 2px solid transparent;
+  /* text-transform: uppercase; */
+  border-radius: 0.5rem;
   height: 44px;
   width: 200px;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
   font-size: 1.25rem;
   font-weight: bolder;
   padding: 0.25rem 1.5rem 0rem 1.5rem;
-  color: var(--primary-white);
+  color: var(--primary-dark);
   text-decoration: none;
-  
+  background-color: var(--primary-white);
 }
 
 .btn-main-offer:hover {
   text-decoration: none;
+  background-color: transparent;
+  color: var(--primary-white);
+  border: 2px solid var(--primary-white);
+  transition: .2s ease-in-out;
+  
+}
+
+.btn-sec-offer {
+
+  background-color: transparent;
+  border: 2px solid var(--primary-white);
+  color: var(--primary-white);
+  /* text-transform: uppercase; */
+  text-align: center;
+  /* margin: auto 0; */
+  /* margin-left: 2rem; */
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  text-decoration: none;
+  line-height: 40px;
+  height: 44px;
+  width: 200px;
+}
+
+.btn-sec-offer:hover {
+  text-decoration: none;
   background-color: var(--primary-orange);
+  border: 2px solid var(--primary-orange);
   color: var(--primary-white);
   transition: .2s ease-in-out;
 }
@@ -458,12 +517,12 @@ nav ul li {
 .project_card:hover .card_content > *:not(.card_title),
 .project_card:focus-within .card_content > *:not(.card_title) {
   opacity: 1;
-  transition-delay: 100ms;
+  transition-delay: 400ms;
 }
 
 
 .project_card:focus-within .card_content > *:not(.card_title) {
-  transition-delay: 0ms;
+  transition-delay: 00ms;
 }
 
 .card_title {
@@ -471,6 +530,7 @@ nav ul li {
   width: max-content;
   padding-bottom: 0.25rem;
   font-family: 'Roboto Slab', serif;
+  font-size: 1.75rem;
   text-transform: uppercase;
   color: var(--primary-white);
 }
@@ -485,7 +545,7 @@ nav ul li {
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
   background: var(--primary-orange);
-  transition: transform 400ms ease;
+  transition: transform 250ms ease;
   transform-origin: left;
   
 }
@@ -497,8 +557,8 @@ nav ul li {
 
 .card_body {
   color: rgb(255 255 255 / .95);
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 1.25rem;
   font-family: 'Roboto Slab', serif;
   font-size: 1.25rem;
   text-shadow: 1px 1px black;
@@ -527,8 +587,8 @@ nav ul li {
 }
 
 
-#algoAcademy {
-  background-image: url("../src/assets/algoPhotos/AceableSplash.png");
+#techInterviews {
+  background-image: url("../src/assets/techinterviews/techinterviewsSplash.png");
 }
 
 #laFitness {
@@ -544,15 +604,15 @@ nav ul li {
 }
 
 #Gabi {
-  background-image: url("../src/assets/Other/GabisKids.png");
+  background-image: url("../src/assets/Other/gabisKids.png");
 }
 
 #Marcella {
   background-image: url("../src/assets/Other/MarcellasDesign.png");
 }
 
-#TheSailingFish {
-  background-image: url("../src/assets/TheSailingFish/TheSailingFishSplash.png");
+#braphics {
+  background-image: url("../src/assets/braphics/BraphicsSplash.png");
 }
 
 #LifeTracker {
@@ -741,11 +801,12 @@ nav ul li {
   color: var(--primary-dark);
 }
 
-#skills-text {
+.skills-text {
   display: flex;
   margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 35ch;
   justify-content: center;
   align-items: center;
   font-family: 'Roboto Slab', serif;
@@ -816,7 +877,6 @@ nav ul li {
   .about-text {
     flex: 50%;
     font-size: 1.2rem;
-
     margin-right: 1.5rem;
     margin-left: 1.5rem;
     padding: 0 0 0 0;

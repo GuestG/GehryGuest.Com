@@ -1,6 +1,6 @@
 import React from "react";
 import { HashLink as Link } from 'react-router-hash-link';
-import Pdf from "/Users/gehryguest/GuestG_Portfolio/portfolio/src/resume/GehryGuestResume.pdf";
+// import Pdf from "/Users/gehryguest/GehryGuest.Com/src/resume/GehryGuestResume.pdf";
 
 const Navbar = () => {
     return (
@@ -36,9 +36,9 @@ const Navbar = () => {
                             <Link className="nav-link" to="/#contact-wrapper">Contact<span className="sr-only"></span></Link>
                         </li>
 
-                        <li className="nav-item" id="resume">
-                            <a className="nav-link" href={Pdf} target="_blank" rel="noreferrer">Résumé</a>
-                        </li>
+                        {/* <li className="nav-item" id="resume">
+                            <a className="nav-link" href={Pdf} target="_blank" rel="noreferrer">Resume</a>
+                        </li> */}
                     </ul>
                 </div>
 

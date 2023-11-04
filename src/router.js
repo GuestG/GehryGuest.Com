@@ -8,8 +8,8 @@ import Home from './components/Home';
 import Rito from './components/Rito';
 import LAFitness from "./components/LAFitness";
 import Kiwi from "./components/Kiwi";
-import Aceable from './components/Aceable';
-import TheSailingFish from './components/TheSailingFish';
+import Techinterviews from './components/Techinterviews';
+import Braphics from './components/Braphics';
 
 
 export default function Router() {
@@ -18,11 +18,11 @@ export default function Router() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/Aceable" element={<Aceable />} />
+                <Route path="/Techinterviews" element={<Techinterviews />} />
                 <Route path="/Rito" element={<Rito />} />
                 <Route path="/LAFitness" element={<LAFitness />} />
                 <Route path="/Kiwi" element={<Kiwi />} />
-                <Route path="/TheSailingFish" element={<TheSailingFish />} />
+                <Route path="/Braphics" element={<Braphics />} />
             </Routes>
         </BrowserRouter>
     );

@@ -25,53 +25,60 @@ const Projects = () => {
 
                         {/* Column One */}
                         <div className="projects_colum">
-                            <div className="project_card" id="algoAcademy" data-aos="fade-right" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                            <div className="project_card" id="techInterviews" data-aos="fade-right" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                 <div className="card_content">
                                     <h2 className="card_title">
-                                        Aceable Course
+                                        Techinterviews.io
                                         </h2>
                                     <h3 className="card_body">
                                         Teaching software developers the skills they need to pass that interview.
                                         </h3>
-                                    <Link className='button' to='Aceable/#bodyWrapper'>See Case Study</Link>
+                                    <Link className='button' to='Techinterviews/#bodyWrapper'>See Case Study</Link>
 
                                 </div>
                             </div>
-                            {/* <div className="project_card" id="kiwi" data-aos="fade-right" data-aos-delay="600" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
-                                <div className="card_content">
-                                    <h2 className="card_title">
-                                        Kiwi Oasis Charity
-                                    </h2>
-                                    <h3 className="card_body">
-                                        Designing for social good, an app to aid in adopting an endangered bird species.
-                                    </h3>
-                                    <Link className='button' to='Kiwi/#bodyWrapper'>See Case Study</Link>
 
-                                </div>
-                            </div> */}
-                            <div className="project_card" id="Marcella" data-aos="fade-right" data-aos-delay="900" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
-                                <div className="card_content">
-                                    <h2 className="card_title">
-                                        Marcella's Design
-                                    </h2>
-                                    <h3 className="card_body">
-                                        Developed a portfolio for upholsterer to show her work and ways to get in touch.
-                                    </h3>
-                                    <a className='button' href='https://maricellasdesign.com/'>See Website</a>
+                            <div className="project_card" id="rito" data-aos="fade-right" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                                    <div className="card_content">
+                                        <h2 className="card_title">
+                                            Rito Food
+                                        </h2>
+                                        <h3 className="card_body">
+                                            Food Truck application to make ordering food quick and seemless.
+                                        </h3>
 
+                                        <Link className='button' to='Rito/#bodyWrapper'>See Case Study</Link>
+
+                                    </div>
                                 </div>
-                            </div>
                             
+                        
 
                         </div>
 
                         {/* Column Two */}
                         <div className="projects_colum">
 
-                            <div className="project_card" id="laFitness" data-aos="fade-right" data-aos-delay="600" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+
+                        <div className="project_card" id="Gabi" data-aos="fade-right"  data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                                <div className="card_content">
+                                    <h2 className="card_title">
+                                        Gabi's Kids
+                                    </h2>
+                                    <h3 className="card_body">
+                                        Created webapge for a charity for low income families, Providing food and other services.
+                                    </h3>
+                                    <a className='button' href='https://guestg.github.io/GabisKids/'>See Website</a>
+
+                                </div>
+                            </div>
+                            
+
+
+                            <div className="project_card" id="laFitness" data-aos="fade-right" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                 <div className="card_content">
                                     <h2 className="card_title" id="LAFitnessCard">
-                                        LA Fitness Gym
+                                        LA Fitness
                                     </h2>
                                     <h3 className="card_body">
                                         Complete rework of the LA Fitness website. Reducing clutter & improving user flow.
@@ -92,63 +99,41 @@ const Projects = () => {
 
                                     </div>
                             </div> */}
-                            <div className="project_card" id="Gabi" data-aos="fade-right" data-aos-delay="1200" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
-                                <div className="card_content">
-                                    <h2 className="card_title">
-                                        Gabi's Kids
-                                    </h2>
-                                    <h3 className="card_body">
-                                        Created webapge for a charity for low income families, Providing food and other services.
-                                    </h3>
-                                    <a className='button' href='https://guestg.github.io/GabisKids/'>See Website</a>
-
-                                </div>
-                            </div>
                         </div>
+                            
 
                         {/* Column Three */}
                         <div className="projects_colum">
 
-                            <div className="project_card" id="rito" data-aos="fade-right" data-aos-delay="900" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                        <div className="project_card" id="braphics" data-aos="fade-right"  data-aos-anchor="#LAFitnessCard" data-aos-once="true">
                                     <div className="card_content">
                                         <h2 className="card_title">
-                                            Rito Food app
+                                            Braphics
                                         </h2>
                                         <h3 className="card_body">
-                                            Food Truck application to make ordering food quick and seemless.
+                                            Created a portfolio page for a client. Using bootstrap, owl carousel & isotope libraries.
                                         </h3>
-
-                                        <Link className='button' to='Rito/#bodyWrapper'>See Case Study</Link>
+                                        <a className='button' href='https://www.braphics.com/'>See Website</a>
 
                                     </div>
-                                </div>
-
-                                <div className="project_card" id="TheSailingFish" data-aos="fade-right" data-aos-delay="1200" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
-                                    <div className="card_content">
-                                        <h2 className="card_title">
-                                            The Sailing Fish
-                                        </h2>
-                                        <h3 className="card_body">
-                                            Using basic design principles to create a minimalist seafood restaurant's menu.
-                                        </h3>
-                                        <Link className='button' to='TheSailingFish/#bodyWrapper'>See Menu</Link>
-
-                                    </div>
-                                </div>
-
-                                {/* <div className="project_card" id="comingSoon" data-aos="fade-right" data-aos-delay="1500" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
-                                    <div className="card_content">
-                                        <h2 className="card_title">
-                                            Coming Soon...
-                                        </h2>
-                                        <h3 className="card_body">
-                                            This Project currently has nothing in it, but it will soon! but here's a hint: Hiking.
-                                        </h3>
-                                        <Link className='button' to=''>Not Available</Link>
-
-                                    </div>
-                                </div> */}
+                            </div>
                         
+                            <div className="project_card" id="comingSoon" data-aos="fade-right"  data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                                <div className="card_content">
+                                    <h2 className="card_title">
+                                        Coming Soon...
+                                    </h2>
+                                    <h3 className="card_body">
+                                        Currently building something special, but don't tell anyone it's a secret.
+                                    </h3>
+                                    <a className='button' href='\#'>Coming Soon...</a>
+
+                                </div>
+                            </div>
+                            
+
+                            
+                                
                             </div>
                         </div>
                     </div>

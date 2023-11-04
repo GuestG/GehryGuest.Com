@@ -65,7 +65,7 @@ function Contact() {
                         <a className="githubIcon" href='https://github.com/GuestG' data-aos="fade-right" data-aos-once="true">
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
-                        <a className="linkedinIcon" href='https://linkedin.com/in/gehry-guest-903570177' data-aos="fade-left" data-aos-once="true">
+                        <a className="linkedinIcon" href='https://www.linkedin.com/in/gehryguest/' data-aos="fade-left" data-aos-once="true">
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
                     </div>   
