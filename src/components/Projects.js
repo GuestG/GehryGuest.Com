@@ -16,7 +16,9 @@ const Projects = () => {
                 <h1 className="projects-title">
                     Work
                 </h1>
-
+                <p className="contact-query" id="work-desc">
+                    Websites I've designed and built, accompanied by insightful user experience case studies.
+                </p>
 
                 <div className="gallery-wrapper" id="gallery-wrapper">
 
@@ -33,7 +35,7 @@ const Projects = () => {
                                     <h3 className="card_body">
                                         Teaching software developers the skills they need to pass that interview.
                                         </h3>
-                                    <Link className='button' to='Techinterviews/#bodyWrapper'>See Case Study</Link>
+                                    <a className='button' href='https://techinterviews.io/'>See Website</a>
 
                                 </div>
                             </div>

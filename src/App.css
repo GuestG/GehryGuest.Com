@@ -935,6 +935,10 @@ nav ul li {
   color: var(--primary-orange);
 }
 
+#work-desc {
+  color: var(--primary-dark);
+}
+
 .contact-info {
   display: flex;
   flex-direction: column;
