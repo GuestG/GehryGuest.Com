@@ -17,7 +17,7 @@ const Projects = () => {
                     Work
                 </h1>
                 <p className="contact-query" id="work-desc">
-                    Websites I've designed and built, accompanied by insightful user experience case studies.
+                    Explore these intriguing case studies along with a couple of websites I've crafted from scratch.
                 </p>
 
                 <div className="gallery-wrapper" id="gallery-wrapper">
@@ -27,7 +27,7 @@ const Projects = () => {
 
                         {/* Column One */}
                         <div className="projects_colum">
-                            <div className="project_card" id="techInterviews" data-aos="fade-right" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                            <div className="project_card" id="techInterviews">
                                 <div className="card_content">
                                     <h2 className="card_title">
                                         Techinterviews.io
@@ -40,7 +40,7 @@ const Projects = () => {
                                 </div>
                             </div>
 
-                            <div className="project_card" id="rito" data-aos="fade-right" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                            <div className="project_card" id="rito" >
                                     <div className="card_content">
                                         <h2 className="card_title">
                                             Rito Food
@@ -62,7 +62,7 @@ const Projects = () => {
                         <div className="projects_colum">
 
 
-                        <div className="project_card" id="Gabi" data-aos="fade-right"  data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                        <div className="project_card" id="Gabi">
                                 <div className="card_content">
                                     <h2 className="card_title">
                                         Gabi's Kids
@@ -77,7 +77,7 @@ const Projects = () => {
                             
 
 
-                            <div className="project_card" id="laFitness" data-aos="fade-right" data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                            <div className="project_card" id="laFitness">
                                 <div className="card_content">
                                     <h2 className="card_title" id="LAFitnessCard">
                                         LA Fitness
@@ -106,8 +106,8 @@ const Projects = () => {
 
                         {/* Column Three */}
                         <div className="projects_colum">
-
-                        <div className="project_card" id="braphics" data-aos="fade-right"  data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                        {/* <div className="project_card" id="braphics" data-aos="fade-right"  data-aos-anchor="#LAFitnessCard" data-aos-once="true"> */}
+                        <div className="project_card" id="braphics"  >
                                     <div className="card_content">
                                         <h2 className="card_title">
                                             Braphics
@@ -120,7 +120,7 @@ const Projects = () => {
                                     </div>
                             </div>
                         
-                            <div className="project_card" id="comingSoon" data-aos="fade-right"  data-aos-anchor="#LAFitnessCard" data-aos-once="true">
+                            <div className="project_card" id="comingSoon">
                                 <div className="card_content">
                                     <h2 className="card_title">
                                         Coming Soon...

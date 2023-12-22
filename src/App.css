@@ -159,7 +159,7 @@ nav ul li {
 
 .header-wrapper {
   position: relative;
-  height: 65vh;
+  height: 50vh;
   width: 100%;
   overflow: hidden;
   z-index: 2;
@@ -191,9 +191,9 @@ nav ul li {
   bottom: 0;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  /* align-items: left; */
   text-align: center;
-  padding-left: 15vw;
+  /* padding-left: 15vw; */
   font-family: 'Roboto Slab', serif;
   z-index: 4;
 }
@@ -203,7 +203,7 @@ nav ul li {
   font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
   font-size: 2.5rem;
-  text-align: left;
+  /* text-align: left; */
   /* margin-bottom: 1rem; */
   font-weight: 500;
   text-shadow: 1px 1px black;
@@ -212,6 +212,7 @@ nav ul li {
 .header-message-container {
   display: flex;
   flex-direction: column;
+  padding-top: 8vh;
 }
 
 .githubIconHeader {
@@ -256,27 +257,30 @@ nav ul li {
   color: var(--primary-white);
   display: flex;
   /* margin: 0 auto; */
-  max-width: 30rem;
+  width: 100%;
+  /* max-width: 30rem; */
   padding-top: 0.5rem;
   padding-bottom: 1rem;
-  text-align: left;
-  /* padding: 1.75rem 0.75rem 0.75rem 3.75rem; */
-  /* justify-content: center; */
-  /* align-items: left; */
+  /* text-align: left; */
+ /* padding: 1.75rem 0.75rem 0.75rem 3.75rem; */
+  justify-content: center;
+  align-items: center;
   text-shadow: 1px 1px#000;
   font-family: 'Roboto Slab', serif;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   line-height: 2.25rem;
   /* color: var(--primary-dark); */
+}
+
+.header-button-container {
+  justify-content: center;
+  align-items: center;
 }
 
 
 /* for mobile users, will change font for smaller screens */
 @media(max-width: 767px) {
-  .main-info {
-    padding-left: 1rem;
-
-  }
+  
 
 
   .main-info h1 {

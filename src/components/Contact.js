@@ -72,7 +72,7 @@ function Contact() {
 
                         <div>
                         <p className="footers">
-                        Gehry Guest <span className="my-name-color">©2021</span>
+                        Gehry Guest <span className="my-name-color">©2024</span>
                         </p>
                         </div>
                     

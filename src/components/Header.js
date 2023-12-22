@@ -26,10 +26,11 @@ const Header = () => {
                     <div className="header-message-container"> 
                         <h1 className="intro-message">
                             Hi! I'm 
-                            <span className="my-name-color"> Gehry Guest.</span> 
+                            <span className="my-name-color"> Gehry Guest</span> 
                         </h1>
                         <p className="designer-statement">
-                            A developer focused on designing user experiences & creating software for web products.
+                            A UX Designer with a background in computer science,<br></br> who loves complex problems
+                            in search of delightful<br></br>  user experiences.
                         </p>
                         {/* <Typed
                             className="typed-text"
