@@ -3,51 +3,58 @@ import { HashLink as Link } from 'react-router-hash-link';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import '../css/projects.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
+import webComponents from "../assets/techinterviews/WebsiteComponents.png";
+import stakeHolder from "../assets/techinterviews/StakeholderInter.png";
+import affinityMap from "../assets/techinterviews/techinterviewsAffinitymap.png";
+import splashScreen from "../assets/techinterviews/techinterviewsSplash.png";
+import userflow from "../assets/techinterviews/userflow.jpg";
+import prototype from "../assets/techinterviews/prototype.png";
+import finishedWireframe from "../assets/techinterviews/finalWireframe.png";
 
-import presentation from "../assets/techinterviews/AceablePresentation.png";
-
-import Competitor1 from "../assets/techinterviews/educative.png";
-import Competitor2 from "../assets/techinterviews/algoexpert.png";
-import Competitor3 from "../assets/techinterviews/cake.png";
+// import Competitor1 from "../assets/techinterviews/educative.png";
+// import Competitor2 from "../assets/techinterviews/algoexpert.png";
+// import Competitor3 from "../assets/techinterviews/cake.png";
 
 
 
 function Techinterviews() {
     useEffect(() => {
-        Aos.init({
-            duration: 800,
-            offset: -100
-        });
+        
     }, []);
     return (
         <section className="bodySection" >
-            <div id="bodyWrapper">
+            <div className="header-wrapper-projects" id="header-wrapper-techinterviews"> 
+                    <div id="bodyWrapper">
+                    
+                        <div className="introWrapper">
+                            <Link className="BackLink" to="/#header-wrapper"> 
+                                <div id="backButtonIcon">
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path id="backButtonIconhover" d="M18.9063 26.375L8.375 15.875C8.25 15.75 8.16125 15.6146 8.10875 15.4688C8.05625 15.3229 8.03042 15.1667 8.03125 15C8.03125 14.8333 8.05708 14.6771 8.10875 14.5313C8.16042 14.3854 8.24917 14.25 8.375 14.125L18.9063 3.59375C19.1979 3.30208 19.5625 3.15625 20 3.15625C20.4375 3.15625 20.8125 3.3125 21.125 3.625C21.4375 3.9375 21.5938 4.30208 21.5938 4.71875C21.5938 5.13542 21.4375 5.5 21.125 5.8125L11.9375 15L21.125 24.1875C21.4167 24.4792 21.5625 24.8387 21.5625 25.2662C21.5625 25.6937 21.4063 26.0633 21.0938 26.375C20.7813 26.6875 20.4167 26.8438 20 26.8438C19.5833 26.8438 19.2188 26.6875 18.9063 26.375Z" fill="white"/>
+                                    </svg>
+                                </div>
 
-                <div className="introWrapper">
-                    <Link className="BackLink" to="/#header-wrapper"> 
-                        <div id="backButtonIcon">
-                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path id="backButtonIconhover" d="M18.9063 26.375L8.375 15.875C8.25 15.75 8.16125 15.6146 8.10875 15.4688C8.05625 15.3229 8.03042 15.1667 8.03125 15C8.03125 14.8333 8.05708 14.6771 8.10875 14.5313C8.16042 14.3854 8.24917 14.25 8.375 14.125L18.9063 3.59375C19.1979 3.30208 19.5625 3.15625 20 3.15625C20.4375 3.15625 20.8125 3.3125 21.125 3.625C21.4375 3.9375 21.5938 4.30208 21.5938 4.71875C21.5938 5.13542 21.4375 5.5 21.125 5.8125L11.9375 15L21.125 24.1875C21.4167 24.4792 21.5625 24.8387 21.5625 25.2662C21.5625 25.6937 21.4063 26.0633 21.0938 26.375C20.7813 26.6875 20.4167 26.8438 20 26.8438C19.5833 26.8438 19.2188 26.6875 18.9063 26.375Z" fill="black"/>
-                            </svg>
+                                <div className="backButtonText">
+                                    Back
+                                </div>
+                            </Link>
+                            <h1 className="introTitle">Techinterviews.io</h1>
+                            <p className="introSubTitle">2024 <span className="subtitleBold">|</span> UX Design <span className="subtitleBold">|</span> User Testing <span className="subtitleBold">|</span> Web Development</p>
                         </div>
-
-                        <div className="backButtonText">
-                            Back
-                        </div>
-                    </Link>
-                    <h1 className="introTitle">techinterviews.io</h1>
-                    <p className="introSubTitle">2022 | UX/UI Design | Coding Interviews</p>
+                    </div>
                 </div>
-            </div>
+        <div className="Project-Section-Padding"> 
             <div className="headerWrapper">
-                    <h2 className="headerTitle">Cracking the Coding Interview</h2>
+                    <h2 className="headerTitle">Summary</h2>
                     <p className="processText">
-                        techinterviews.io is a code interview prep course. Teaching users both technical and behavioral concepts
-                        in order to ace software engineer interviews. techinterviews.io stands out by teaching users 
-                        to break down interview problems and not just memorize solutions to common interview questions, 
-                        unlike their competitors. Users practice interview questions and read chapters on critical interview tips.
-
+                       A startup offering online coding courses to help students get jobs in the software engineering scene required 
+                       design and development services. The company needed a structure
+                       on the user process. I conducted user research by engaging in stakeholder interviews and created a 
+                       user flow. Focusing on three key concepts understanding the business requirements, creating mid/high fidelity wireframes for rapid iterative designs 
+                       and testing the interactive prototype with end users to validate desirability the website.
                     </p>
             </div>
 
@@ -55,88 +62,50 @@ function Techinterviews() {
             {/* Project Overview */}
             {/* **************** */}
             <div className="OverviewWrapper">
-        
-                <div className="columns" id="edgeColumnLeft">
-                    <hr id="breakLine"/>
-                    <h2 className="overviewTitle">Deliverables</h2>
-                    <p className="overviewText">
-                        Design a course website to market the service, display user account information 
-                        and the courses curriculum in a minimal manner.
-                    </p>  
-                    <p className="bulletTitle"> 
-                        UX / UI Design:
-                    </p>
-                    <p>
-                        <ul>
-                            <li>Competitive Analysis</li>
-                            <li>Site Maps</li>
-                            <li>Design Systems</li>
-                            <li>Visual Design</li>
-                            <li>Low Fidelity Wireframes and Prototype</li>
-                            <li>High Fidelity Prototype</li>
-                        </ul>
-                    </p>
-                    <br></br>
-                    <p className="bulletTitle">
-                        UX Research:
-                    </p>
-                    <p>
-                        <ul>
-                            <li>User Flow</li>
-                        </ul>
-                    </p>
-                </div>
-                
-
-                <div className="columns" id="edgeColumnCenter">
-                    <hr id="breakLine"/>
-                    <h2 className="overviewTitle">Role</h2>
-                    <p className="overviewText">
-                        This project required me to take on the role of the following positions:
+                <div className="overviewContainer">
+                    <div className="Role">
+                        <h2 className="overviewTitle">Role</h2>
+                        <p className="overviewText">
+                            UX Designer / Front End Developer
+                        </p>  
+                    </div>
+                    <div className="Duration">
+                        <h2 className="overviewTitle">Duration</h2>
+                        <p className="overviewText">
+                            3 months
                         </p>
-                    <p className="bulletTitle">
-                        Roles:
-                    </p>
-                    <p>
-                        <ul>
-                            <li>Visual Designer</li>
-                            <li>User Interface (UI) Designer</li>
-                            <li>User Experience (UX) Designer</li>
-                        </ul>
-                    </p>
-                </div>
+                    </div>
+                    <div className="Tools">
+                        <h2 className="overviewTitle">Tools</h2>
+                        <p className="overviewText">
+                            Figma<br></br>
+                            Otter.ai <br></br>
+                            
 
+                        </p>
+                    </div>
+                    <div className="Team">
+                        <h2 className="overviewTitle">Team</h2>
+                        <p className="overviewText">
+                            Back End Developers <br></br>
+                            Front End Developers <br></br>
+                            Project Manager <br></br>
 
-                <div className="columns" id="edgeColumnRight">
-                    <hr id="breakLine"/>
-                    <h2 className="overviewTitle">Project Specifications</h2>
-                    <p className="overviewText">
-                        Duration: 1 Month
-
-                    </p>
-                    <p className="bulletTitle">
-                        Tools: 
-                    </p>
-                    <p>
-                        <ul>
-                            <li>Figma</li>
-                            <li>Adobe Suite</li>
-                            <li>Google Suite</li>
-                        </ul>
-                    </p>
-                    <br></br>
-                    <p className="bulletTitle">
-                        Process Overview: 
-                    </p>
-                    <p>
-                        <ol className="processList">
-                            <li>Define</li>
-                            <li>Empathize</li>
-                            <li>High Fidelity Prototype</li>
-                        </ol>
-                    </p>
-                </div>
-            
+                        </p>
+                    </div>
+                    <div className="Techniques">
+                        <h2 className="overviewTitle">Methodology</h2>
+                        <p className="overviewText">
+                            Stakeholder Interviews <br></br>
+                            Process Flows <br></br>
+                            User Stories <br></br>
+                            Synthesis <br></br>
+                            Mid/High-Fidelity Prototypes <br></br>
+                            Interactive Prototypes <br></br>
+                            User Testing <br></br>
+                        </p> 
+                    </div>
+                </div>      
         </div>
         <hr id="breakLine"/>
 
@@ -144,137 +113,149 @@ function Techinterviews() {
             {/* **************** */}
             {/*     Research     */}
             {/* **************** */}
-            <h2 className="sectionTitle">Research</h2>
+            <h2 className="sectionTitle">Problem</h2>
             <p className="processText">
-                
-                This project has a lot of information that needs to be displayed for the user. It was 
-                crucial during the designing of techinterviews to condense the information in a user friendly way:
-                <ul>
-                    <li>Identify best practices for organizing/condensing information. This information includes account information, 
-                        subscription plans, course curriculum and coding challenges.</li>
-                    <li>Design a clean user flow for subscribing to the product, differentiate between annual pass and 4 month pass.</li>
-                </ul>
-                <br></br>
-                I also resolved to answer the following questions for users of techinterviews:
-                <ul>
-                    <li>Which is the best way to present what techinterviews is?</li>
-                    <li>What is the most user friendly way to display the courses curriculum?</li>
-                    <li>What aspects of the techinterviews's design will cause user pain points?</li>
-                </ul>
-                
-            </p>
-            <p className="sectionTitle">Empathizing With The User</p>
-            <p className="processText" id="boldProcessText">
-                Who is this for?
-            </p>
-            <p className="processText">
-                For users who want to get a job in software engineering, this course was created to 
-                teach important tips and tricks to standing out during interviews. Landing that 
-                dream job and salary the user wants.
-            </p>
-            <p className="processText" id="boldProcessText">
-                What goals do the users have?
-            </p>
-            <p className="processText">
-                <ul>
-                    <li>A structured plan on what to study.</li>
-                    <li>Knowledge of what to expect during interviews.</li>
-                    <li>Desire to network with other individuals who have taken the course.</li>
-                </ul>            
-            </p>
-            <p className="processText" id="boldProcessText">
-                What issues do the users have?
-            </p>
-            <p className="processText">
-                <ul>
-                    <li>Manage their account and payments.</li>
-                    <li>Navigate the courses content efficiently and see what has been completed.</li>
-                    <li>Ability to run code on the browser for course tests.</li>
-                </ul>            
-            </p>
-            <p className="processText">
-                
-            </p>
+                The owners main problem came in the form of having all this curriculum and lecture videos but having no way to display
+                that information for the students. Currently they didn't have any website so they were starting from scratch, but they
+                wanted a great user experience through organized interface, painless sign up process and a way to inform the customer about
+                the product. This is were the stakeholder interviews come into play I need to understand what content they have and the 
+                processes of the business.
         
-            
-            <h2 className="sectionTitle">Competitive Analysis</h2>
+                
+            </p>
+
+
+
+            <p className="sectionTitle">Empathize & Define</p>
             <p className="processText">
-                The main competitors of techinterviews are Educative, Algo Expert and Interview Cake
-                <br/>
-                <br/>
-                Educative is the largest and is beautifully designed website with many courses for developers.
-                They have many courses on programming topics but fewer on the interviews itself.
+            <span className="subSectionTitle">Stakeholder Interview</span><br></br>
+                The main goal of interview was to grab insights into the business goals, understanding the competitors, identifying potential concerns and success metrics what that is in their perspective.
+                Using the bits and pieces from the interview to build a map of a process flow. I used a voice recorder app called Otter.ai to transcribe the interviews 
+                to read later for insight gathering.
+
+                <br></br>
+                <br></br>
                 <div className="personaContainer">
-                        <img className="web" src={Competitor1} alt="other1"/>
+                    <img className="web" src={stakeHolder} alt="Stakeholder Interview"/>
                 </div>
-                <br/>
-                <br/>
-                Algo Expert is more similar to techinterviews, they both focus on coding interviews. Algo Experts 
-                explanations are long winded and only tell you the solutions to the problem at hand. techinterviews differs through
-                more concise videos and teaching coding patterns.
+                <br></br>
+                <br></br>
+                <span className="subSectionTitle">Mural Affinity Map</span><br></br>
+                The affinity map was to organize the information gathered and to focus on the value of what we hoped to deliver to our users. 
+                organizing the interviews insights into sticky notes and ranking them based on website needs with stakeholder input. 
+                <br></br>
+                <br></br>
                 <div className="personaContainer">
-                        <img className="web" src={Competitor2} alt="other1"/>
+                    <img className="web" src={affinityMap} alt="affinity map"/>
                 </div>
-                <br/>
-                <br/>
-                Interview Cake is the oldest of these competitors, its a text only site so those with a auditory or in some cases visual learners 
-                will suffer from this learning style. Also the website is slightly dated for its design choices but the information on it is still golden.
+                <br></br>
+                <br></br>
+                <span className="subSectionTitle">Synthesis</span><br></br>
+                Based on what I heard from the stakeholders I was able to make assumptions that I then grouped into 
+                three key concepts: Conversion rates, Ease of Use, and Organization. I led the stakeholder through an 
+                exercise that refined and validated these assumptions and concepts, and then used those as a jumping off 
+                point for writing a series of user stories that I would use to inform the designs for MVP.
+            </p>
+
+            <p className="sectionTitle">Ideate</p>
+            <p className="processText">
+                <span className="subSectionTitle">User Flow & Sketches</span><br></br>
+                Now for the fun part - designing!
+                <br></br>
+                I started sketching low fidelity prototypes, initially focusing on general navigation: Landing page, Subscription page, 
+                Course page, Settings, and lecture pages.
+                <br></br>
                 <div className="personaContainer">
-                        <img className="web" src={Competitor3} alt="other1"/>
+                    <img className="web" src={userflow} alt="userflow"/>
+                </div>
+                
+                <br></br>
+                <span className="subSectionTitle">High fidelity Wireframe</span><br></br>
+                I used Figma to create high fidelity screens for the prototype, adding in design 
+                elements like color, font, and images. I wanted a distinct look, I thought a more professional color palette 
+                with a strong accent color would work best. 
+                I chose a deep blue & white color, paired with a sans serif font for easy reading.
+                <br></br>
+                <br></br>
+                <div className="personaContainer">
+                    <img className="web" src={finishedWireframe} alt="FinshedMockup"/>
                 </div>
             </p>
-            <div className="personaContainer">
-                        {/* <img className="web" src={low1} alt="low1"/> */}
-                        {/* <img className="web" src={low2} alt="low2"/> */}
-                        {/* <img className="web" src={low3} alt="low3"/> */}
-            </div>
-            
-            {/* <p className="sectionTitle">Ideate</p>
+
+            <p className="sectionTitle">Prototype & Testing</p>
             <p className="processText">
-                Several rounds of rapid sketching on paper to get the foundation of future prototypes.
-            </p> */}
-            {/* <div className="personaContainer"> */}
-                        {/* <img className="web" src={low1} alt="low1"/> */}
-                        {/* <img className="web" src={low2} alt="low2"/> */}
-                        {/* <img className="web" src={low3} alt="low3"/> */}
-            {/* </div> */}
+                <span className="subSectionTitle">Prototype</span><br></br>
+                Once I put the screens together into a clickable prototype, I found a lot of
+                holes and design flaws based on the interaction design. As an example, I had 
+                designed the drawers for the course, but not a button that would collapse or open all drawers at once.
+                Another instance would be I missed a crucial page such as billing history. 
+                <br></br>
+                <br></br>
+                <div className="personaContainer">
+                    <img className="web" src={prototype} alt="prototype"/>
+                </div>
 
-
-
-            <p className="sectionTitle">Prototype</p>
-            <p className="processText">
-                After understanding the requirements I made the user flow into a high fidelity Prototype.
+                <br></br>
+                <span className="subSectionTitle">User Testing</span><br></br>
+                With the bulk of the design finished, and all screens accounted for and linked 
+                together in Figma, I moved on to user testing. I created a usability test plan 
+                (with a communications plan and test script), and had six participants within my target 
+                audience undergo the tests. I completed two remote and four in person sessions, tasking 
+                participants with signing up for the course, navigating the course content, and to "finish" a coding quiz.
             </p>
-            <div className="personaContainer">
-                <img className="web" src={presentation} alt="presentation"/>
-            </div>
+
+            <p className="sectionTitle">Front End Development</p>
+            <p className="processText">
+                <span className="subSectionTitle">Components</span><br></br>
+                Here is where I began to create components for the front end. From buttons, drawers to forms, Built using
+                HTML, CSS, React JS and TypeScript. Building the components for the front end helped expedite the 
+                the development process of the website, as the other developer simply needed to align and place the components. I 
+                absolutely love to help developers any chance I get!
+
+                <br></br>
+                <br></br>
+                <div className="personaContainer">
+                    <img className="web" src={webComponents} alt="webcomponents"/>
+                </div>
+            </p>
+
+
+
+
+            <p className="sectionTitle">What I Learned</p>
+            <p className="processText">
+            This project really emphasized the importance of user interface design - correctly using the elements of color, 
+            hierarchy, and spacing are imperative to a good user experience. Similar to a recruiter viewing resumes, you only 
+            have a limited amount of time to make an impact on your user. The structure and function have to be there, but it 
+            has to be visually appealing as well. Lastly, this project changed the way I think when designing in general as I designed for 
+            desktop first, I should have known better being an ex developer. This lead to many problems as I didn't account for the bare 
+            minimum requirements of the application. I learned its easier to add than to take away from a project, In the future I will always design 
+            mobile first.
+            </p>
 
 
             <p className="sectionTitle">Visit the Site</p>
             <p className="processText">
-                Heres a link to the final version of the courses website.
+                The button below will take you to the final version of techinterviews.io. Thank you for reading the case study in it's 
+                entirety! You are Awesome!
             </p>
+            <br></br>
+
+            <div className="personaContainer">
+                    <img className="web" id="finalSplash" src={splashScreen} alt="splash"/>
+                </div>
 
             <div className="buttonContainer">
                 <a href="https://techinterviews.io/" className="hiFiButton">View techinterviews.io</a>
             </div>
 
-            <p className="sectionTitle">What's Next?</p>
-            <p className="processText">
-                If I were to continue work on techinterviews, the first thing I would do is 
-                usability testing for course navigation and code tests. Determine any user
-                struggles and start brainstorming ideas for solutions to these problems.
-                <br/>
-                <br/>
-                Another task would be to make a mobile application for the course and its readings. 
-                Many users or any product are mobile users, so this would be a method to attract 
-                that demographic to techinterviews.
-            </p>
 
+            </div>
             <p className="footers" id="projectFooters">
                     Gehry Guest <span className="my-name-color">©2021</span>
             </p>
         </section>
+        
         )
     }
     

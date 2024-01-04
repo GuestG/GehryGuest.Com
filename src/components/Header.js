@@ -8,7 +8,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Header = () => {
     useEffect(() => {
-        Aos.init({duration: 800});
+        Aos.init({ duration: 800 });
     }, []);
     return (
         <section className="header-outer-wrapper">

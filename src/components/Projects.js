@@ -6,9 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 const Projects = () => {
     useEffect(() => {
-        Aos.init({
-            duration: 800
-        });
+        
     }, []);
     return (
         <section className="project-outer-wrapper" id="project-outer-wrapper">
@@ -33,26 +31,26 @@ const Projects = () => {
                                         Techinterviews.io
                                         </h2>
                                     <h3 className="card_body">
-                                        Teaching software developers the skills they need to pass that interview.
+                                        A website teaching software engineers how to succeed in interviews.
                                         </h3>
-                                    <a className='button' href='https://techinterviews.io/'>See Website</a>
+                                    <Link className='button' to='Techinterviews/#bodyWrapper'>See Case Study</Link>
 
                                 </div>
                             </div>
 
-                            <div className="project_card" id="rito" >
+                            <div className="project_card" id="braphics"  >
                                     <div className="card_content">
                                         <h2 className="card_title">
-                                            Rito Food
+                                            Braphics
                                         </h2>
                                         <h3 className="card_body">
-                                            Food Truck application to make ordering food quick and seemless.
+                                            Created a portfolio page for a client. Using bootstrap, owl carousel & isotope libraries.
                                         </h3>
-
-                                        <Link className='button' to='Rito/#bodyWrapper'>See Case Study</Link>
+                                        <a className='button' href='https://www.braphics.com/'>See Website</a>
 
                                     </div>
-                                </div>
+                        </div>
+                            
                             
                         
 
@@ -60,9 +58,24 @@ const Projects = () => {
 
                         {/* Column Two */}
                         <div className="projects_colum">
+                            
 
 
-                        <div className="project_card" id="Gabi">
+                            <div className="project_card" id="moneymentor">
+                                <div className="card_content">
+                                    <h2 className="card_title" id="moneymentorCard">
+                                        MoneyMentor
+                                    </h2>
+                                    <h3 className="card_body">
+                                        A mobile app used to teach young professionals about financial literacy.
+                                    </h3>
+                                    <Link className='button' to='MoneyMentor/#bodyWrapper'>See Case Study</Link>
+
+                                </div>
+                            </div>
+
+
+                            <div className="project_card" id="Gabi">
                                 <div className="card_content">
                                     <h2 className="card_title">
                                         Gabi's Kids
@@ -71,21 +84,6 @@ const Projects = () => {
                                         Created webapge for a charity for low income families, Providing food and other services.
                                     </h3>
                                     <a className='button' href='https://guestg.github.io/GabisKids/'>See Website</a>
-
-                                </div>
-                            </div>
-                            
-
-
-                            <div className="project_card" id="laFitness">
-                                <div className="card_content">
-                                    <h2 className="card_title" id="LAFitnessCard">
-                                        LA Fitness
-                                    </h2>
-                                    <h3 className="card_body">
-                                        Complete rework of the LA Fitness website. Reducing clutter & improving user flow.
-                                    </h3>
-                                    <Link className='button' to='LAFitness/#bodyWrapper'>See Case Study</Link>
 
                                 </div>
                             </div>
@@ -107,18 +105,19 @@ const Projects = () => {
                         {/* Column Three */}
                         <div className="projects_colum">
                         {/* <div className="project_card" id="braphics" data-aos="fade-right"  data-aos-anchor="#LAFitnessCard" data-aos-once="true"> */}
-                        <div className="project_card" id="braphics"  >
+                        <div className="project_card" id="rito" >
                                     <div className="card_content">
                                         <h2 className="card_title">
-                                            Braphics
+                                            Rito
                                         </h2>
                                         <h3 className="card_body">
-                                            Created a portfolio page for a client. Using bootstrap, owl carousel & isotope libraries.
+                                            A mobile app for use at a food truck locations to decrease wait times.
                                         </h3>
-                                        <a className='button' href='https://www.braphics.com/'>See Website</a>
+
+                                        <Link className='button' to='Rito/#bodyWrapper'>See Case Study</Link>
 
                                     </div>
-                            </div>
+                                </div>
                         
                             <div className="project_card" id="comingSoon">
                                 <div className="card_content">

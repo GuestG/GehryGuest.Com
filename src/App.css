@@ -486,7 +486,7 @@ nav ul li {
   background-color: var(--primary-white);
   background-size: cover;
   padding: 6rem 0 0;
-  margin: 1.5rem;
+  margin: 0.75rem;
   /* flex-grow: 1; */
   border-radius: 2rem;
   width: 36ch;
@@ -595,33 +595,33 @@ nav ul li {
   background-image: url("../src/assets/techinterviews/techinterviewsSplash.png");
 }
 
-#laFitness {
+/* #laFitness {
    background-image: url("../src/assets/LAPhotos/LAFitnessSplash.png"); 
+} */
+
+#moneymentor {
+  background-image: url("../src/assets/moneyMentor/ConceptDesign.png");
 }
 
 #rito { 
   background-image: url("../src/assets/ritoPhotos/RitoSplash.png");
 }
 
-#kiwi {
+/* #kiwi {
   background-image: url("../src/assets/kiwiPhotos/kiwi.png");
-}
+} */
 
 #Gabi {
   background-image: url("../src/assets/Other/gabisKids.png");
-}
-
-#Marcella {
-  background-image: url("../src/assets/Other/MarcellasDesign.png");
 }
 
 #braphics {
   background-image: url("../src/assets/braphics/BraphicsSplash.png");
 }
 
-#LifeTracker {
+/* #LifeTracker {
   background-image: url("../src/assets/LifeTracker/LifeTracker.png");
-}
+} */
 
 
 #comingSoon {

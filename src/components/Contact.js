@@ -8,10 +8,22 @@ import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
     useEffect(() => {
-        Aos.init({
-            duration: 800,
-            offset: -100
-        });
+        // function sendEmail(){
+        //     Email.send({
+        //         Host : "smtp.gmail.com",
+        //         Username : "gmailID",
+        //         Password : "passwordforGmail",
+        //         To : 'braphics@gmail.com',
+        //         From : document.getElementById("email").value,
+        //         Subject : "New Contact Form Message",
+        //         Body : "Name: " + document.getElementById("name").value
+        //             + "<br> Email: " + document.getElementById("email").value
+        //             + "<br> Message: " + document.getElementById("message").value
+        //     }).then(
+        //       message => alert("Message has been sent! I'll contact you soon.")
+        //     );
+        // }
+        Aos.init({ duration: 800 });
     }, []);
     return (
         <div className="contact-wrapper" id="contact-wrapper">
