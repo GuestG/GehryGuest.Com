@@ -1,10 +1,7 @@
 import React, { useEffect } from "react";
 import { HashLink as Link } from 'react-router-hash-link';
-import Aos from 'aos';
 import "aos/dist/aos.css";
 import '../css/projects.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 import webComponents from "../assets/techinterviews/WebsiteComponents.png";
 import stakeHolder from "../assets/techinterviews/StakeholderInter.png";
@@ -13,16 +10,16 @@ import splashScreen from "../assets/techinterviews/techinterviewsSplash.png";
 import userflow from "../assets/techinterviews/userflow.jpg";
 import prototype from "../assets/techinterviews/prototype.png";
 import finishedWireframe from "../assets/techinterviews/finalWireframe.png";
+import BackToTopButton from "./BacktoTop";
 
 // import Competitor1 from "../assets/techinterviews/educative.png";
 // import Competitor2 from "../assets/techinterviews/algoexpert.png";
 // import Competitor3 from "../assets/techinterviews/cake.png";
 
 
-
 function Techinterviews() {
     useEffect(() => {
-        
+
     }, []);
     return (
         <section className="bodySection" >
@@ -48,9 +45,9 @@ function Techinterviews() {
                 </div>
         <div className="Project-Section-Padding"> 
             <div className="headerWrapper">
-                    <h2 className="headerTitle">Summary</h2>
+                    <h2 className="headerTitle">Overview</h2>
                     <p className="processText">
-                       A startup offering online coding courses to help students get jobs in the software engineering scene required 
+                       A startup offering online coding courses to help students get jobs in the software engineering scene, they required 
                        design and development services. The company needed a structure
                        on the user process. I conducted user research by engaging in stakeholder interviews and created a 
                        user flow. Focusing on three key concepts understanding the business requirements, creating mid/high fidelity wireframes for rapid iterative designs 
@@ -80,17 +77,16 @@ function Techinterviews() {
                         <p className="overviewText">
                             Figma<br></br>
                             Otter.ai <br></br>
-                            
+                            Visual Studio Code <br></br>
 
                         </p>
                     </div>
                     <div className="Team">
                         <h2 className="overviewTitle">Team</h2>
                         <p className="overviewText">
-                            Back End Developers <br></br>
-                            Front End Developers <br></br>
+                            Software Engineers <br></br>
                             Project Manager <br></br>
-
+                            UX Designers <br></br>
                         </p>
                     </div>
                     <div className="Techniques">
@@ -109,7 +105,6 @@ function Techinterviews() {
         </div>
         <hr id="breakLine"/>
 
-
             {/* **************** */}
             {/*     Research     */}
             {/* **************** */}
@@ -118,7 +113,7 @@ function Techinterviews() {
                 The owners main problem came in the form of having all this curriculum and lecture videos but having no way to display
                 that information for the students. Currently they didn't have any website so they were starting from scratch, but they
                 wanted a great user experience through organized interface, painless sign up process and a way to inform the customer about
-                the product. This is were the stakeholder interviews come into play I need to understand what content they have and the 
+                the product. This is were the stakeholder interviews come into play we need to understand what content they have and the 
                 processes of the business.
         
                 
@@ -130,7 +125,7 @@ function Techinterviews() {
             <p className="processText">
             <span className="subSectionTitle">Stakeholder Interview</span><br></br>
                 The main goal of interview was to grab insights into the business goals, understanding the competitors, identifying potential concerns and success metrics what that is in their perspective.
-                Using the bits and pieces from the interview to build a map of a process flow. I used a voice recorder app called Otter.ai to transcribe the interviews 
+                Using the bits and pieces from the interview to build a map of a process flow. We used a voice recorder app called Otter.ai to transcribe the interviews 
                 to read later for insight gathering.
 
                 <br></br>
@@ -151,10 +146,10 @@ function Techinterviews() {
                 <br></br>
                 <br></br>
                 <span className="subSectionTitle">Synthesis</span><br></br>
-                Based on what I heard from the stakeholders I was able to make assumptions that I then grouped into 
-                three key concepts: Conversion rates, Ease of Use, and Organization. I led the stakeholder through an 
+                Based on what we heard from the stakeholders we was able to make assumptions that we then grouped into 
+                three key concepts: Conversion rates, Ease of Use, and Organization. We led the stakeholder through an 
                 exercise that refined and validated these assumptions and concepts, and then used those as a jumping off 
-                point for writing a series of user stories that I would use to inform the designs for MVP.
+                point for writing a series of user stories that we would use to inform the designs for MVP.
             </p>
 
             <p className="sectionTitle">Ideate</p>
@@ -185,10 +180,10 @@ function Techinterviews() {
             <p className="sectionTitle">Prototype & Testing</p>
             <p className="processText">
                 <span className="subSectionTitle">Prototype</span><br></br>
-                Once I put the screens together into a clickable prototype, I found a lot of
+                Once we put the screens together into a clickable prototype, we found a lot of
                 holes and design flaws based on the interaction design. As an example, I had 
                 designed the drawers for the course, but not a button that would collapse or open all drawers at once.
-                Another instance would be I missed a crucial page such as billing history. 
+                Another instance would be we missed a crucial page such as billing history. 
                 <br></br>
                 <br></br>
                 <div className="personaContainer">
@@ -198,9 +193,9 @@ function Techinterviews() {
                 <br></br>
                 <span className="subSectionTitle">User Testing</span><br></br>
                 With the bulk of the design finished, and all screens accounted for and linked 
-                together in Figma, I moved on to user testing. I created a usability test plan 
+                together in Figma, we moved on to user testing. we created a usability test plan 
                 (with a communications plan and test script), and had six participants within my target 
-                audience undergo the tests. I completed two remote and four in person sessions, tasking 
+                audience undergo the tests. we completed two remote and four in person sessions, tasking 
                 participants with signing up for the course, navigating the course content, and to "finish" a coding quiz.
             </p>
 
@@ -251,9 +246,10 @@ function Techinterviews() {
 
 
             </div>
-            <p className="footers" id="projectFooters">
+            {/* <p className="footers" id="projectFooters">
                     Gehry Guest <span className="my-name-color">©2021</span>
-            </p>
+            </p> */}
+            <BackToTopButton />
         </section>
         
         )

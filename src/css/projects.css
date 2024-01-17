@@ -104,7 +104,7 @@ body {
     background: linear-gradient(
         rgba(0, 0, 0, 0.65), 
         rgba(0, 0, 0, 0.65)
-      ),url(../assets/ritoPhotos/RitoMenu.png);
+      ),url(../assets/ritoPhotos/ritoBanner.jpg);
   }
 
 .Project-Section-Padding {
@@ -142,6 +142,27 @@ body {
     padding-left: 0.25rem;
 }
 
+/* Back to top button */
+/* ****************** */
+.backToTopButtonProjects {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    height: 80px;
+    width: 80px;
+    font-size: 32px;
+    border-Radius: 100%;
+    /* font-weight: 100; */
+    z-index: 99;
+    color: var(--primary-dark);
+    border: 5px solid var(--primary-dark);
+    background-color: transparent;
+}
+
+.backToTopButtonProjects:hover {
+    color: var(--primary-orange);
+    border: 5px solid var(--primary-orange);
+}
 
 /* Intro */
 /* ***** */

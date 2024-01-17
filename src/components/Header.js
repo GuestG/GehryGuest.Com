@@ -25,8 +25,7 @@ const Header = () => {
                     </a>
                     <div className="header-message-container"> 
                         <h1 className="intro-message">
-                            Hi! I'm 
-                            <span className="my-name-color"> Gehry Guest</span> 
+                            Hello! I'm Gehry Guest 
                         </h1>
                         <p className="designer-statement">
                             A UX Designer with a background in computer science,<br></br> who loves complex problems

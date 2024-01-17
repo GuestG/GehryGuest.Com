@@ -201,12 +201,11 @@ nav ul li {
 .main-info h1{
   color: var(--primary-white);
   font-family: 'Roboto Slab', serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 2.5rem;
   /* text-align: left; */
   /* margin-bottom: 1rem; */
   font-weight: 500;
-  text-shadow: 1px 1px black;
 }
 
 .header-message-container {
@@ -250,7 +249,8 @@ nav ul li {
 
 .my-name-color {
   color: var(--primary-orange);
-  font-weight: bold;
+  /* font-weight: bold; */
+  /* font-size: 2.5rem; */
 }
 
 .designer-statement {
@@ -264,8 +264,8 @@ nav ul li {
   /* text-align: left; */
  /* padding: 1.75rem 0.75rem 0.75rem 3.75rem; */
   justify-content: center;
-  align-items: center;
-  text-shadow: 1px 1px#000;
+  align-items: left;
+  text-align: left;
   font-family: 'Roboto Slab', serif;
   font-size: 1.05rem;
   line-height: 2.25rem;
@@ -493,7 +493,7 @@ nav ul li {
   max-width: 36ch;
   height: 20rem;
   overflow: hidden;
-  transition: transform 100ms ease;
+  transition: transform 400ms ease;
   color: var(--White);
   background-position: center center;
   background-size: cover;
@@ -506,7 +506,7 @@ nav ul li {
 }
 
 .card_content {
-  --padding: 1.5rem;
+  --padding: 1.75rem;
   padding: var(--padding);
   background: linear-gradient(
       hsl(0 0% 0% / 0),
@@ -521,13 +521,10 @@ nav ul li {
 .project_card:hover .card_content > *:not(.card_title),
 .project_card:focus-within .card_content > *:not(.card_title) {
   opacity: 1;
-  transition-delay: 400ms;
+  /* For when card content will show up */
+  transition-delay: 575ms;
 }
 
-
-.project_card:focus-within .card_content > *:not(.card_title) {
-  transition-delay: 00ms;
-}
 
 .card_title {
   position: relative;
@@ -549,7 +546,8 @@ nav ul li {
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
   background: var(--primary-orange);
-  transition: transform 250ms ease;
+  /* For orange line on project card hover*/
+  transition: transform 400ms ease;
   transform-origin: left;
   
 }
@@ -562,32 +560,35 @@ nav ul li {
 .card_body {
   color: rgb(255 255 255 / .95);
   padding-top: 0.25rem;
-  padding-bottom: 1.25rem;
+  padding-bottom: 0.80rem;
   font-family: 'Roboto Slab', serif;
   font-size: 1.25rem;
   text-shadow: 1px 1px black;
 }
 
+/* project button */
 .button {
-  cursor: pointer;
-  display: inline;
-  text-decoration: none;
-  color: var(--primary-white);
-  text-transform: uppercase;
+
   background-color: transparent;
-  padding: 0.60rem 1.25rem;
-  border-radius: 0.5rem;
-  transition: all 1s ease;
   border: 2px solid var(--primary-white);
+  color: var(--primary-white);
+  text-align: center;
+  border-radius: 0.5rem;
+  font-size: 1.15rem;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 0.50rem 1rem !important;
+  margin-bottom: 1rem !important;
   
 }
 
 .button:hover,
-.button:focus { 
-  color: var(--primary-white);
-  background-color: transparent;
+.button:focus {
+  text-decoration: none;
   background-color: var(--primary-orange);
-  border: 2px solid var(--primary-white);
+  border: 2px solid var(--primary-orange);
+  color: var(--primary-white);
+  transition: .2s ease-in-out !important;
 }
 
 
@@ -631,7 +632,7 @@ nav ul li {
 @media (hover) {
   .card_content {
       transform: translateY(62%);
-      transition: transform 400ms ease; 
+      transition: transform 300ms ease; 
   }
   .card_content > *:not(.card_title) {
       opacity: 0;

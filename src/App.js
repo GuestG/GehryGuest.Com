@@ -1,11 +1,9 @@
 
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from './components/Home';
+import Home from './components/Home'; 
 // TODO
 // need to make contact actually work
-//FIx photos
-//edit content in top three.
 
 // NPM start, NPM run build, NPM run deploy
 // git add . , git status, git commit -m "" , git push

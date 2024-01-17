@@ -1,10 +1,8 @@
 import React, { useEffect } from "react";
 import { HashLink as Link } from 'react-router-hash-link';
-import Aos from 'aos';
 import "aos/dist/aos.css";
 import '../css/projects.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import BackToTopButton from "./BacktoTop";
 
 import doubleDiamond from "../assets/moneyMentor/doubleDiamond.png";
 // import interview from "../assets/moneyMentor/interview.png";
@@ -12,8 +10,17 @@ import savings from "../assets/moneyMentor/savingsSteward.png";
 import allocator from "../assets/moneyMentor/optimalAllocator.png";
 import journey from "../assets/moneyMentor/JourneyMap.png";
 import concept from "../assets/moneyMentor/ConceptDesign.png";
-import conceptTesting from "../assets/moneyMentor/concepttesting.jpeg";
+// import conceptTesting from "../assets/moneyMentor/concepttesting.jpeg";
 import competitive from "../assets/moneyMentor/competitive.png";
+
+// Use we in this project, as group projects. Show collaberation
+// Crazy long portfolios
+// Have a hook on each case study, paraphrase the study, and ask a question
+// find open source things
+// Use recruiter to answer questions and to prep you.
+// connect with others that work with that company to prep with company.
+// asked recruiter how things went, what i can work on better, howd Id do?
+// acquent recuirters
 
 
 function MoneyMentor() {
@@ -38,16 +45,16 @@ function MoneyMentor() {
                                 </div>
                             </Link>
                             <h1 className="introTitle">MoneyMentor</h1>
-                            <p className="introSubTitle">2024 <span className="subtitleBold">|</span> UX Design <span className="subtitleBold">|</span> UX Research <span className="subtitleBold">|</span> Interaction Design</p>
+                            <p className="introSubTitle">2024 <span className="subtitleBold">|</span> UX Process <span className="subtitleBold">|</span> UX Research <span className="subtitleBold">|</span> Interaction Design</p>
                         </div>
                     </div>
                 </div>
         <div className="Project-Section-Padding">  
             <div className="headerWrapper">
-                    <h2 className="headerTitle">Brief</h2>
+                    <h2 className="headerTitle">Summing It Up</h2>
                     <p className="processText">
                         This was the capstone project for the University of Washington UX Design course. 
-                        I was provided a project brief designed to introduce me to the process of User 
+                        We were provided a project brief designed to introduce me to the process of User 
                         Experience design from start (business requirements and user research) to finish 
                         (UI Design, high-fidelity clickable prototype and user testing). In short The prompt my team received
                         was "Improve financial literacy in young professionals."
@@ -140,8 +147,8 @@ function MoneyMentor() {
                 create solutions and then test those solutions. Otherwise in short discover, define, develope, deliver. */}
 
                 There were three different phases of this project those being understanding and defining the problem, prototyping and the testing phases. During the research phase
-                I followed the double diamond method in order to understand the users needs and their motivations, and what other
-                options they had in the marketplace. Once I had a solid foundation on their issues I then moved on to developing & testing
+                We followed the double diamond method in order to understand the users needs and their motivations, and what other
+                options they had in the marketplace. Once we had a solid foundation on their issues we then moved on to developing & testing
                 the concepts. Ultimately synthesizing a concept that addresses the user issues.
                 
                 {/* The first phase was all about understanding the user: their needs and motivations, the context in which 
@@ -160,7 +167,7 @@ function MoneyMentor() {
                 </div>
                 <br></br>
                 The next phase was prototyping, this phase includes the product itself from pencil 
-                sketches to mid/high fidelity mockups and usability testing. Constant iteration ensured that I had a product 
+                sketches to mid/high fidelity mockups and usability testing. Constant iteration ensured that we had a product 
                 that was addressing the user needs.
                 <br></br>
                 <br></br>
@@ -172,7 +179,7 @@ function MoneyMentor() {
             <p className="sectionTitle">Understanding & Defining</p>
             <p className="processText">
             <span className="subSectionTitle">User Interview</span><br></br>
-                The first step is to understand the user needs and motivations. I started that with user interviews,
+                The first step is to understand the user needs and motivations. We started that with user interviews,
                 asking open ended questions and following a discussion guide to avoid bias. 
                 The interviews brought to light many perspectives, like saving as much as possible and living frugally, 
                 the lack of financial knowledge with stocks or types of debts. From these interviews my team and I 
@@ -338,9 +345,10 @@ function MoneyMentor() {
 
 
             </div>
-            <p className="footers" id="projectFooters">
+            {/* <p className="footers" id="projectFooters">
                     Gehry Guest <span className="my-name-color">©2021</span>
-            </p>
+            </p> */}
+            <BackToTopButton />
         </section>
         
         )

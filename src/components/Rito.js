@@ -1,10 +1,8 @@
 import React, { useEffect } from "react";
 import { HashLink as Link } from 'react-router-hash-link';
-import Aos from 'aos';
 import "aos/dist/aos.css";
 import '../css/projects.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import BackToTopButton from "./BacktoTop";
 
 // import HiFi from "../assets/ritoPhotos/RitoHiFi.png";
 
@@ -44,16 +42,18 @@ function Rito() {
                                 </div>
                             </Link>
                             <h1 className="introTitle">Rito</h1>
-                            <p className="introSubTitle">2023 <span className="subtitleBold">|</span> UX Design <span className="subtitleBold">|</span> IOS App <span className="subtitleBold">|</span> Burritos</p>
+                            <p className="introSubTitle">2023 <span className="subtitleBold">|</span> Usability Testing <span className="subtitleBold">|</span> Communication <span className="subtitleBold">|</span> Burritos</p>
                         </div>
                     </div>
                 </div>
         <div className="Project-Section-Padding"> 
             <div className="headerWrapper">
-                    <h2 className="headerTitle">Brief</h2>
+                    <h2 className="headerTitle">Bite Sized Brief</h2>
                     <p className="processText">
-                       
-
+                        Here we explore the journey of enhancing the customer experience at a popular burrito
+                        truck through the design and implementation of a user-friendly mobile application.
+                        The goal is to streamline the ordering process, improve customer satisfaction, 
+                        and boost the overall efficiency of the burrito truck business.
                     </p>
             </div>
 
@@ -71,7 +71,7 @@ function Rito() {
                     <div className="Duration">
                         <h2 className="overviewTitle">Duration</h2>
                         <p className="overviewText">
-                            1 month
+                            2 months
                         </p>
                     </div>
                     <div className="Tools">
@@ -110,7 +110,10 @@ function Rito() {
             {/* **************** */}
             <h2 className="sectionTitle">Problem</h2>
             <p className="processText">
-                This project is currently being worked on and will be finished early 2024.
+                The client is a well-established burrito truck known for its delicious and diverse menu. 
+                Despite its popularity, the client identified challenges in managing long queues, order 
+                accuracy, and customer engagement. To address these issues, they sought to create a mobile 
+                app that would revolutionize the way customers interact with their burrito truck.
         
                 
             </p>
@@ -178,9 +181,10 @@ function Rito() {
             </p> */}
 
             </div>
-            <p className="footers" id="projectFooters">
+            {/* <p className="footers" id="projectFooters">
                     Gehry Guest <span className="my-name-color">©2021</span>
-            </p>
+            </p> */}
+            <BackToTopButton />
         </section>
         
         )

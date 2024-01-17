@@ -6,7 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 const Projects = () => {
     useEffect(() => {
-        
+      Aos.init({ duration: 800 });  
     }, []);
     return (
         <section className="project-outer-wrapper" id="project-outer-wrapper">
@@ -81,7 +81,7 @@ const Projects = () => {
                                         Gabi's Kids
                                     </h2>
                                     <h3 className="card_body">
-                                        Created webapge for a charity for low income families, Providing food and other services.
+                                        Created webapge for charity for low income families, Providing food and other services.
                                     </h3>
                                     <a className='button' href='https://guestg.github.io/GabisKids/'>See Website</a>
 

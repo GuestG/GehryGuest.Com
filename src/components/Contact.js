@@ -61,7 +61,7 @@ function Contact() {
                         <input type="hidden" name="_next" value="http://localhost:3000/">
                         </input>
 
-                        <button type="submit" className="submit-message" id="submit-message">
+                        <button type="submit" className="btn-sec-offer" id="submit-message">
                             Submit
                         </button>
                 </form>
