@@ -131,6 +131,8 @@ body {
     
     color:var(--primary-orange);
     fill: var(--primary-orange);
+
+    transition: .2s ease-in-out !important;
 }
 
 .backButtonIcon {
@@ -162,6 +164,7 @@ body {
 .backToTopButtonProjects:hover {
     color: var(--primary-orange);
     border: 5px solid var(--primary-orange);
+    transition: .2s ease-in-out !important;
 }
 
 /* Intro */
@@ -279,7 +282,7 @@ body {
     background-color: var(--primary-orange);
     border: 2px solid var(--primary-orange);
     color: var(--primary-white);
-    transition: .2s ease-in-out;
+    transition: .2s ease-in-out !important;
 }
 
 

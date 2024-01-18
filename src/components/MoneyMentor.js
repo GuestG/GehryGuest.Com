@@ -85,6 +85,7 @@ function MoneyMentor() {
                             Balsamiq<br></br>
                             Mural <br></br>
                             Otter.ai <br></br>
+                            Optimal Workshop<br></br>
                             
                         </p>
                     </div>
@@ -294,6 +295,7 @@ function MoneyMentor() {
 
             <span className="subSectionTitle">Concept Study Findings</span><br></br>
                 Four concepts were presented to our concept testers, the end result was much more interesting than I thought.
+                <br></br>
                 <br></br>
                 <ul>
                     <li>Gains: People loved the thought of being rewarded for meeting their financial goals, "who doesn't love free stuff" one participant said.

@@ -50,10 +50,17 @@ function Rito() {
             <div className="headerWrapper">
                     <h2 className="headerTitle">Bite Sized Brief</h2>
                     <p className="processText">
-                        Here we explore the journey of enhancing the customer experience at a popular burrito
-                        truck through the design and implementation of a user-friendly mobile application.
+
+                    {/* This case study summarizes the results of a two-week long design sprint. The goal of this project 
+                    was to design a mobile app for a food truck business using the Design Thinking process — emphasize, define, 
+                    ideate, prototype and test. The first week was centered around understanding users, the 
+                    second was dedicated to design and prototyping. */}
+                        Here we explore the journey of enhancing the customer experience at a local burrito
+                        truck known as Rito, through the design and implementation of a user-friendly mobile application.
                         The goal is to streamline the ordering process, improve customer satisfaction, 
-                        and boost the overall efficiency of the burrito truck business.
+                        and boost the overall efficiency of the burrito truck business. Using the Design Thinking 
+                        process — emphasize, define, ideate, prototype and test. The first week was centered around understanding users, the 
+                        second was dedicated to design and prototyping.
                     </p>
             </div>
 
@@ -71,33 +78,33 @@ function Rito() {
                     <div className="Duration">
                         <h2 className="overviewTitle">Duration</h2>
                         <p className="overviewText">
-                            2 months
+                            2 Week Sprint
                         </p>
                     </div>
                     <div className="Tools">
                         <h2 className="overviewTitle">Tools</h2>
                         <p className="overviewText">
                             Figma<br></br>
-                            InVision <br></br>
+                            FigJam<br></br>
 
                         </p>
                     </div>
                     <div className="Team">
                         <h2 className="overviewTitle">Team</h2>
                         <p className="overviewText">
-                             UX Researcher<br></br>
-                            
+                             UX Designer<br></br>
+                             IOS Developer<br></br>
 
                         </p>
                     </div>
                     <div className="Techniques">
                         <h2 className="overviewTitle">Techniques</h2>
                         <p className="overviewText">
-                            Process flows <br></br>
-                            User stories <br></br>
-                            Mid/high-fidelity prototypes <br></br>
-                            Interactive Prototypes <br></br>
+                            Double Diamond <br></br>
+                            How Might we... <br></br>
                             User testing <br></br>
+                            Low/high-fidelity Mockups <br></br>
+                            Interactive Prototypes <br></br>
                         </p> 
                     </div>
                 </div>      
@@ -110,30 +117,142 @@ function Rito() {
             {/* **************** */}
             <h2 className="sectionTitle">Problem</h2>
             <p className="processText">
-                The client is a well-established burrito truck known for its delicious and diverse menu. 
-                Despite its popularity, the client identified challenges in managing long queues, order 
-                accuracy, and customer engagement. To address these issues, they sought to create a mobile 
-                app that would revolutionize the way customers interact with their burrito truck.
-        
+
+                Cesar Gonzales, based in Olympia, Washington, operates the food truck business known as Rito. 
+                With extensive experience as a chef, he ventured into entrepreneurship by 
+                launching his own food truck business, which quickly took off he now faces new challenges that come with success. 
+                    <br></br>
+                    <br></br>
+                Cesar identified challenges in managing long queues, order accuracy, and cash payments. 
+                To address these issues, he sought to create a mobile app that would enhance the way customers interact 
+                with his business. He needed the app to handle the influx of orders, allow for customers to pay online and find
+                his food trucks current location.
+
+               
                 
             </p>
 
-            {/* <p className="sectionTitle">Solution</p> */}
-            
-
-            
-            
-        
-            
-            {/* <h2 className="sectionTitle">Process</h2>
+            {/* <p className="sectionTitle">Solution</p>
             <p className="processText">
                 
                
+                </p> */}
+
+            
+            
+        
+            
+            <h2 className="sectionTitle">Order Process & Insights</h2>
+            <p className="processText">
+
+                <span className="subSectionTitle">Defining the Order Process</span><br></br>
+                The order process is very manual for the customer and the business owner, he would receive orders through texts or phone calls
+                He also would have to keep track mentally of what orders he has done and what he hasn't, reducing order accuracy. So I needed to 
+                design the steps of the ordering process in order to generate ideas.
+                <br></br>
+                <br></br>
+                Steps For Ordering:
+                <ol>
+                    <li>Set flyers in neighborhoods with menu, location and a phone number to order.</li>
+                    <li>Customer calls or texts to place their order and what time to pickup.</li>
+                    <li>Customer Pays in cash at the food truck.</li>
+                </ol>
+               
+                <br></br>
+                <br></br>
+                <span className="subSectionTitle">Customer Interviews</span><br></br>
+                To properly define the user problem and business objective, it was necessary to get a broader 
+                understanding of the stakeholder and his customers. Qualitative interviews of Rito's customers really helped in getting 
+                those insights.
+                <br></br>
+
+                <br></br>
+                Customers Pain Points during ordering process:
+                <ul>
+                    <li>Customer is not up to date with current menu.</li>
+                    <li>Customers may not even find flyer or flyer may be damage by weather.</li>
+                    <li>Customers need to write order manually.</li>
+                    <li>Rito cannot keep track of all orders coming in.</li>
+                    <li>No secure way to pay online or beforehand.</li>
+                </ul>
+                <br></br>
+
+                After understanding the pain points that the customers were having while trying to order, 
+                certain key takeaways were brought to light. This shows where customers had negative emotions during the interview
+                these range from uncertainty, frustration to anxiety when trying to accomplish these tasks.
+
+                <br></br>
+                <br></br>
+                Key Takeaways:
+                <ul>
+                    <li>Customers don't like the current process of making an order via text/phone.</li>
+                    <li>Where the food truck is currently located.</li>
+                    <li>Quicker process in ordering, some people are pressed for time during the work day.</li>
+                    <li>The payment process currently can't be done online. Customers pay at the food truck.</li>
+                    <li>The current ordering process involves a lot of manual input from both the business owner and the customers themselves.</li>
+                </ul>
             </p>
 
-            <div className="backToTopLink" data-aos="fade-left" data-aos-once="true" >
-                    <Link className="nav-link" id="backToTop" to="/#header-wrapper" style={{color:"var(--primary-dark)", border:"4px solid var(--primary-dark)"}}><FontAwesomeIcon id="upArrow" icon={faArrowUp} /></Link>
-            </div> */}
+
+
+
+
+            <h2 className="sectionTitle">How Might We...</h2>
+            <p className="processText">
+                After the research, we identified the main problems we wanted to focus on. 
+                We felt we had to them breakdown into 5 different HMWs as they each related 
+                to different stages of the process.
+                <br></br>
+                <br></br>
+                How Might We:
+                <ul>
+                    <li>How Might We allow customers to let cooks know about their personal preferences?</li>
+                    <li>How Might We spread the orders so that the waiting time is reduced?</li>
+                    <li>How Might We make the payment process fast and secure for the customers?</li>
+                    <li>How Might We make it easy for the customers to know where the truck is located and how to reach it?</li>
+                    <li>How Might We display the Rito menu in an appealing way that matches the Hispanic branding?</li>
+                </ul>
+            </p>
+
+            <h2 className="sectionTitle">Prototype & Iterations</h2>
+            <p className="processText">
+            <span className="subSectionTitle">Low Fidelity Mockup</span><br></br>
+                more to be added in early 2024...
+            </p>
+
+
+
+
+
+
+            <h2 className="sectionTitle">Impact & Reflection</h2>
+            <p className="processText">
+            
+            <span className="subSectionTitle">Our Impact on the Business</span><br></br>
+            {/* Increasing the amount of order inaccuracys to almost none, */}
+            more to be added in early 2024...
+
+            <br></br>
+            <br></br>
+            <span className="subSectionTitle">What I Learned</span><br></br>
+            {/* Test assumptions, even the ones that feel obvious — we are not designing for ourselves, 
+            we are not the user so what seems obvious to us is not for someone else. Testing those 
+            assumptions with users to back our decisions made us feel more confident in our product. */}
+            more to be added in early 2024...
+            <br></br>
+            <br></br>
+            {/* It's all about good balance — embracing the client's feedback and knowing when to stand our 
+            ground as the designers was sometimes difficult to do. */}
+            
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+
+            <br></br>
+            <br></br>
+                
+            </p>
 
 
             <div className="personaContainer">
@@ -142,43 +261,12 @@ function Rito() {
                         {/* <img className="web" src={low3} alt="low3"/> */}
             </div>
             
-            {/* <p className="sectionTitle">Ideate</p>
-            <p className="processText">
-                Several rounds of rapid sketching on paper to get the foundation of future prototypes.
-            </p> */}
-            {/* <div className="personaContainer"> */}
-                        {/* <img className="web" src={low1} alt="low1"/> */}
-                        {/* <img className="web" src={low2} alt="low2"/> */}
-                        {/* <img className="web" src={low3} alt="low3"/> */}
-            {/* </div> */}
+            
 
 
 
-            {/* <p className="sectionTitle">Stakeholder Interview</p>
-            <p className="processText">
-            Lastly, this project changed the way I think about accessibility. I should 
-            have checked my color scheme and typeface with the WCAG before designing. While my designs do follow some of the 
-            guidelines for accessibility, I could have done a better job. This is something I had to address, coming back to the 
-            project and editing some colors according to the WCAG standard.
-            </p> */}
-            {/* <div className="personaContainer">
-                <img className="web" src={presentation} alt="presentation"/>
-            </div> */}
 
 
-            {/* <p className="sectionTitle">Visit the Site</p>
-            <p className="processText">
-                Heres a link to the final version of the courses website.
-            </p>
-
-            <div className="buttonContainer">
-                <a href="https://techinterviews.io/" className="hiFiButton">View techinterviews.io</a>
-            </div>
-
-            <p className="sectionTitle">What's Next?</p>
-            <p className="processText">
-               
-            </p> */}
 
             </div>
             {/* <p className="footers" id="projectFooters">

@@ -96,7 +96,7 @@ function Techinterviews() {
                             Process Flows <br></br>
                             User Stories <br></br>
                             Synthesis <br></br>
-                            Mid/High-Fidelity Prototypes <br></br>
+                            Low/High-Fidelity Mockups <br></br>
                             Interactive Prototypes <br></br>
                             User Testing <br></br>
                         </p> 

@@ -239,16 +239,16 @@ nav ul li {
 
 .githubIconHeader:hover {
   color: var(--primary-orange);
-  transition: .2s ease-in-out;
+  transition: .2s ease-in-out !important;
 }
 
 .linkedinIconHeader:hover {
   color: var(--primary-orange);
-  transition: .2s ease-in-out;
+  transition: .2s ease-in-out !important;
 }
 
 .my-name-color {
-  color: var(--primary-orange);
+  color: var(--primary-white);
   /* font-weight: bold; */
   /* font-size: 2.5rem; */
 }
@@ -938,7 +938,7 @@ nav ul li {
   justify-content: center;
   font-family: 'Roboto Slab', serif;
   margin-top: 1rem;
-  color: var(--primary-orange);
+  color: var(--primary-white);
 }
 
 #work-desc {
@@ -1056,6 +1056,7 @@ nav ul li {
 #backToTop:hover {
   color: var(--primary-orange);
   border: 4px solid var(--primary-orange);
+  transition: .2s ease-in-out;
 }
 
 .githubIcon {
@@ -1074,12 +1075,12 @@ nav ul li {
 
 .githubIcon:hover {
   color: var(--primary-orange);
-  transition: .2s ease-in-out;
+  transition: .2s ease-in-out !important;
 }
 
 .linkedinIcon:hover {
   color: var(--primary-orange);
-  transition: .2s ease-in-out;
+  transition: .2s ease-in-out !important;
 }
 
 .footers {
