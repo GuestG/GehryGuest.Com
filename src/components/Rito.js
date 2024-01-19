@@ -127,17 +127,10 @@ function Rito() {
                 To address these issues, he sought to create a mobile app that would enhance the way customers interact 
                 with his business. He needed the app to handle the influx of orders, allow for customers to pay online and find
                 his food trucks current location.
-
-               
                 
             </p>
 
-            {/* <p className="sectionTitle">Solution</p>
-            <p className="processText">
-                
-               
-                </p> */}
-
+        
             
             
         
@@ -151,6 +144,9 @@ function Rito() {
                 design the steps of the ordering process in order to generate ideas.
                 <br></br>
                 <br></br>
+                {/* <div className="personaContainer">
+                    <img className="web" src={webComponents} alt="webcomponents"/>
+                </div> */}
                 Steps For Ordering:
                 <ol>
                     <li>Set flyers in neighborhoods with menu, location and a phone number to order.</li>
@@ -165,8 +161,10 @@ function Rito() {
                 understanding of the stakeholder and his customers. Qualitative interviews of Rito's customers really helped in getting 
                 those insights.
                 <br></br>
-
                 <br></br>
+                {/* <div className="personaContainer">
+                    <img className="web" src={webComponents} alt="webcomponents"/>
+                </div> */}
                 Customers Pain Points during ordering process:
                 <ul>
                     <li>Customer is not up to date with current menu.</li>
@@ -183,6 +181,9 @@ function Rito() {
 
                 <br></br>
                 <br></br>
+                {/* <div className="personaContainer">
+                    <img className="web" src={webComponents} alt="webcomponents"/>
+                </div> */}
                 Key Takeaways:
                 <ul>
                     <li>Customers don't like the current process of making an order via text/phone.</li>
@@ -217,9 +218,46 @@ function Rito() {
             <h2 className="sectionTitle">Prototype & Iterations</h2>
             <p className="processText">
             <span className="subSectionTitle">Low Fidelity Mockup</span><br></br>
-                more to be added in early 2024...
+                Having already come up with a rough idea of what the app would include using the 
+                Crazy 8 and the MOSCOW methods, I started sketching a lo-fi prototype. The prototype 
+                showed the flow of a user opening the app from a push notification, ordering a burrito, 
+                choosing a pick-up time, and paying.
+                <br></br>
+                <br></br>
+                While our app does not involve a lot of navigation, sketching the lo-fi version turned out 
+                more complex than we thought. We had a lot of personal assumptions of how elements should be 
+                presented. We created a survey to validate these assumptions with users and guide us in the way 
+                forward. Some very interesting and unexpected results came out.
+                {/* <div className="personaContainer">
+                    <img className="web" src={webComponents} alt="webcomponents"/>
+                </div> */}
+                <br></br>
+                <br></br>
+                Having validated those assumptions, we were confident to build our high-fi prototype.
+                <br></br>
+                <br></br>
+                <span className="subSectionTitle">High Fidelity Mockup</span><br></br>
+                We tested our high-fi with users on Figma, again asking them to think out loud as they were navigating 
+                through it. Their opinions were completely unbiased as they had never seen any prototypes of this project 
+                before. We received encouraging feedback.
+                <br></br>
+                <br></br>
+                He then gave us suggestions on the design such as: a photo of his truck as the app background, more of his 
+                logo, smaller photos of the food, an about me page, a banner displaying adverts, food reviews and overall
+                more pictures.
+                <br></br>
+                <br></br>
+                We agreed that the first version of the high-fi did not reflect his branding enough but with 35 hours 
+                left on our deadline, we had to prioritize his feedback. Starting off from our current design system, we 
+                re-used several components and tweaked them to empathize his branding a little more, while maintaining the 
+                elegant feeling of Rito and our vision as designers.
+                <br></br>
+                <br></br>
+                Here is the final version of our high-fi, which received great feedback from both the client and Rito's customers:
             </p>
-
+            {/* <div className="personaContainer">
+                    <img className="web" src={webComponents} alt="webcomponents"/>
+            </div> */}
 
 
 
