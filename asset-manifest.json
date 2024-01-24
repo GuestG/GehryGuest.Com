@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3326896d.chunk.css",
-    "main.js": "/static/js/main.d03d7662.chunk.js",
-    "main.js.map": "/static/js/main.d03d7662.chunk.js.map",
+    "main.css": "/static/css/main.f8831384.chunk.css",
+    "main.js": "/static/js/main.b4271eaf.chunk.js",
+    "main.js.map": "/static/js/main.b4271eaf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.14d4eecd.js",
     "runtime-main.js.map": "/static/js/runtime-main.14d4eecd.js.map",
     "static/css/2.2cee9e3c.chunk.css": "/static/css/2.2cee9e3c.chunk.css",
@@ -12,11 +12,17 @@
     "static/js/3.e2d2ae5d.chunk.js.map": "/static/js/3.e2d2ae5d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.2cee9e3c.chunk.css.map": "/static/css/2.2cee9e3c.chunk.css.map",
-    "static/css/main.3326896d.chunk.css.map": "/static/css/main.3326896d.chunk.css.map",
+    "static/css/main.f8831384.chunk.css.map": "/static/css/main.f8831384.chunk.css.map",
     "static/js/2.518212bc.chunk.js.LICENSE.txt": "/static/js/2.518212bc.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/techinterviewsSplash.b62116a6.png",
     "static/media/JourneyMap.a9dbe26d.png": "/static/media/JourneyMap.a9dbe26d.png",
+    "static/media/PainPoints.5ce9370d.png": "/static/media/PainPoints.5ce9370d.png",
+    "static/media/Persona1.95485baf.png": "/static/media/Persona1.95485baf.png",
+    "static/media/Persona2.04c631f5.png": "/static/media/Persona2.04c631f5.png",
+    "static/media/RitoPresentation.f99b699f.png": "/static/media/RitoPresentation.f99b699f.png",
+    "static/media/RitoWireframe.95f38f93.png": "/static/media/RitoWireframe.95f38f93.png",
     "static/media/StakeholderInter.38159e13.png": "/static/media/StakeholderInter.38159e13.png",
+    "static/media/TechinterviewsPresentation.947174b8.png": "/static/media/TechinterviewsPresentation.947174b8.png",
     "static/media/WebsiteComponents.05e89e19.png": "/static/media/WebsiteComponents.05e89e19.png",
     "static/media/projects.css": "/static/media/ritoBanner.d331ae02.jpg",
     "static/media/competitive.29958449.png": "/static/media/competitive.29958449.png",
@@ -32,7 +38,7 @@
     "static/js/runtime-main.14d4eecd.js",
     "static/css/2.2cee9e3c.chunk.css",
     "static/js/2.518212bc.chunk.js",
-    "static/css/main.3326896d.chunk.css",
-    "static/js/main.d03d7662.chunk.js"
+    "static/css/main.f8831384.chunk.css",
+    "static/js/main.b4271eaf.chunk.js"
   ]
 }
