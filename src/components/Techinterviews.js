@@ -6,11 +6,12 @@ import '../css/projects.css';
 import webComponents from "../assets/techinterviews/WebsiteComponents.png";
 import stakeHolder from "../assets/techinterviews/StakeholderInter.png";
 import affinityMap from "../assets/techinterviews/techinterviewsAffinitymap.png";
-import splashScreen from "../assets/techinterviews/techinterviewsSplash.png";
+// import splashScreen from "../assets/techinterviews/techinterviewsSplash.png";
 import userflow from "../assets/techinterviews/userflow.jpg";
 import prototype from "../assets/techinterviews/prototype.png";
 import finishedWireframe from "../assets/techinterviews/finalWireframe.png";
 import BackToTopButton from "./BacktoTop";
+import techinterviewsPresentaion from "../assets/techinterviews/TechinterviewsPresentation.png";
 
 // import Competitor1 from "../assets/techinterviews/educative.png";
 // import Competitor2 from "../assets/techinterviews/algoexpert.png";
@@ -45,7 +46,7 @@ function Techinterviews() {
                 </div>
         <div className="Project-Section-Padding"> 
             <div className="headerWrapper">
-                    <h2 className="headerTitle">Overview</h2>
+                    <h2 className="headerTitle">The Rundown</h2>
                     <p className="processText">
                        A startup offering online coding courses to help students get jobs in the software engineering scene, they required 
                        design and development services. The company needed a structure
@@ -160,6 +161,7 @@ function Techinterviews() {
                 I started sketching low fidelity prototypes, initially focusing on general navigation: Landing page, Subscription page, 
                 Course page, Settings, and lecture pages.
                 <br></br>
+                <br></br>
                 <div className="personaContainer">
                     <img className="web" src={userflow} alt="userflow"/>
                 </div>
@@ -214,9 +216,6 @@ function Techinterviews() {
                 </div>
             </p>
 
-
-
-
             <p className="sectionTitle">What I Learned</p>
             <p className="processText">
             This project really emphasized the importance of user interface design - correctly using the elements of color, 
@@ -228,21 +227,28 @@ function Techinterviews() {
             mobile first.
             </p>
 
-
             <p className="sectionTitle">Visit the Site</p>
             <p className="processText">
-                The button below will take you to the final version of techinterviews.io. Thank you for reading the case study in it's 
-                entirety! You are Awesome!
-            </p>
-            <br></br>
-
-            <div className="personaContainer">
-                    <img className="web" id="finalSplash" src={splashScreen} alt="splash"/>
+            <span className="subSectionTitle">Final Prototype & Website Link</span><br></br>
+            
+                Here is the final version of the the prototype showing the long form homepage along with course catalog and account information.
+                But if you want to see the final live website click on the button below. 
+                <br></br>
+                <br></br>
+                Thank you for reading the case study in it's entirety! You are Awesome!
+                <br></br>
+                <br></br>
+                <div className="personaContainer">
+                    <img className="web" src={techinterviewsPresentaion} alt="techinterviewsPresentaion"/>
                 </div>
+            </p>
 
             <div className="buttonContainer">
                 <a href="https://techinterviews.io/" className="hiFiButton">View techinterviews.io</a>
             </div>
+            <br></br>
+            <br></br>
+
 
 
             </div>

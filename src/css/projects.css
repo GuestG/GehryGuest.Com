@@ -410,7 +410,8 @@ body {
 }
 
 .web {
-    max-width: 50vw;
+    max-width: 60vw;
+    border-radius: 1rem;
     /* padding-bottom: 1rem; */
 }
 

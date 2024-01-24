@@ -4,18 +4,19 @@ import "aos/dist/aos.css";
 import '../css/projects.css';
 import BackToTopButton from "./BacktoTop";
 
-// import HiFi from "../assets/ritoPhotos/RitoHiFi.png";
 
-// import Presentation from "../assets/ritoPhotos/RitoPresentation.png";
+import doubleDiamond from "../assets/moneyMentor/doubleDiamond.png";
 
-// import Persona1 from "../assets/ritoPhotos/Kyle.jpg";
-// import Persona2 from "../assets/ritoPhotos/Amy.jpg";
+import Persona1 from "../assets/ritoPhotos/Persona1.png";
+import Persona2 from "../assets/ritoPhotos/Persona2.png";
 
-// import Sketch1 from "../assets/ritoPhotos/Rito1.jpg";
-// import Sketch2 from "../assets/ritoPhotos/Rito2.jpg";
+import PainPoints from "../assets/ritoPhotos/PainPoints.png"
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import {faSearch, faCheckCircle, faExclamationCircle, faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+
+import RitoWireframe from "../assets/ritoPhotos/RitoWireframe.png";
+
+import RitoPresentation from "../assets/ritoPhotos/RitoPresentation.png";
+
 
 
 
@@ -55,7 +56,7 @@ function Rito() {
                     was to design a mobile app for a food truck business using the Design Thinking process — emphasize, define, 
                     ideate, prototype and test. The first week was centered around understanding users, the 
                     second was dedicated to design and prototyping. */}
-                        Here we explore the journey of enhancing the customer experience at a local burrito
+                        Here I explore the journey of enhancing the customer experience at a local burrito
                         truck known as Rito, through the design and implementation of a user-friendly mobile application.
                         The goal is to streamline the ordering process, improve customer satisfaction, 
                         and boost the overall efficiency of the burrito truck business. Using the Design Thinking 
@@ -118,16 +119,25 @@ function Rito() {
             <h2 className="sectionTitle">Problem</h2>
             <p className="processText">
 
-                Cesar Gonzales, based in Olympia, Washington, operates the food truck business known as Rito. 
+                Nico Gonzales, based in Olympia, Washington, operates the food truck business known as Rito. 
                 With extensive experience as a chef, he ventured into entrepreneurship by 
                 launching his own food truck business, which quickly took off he now faces new challenges that come with success. 
                     <br></br>
                     <br></br>
-                Cesar identified challenges in managing long queues, order accuracy, and cash payments. 
+                Nico identified challenges in managing long queues, order accuracy, and cash payments. 
                 To address these issues, he sought to create a mobile app that would enhance the way customers interact 
                 with his business. He needed the app to handle the influx of orders, allow for customers to pay online and find
                 his food trucks current location.
-                
+
+                <br></br>
+                <br></br>
+                To break down this problem I went with the double diamond method. This means to find the problems and define them, 
+                once we know they problems we generate solutions and pick the best one to solve the users pain points.
+                <br></br>
+                <br></br>
+                <div className="personaContainer">
+                    <img className="web" src={doubleDiamond} alt="doubleDiamond"/>
+                </div>
             </p>
 
         
@@ -145,8 +155,11 @@ function Rito() {
                 <br></br>
                 <br></br>
                 {/* <div className="personaContainer">
-                    <img className="web" src={webComponents} alt="webcomponents"/>
+                    <img className="web" src={PainPoints} alt="PainPoints"/>
                 </div> */}
+                <div className="personaContainer">
+                    <img className="web" src={PainPoints} alt="PainPoints"/>
+                </div> 
                 Steps For Ordering:
                 <ol>
                     <li>Set flyers in neighborhoods with menu, location and a phone number to order.</li>
@@ -192,6 +205,20 @@ function Rito() {
                     <li>The payment process currently can't be done online. Customers pay at the food truck.</li>
                     <li>The current ordering process involves a lot of manual input from both the business owner and the customers themselves.</li>
                 </ul>
+
+                <br></br>
+                <br></br>
+                <span className="subSectionTitle">Personas</span><br></br>
+                From these takeaways I developed personas to help the owner empathize with what his customer base needs.
+                <br></br>
+                <br></br>
+                <div className="personaContainer">
+                    <img className="web" src={Persona1} alt="Persona1"/>
+                </div>
+                <br></br>
+                <div className="personaContainer">
+                    <img className="web" src={Persona2} alt="Persona2"/>
+                </div>
             </p>
 
 
@@ -200,8 +227,8 @@ function Rito() {
 
             <h2 className="sectionTitle">How Might We...</h2>
             <p className="processText">
-                After the research, we identified the main problems we wanted to focus on. 
-                We felt we had to them breakdown into 5 different HMWs as they each related 
+                After the research, I identified the main problems I wanted to focus on. 
+                I felt I had to them breakdown into 5 different HMWs as they each related 
                 to different stages of the process.
                 <br></br>
                 <br></br>
@@ -225,21 +252,24 @@ function Rito() {
                 <br></br>
                 <br></br>
                 While our app does not involve a lot of navigation, sketching the lo-fi version turned out 
-                more complex than we thought. We had a lot of personal assumptions of how elements should be 
-                presented. We created a survey to validate these assumptions with users and guide us in the way 
+                more complex than I thought. I had a lot of personal assumptions of how elements should be 
+                presented. I created a survey to validate these assumptions with users and guide us in the way 
                 forward. Some very interesting and unexpected results came out.
-                {/* <div className="personaContainer">
-                    <img className="web" src={webComponents} alt="webcomponents"/>
-                </div> */}
+
                 <br></br>
                 <br></br>
-                Having validated those assumptions, we were confident to build our high-fi prototype.
+                <div className="personaContainer">
+                    <img className="web" src={RitoWireframe} alt="RitoWireframe"/>
+                </div>
+
+                <br></br>
+                Having validated those assumptions, I was confident to build our high-fi prototype.
                 <br></br>
                 <br></br>
                 <span className="subSectionTitle">High Fidelity Mockup</span><br></br>
-                We tested our high-fi with users on Figma, again asking them to think out loud as they were navigating 
+                I tested our high-fi with users on Figma, again asking them to think out loud as they were navigating 
                 through it. Their opinions were completely unbiased as they had never seen any prototypes of this project 
-                before. We received encouraging feedback.
+                before. I received encouraging feedback.
                 <br></br>
                 <br></br>
                 He then gave us suggestions on the design such as: a photo of his truck as the app background, more of his 
@@ -247,17 +277,19 @@ function Rito() {
                 more pictures.
                 <br></br>
                 <br></br>
-                We agreed that the first version of the high-fi did not reflect his branding enough but with 35 hours 
-                left on our deadline, we had to prioritize his feedback. Starting off from our current design system, we 
+                I agreed that the first version of the high-fi did not reflect his branding enough but with 35 hours 
+                left on our deadline, I had to prioritize his feedback. Starting off from our current design system, I 
                 re-used several components and tweaked them to empathize his branding a little more, while maintaining the 
                 elegant feeling of Rito and our vision as designers.
                 <br></br>
                 <br></br>
                 Here is the final version of our high-fi, which received great feedback from both the client and Rito's customers:
             </p>
-            {/* <div className="personaContainer">
-                    <img className="web" src={webComponents} alt="webcomponents"/>
-            </div> */}
+            <br></br>
+            <br></br>
+            <div className="personaContainer">
+                    <img className="web" src={RitoPresentation} alt="RitoPresentation"/>
+            </div>
 
 
 
