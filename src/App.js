@@ -4,7 +4,34 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './components/Home'; 
 // TODO
 // need to make contact actually work
+// need to make impact for rito & tech interveiews
+// need to add what I learned for rite
+// fix mobile 
 
+//notes for protofio
+//design progression
+//storytelling, toastmaster, extemporaneous speech
+//make a portolfio presentation
+//make header more impactful
+//make it very easy to see, make it easy to be skimmable. good titles, annotations, hand written bullet points next o images.
+
+//look at LA fitness and redo application.
+
+//its a partnership dont be desperate, Do the cycles over and over to become a great designer.
+//Go to HW page for week 6
+
+// Check list
+//differeate you?
+//express your personality
+//make it clear the type of excel at?
+//respectful confidental information?
+//reward the viewer for skmmming
+//enablle the viewer to go deep if interested?
+//provide a web safe way to contact you?
+//show your passion for design
+//top focus: AI
+
+//notes for pushing to LIVE
 // NPM start, NPM run build, NPM run deploy
 // git add . , git status, git commit -m "" , git push
 

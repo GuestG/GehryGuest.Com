@@ -159,13 +159,19 @@ body {
     color: var(--primary-dark);
     border: 5px solid var(--primary-dark);
     background-color: transparent;
-    margin: 0 auto;
+    display: block !important;
+    margin: 0 auto !important;
 }
 
 .backToTopButtonProjects:hover {
     color: var(--primary-orange);
     border: 5px solid var(--primary-orange);
     transition: .2s ease-in-out !important;
+}
+
+#upArrowProjects {
+    display: block !important;
+    margin: 0 auto !important;
 }
 
 /* Intro */
@@ -596,5 +602,7 @@ body {
     #finalSplash {
         max-width: 85vw;
     }
+
+    
 
 }

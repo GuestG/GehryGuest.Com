@@ -216,6 +216,11 @@ function Techinterviews() {
                 </div>
             </p>
 
+            <p className="sectionTitle">Impact</p>
+            <p className="processText">
+            
+            </p>
+
             <p className="sectionTitle">What I Learned</p>
             <p className="processText">
             This project really emphasized the importance of user interface design - correctly using the elements of color, 

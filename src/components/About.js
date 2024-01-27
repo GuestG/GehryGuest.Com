@@ -52,8 +52,8 @@ function About() {
                         user Engagement. My interest in UX was born during my time at University of Washington Computer Science program, 
                         when my peers wouldn't care about the look or use of the application as long as it functioned correctly. Since then
                         I've been invested into front end design and usability. Always keeping up on the latest trends in order to create a 
-                        pixel perfect designs that stand the test of both aesthetics and usability. In my free time I love to hike, people's 
-                        life stories and to craft worlds as a dungeon master for my D&D group.
+                        pixel perfect designs that stand the test of both aesthetics and usability. In my free time I love to hike, listening to people's 
+                        life stories and crafting worlds as a dungeon master for my D&D group.
                        
                             {/* <br></br>
                             <br></br> */}
