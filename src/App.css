@@ -103,6 +103,11 @@ nav ul li {
 }
 
 @media(max-width: 767px) {
+  .header-message-container {
+    display: block;
+    margin: 0 auto;
+}
+
   .my-name {
     font-weight: 400;
   }
@@ -313,7 +318,7 @@ nav ul li {
 
   .header-message-container {
     width: 75%;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
   }
 
   
@@ -938,6 +943,8 @@ nav ul li {
   justify-content: center;
   font-family: 'Roboto Slab', serif;
   margin-top: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   color: var(--primary-white);
 }
 
@@ -1167,6 +1174,53 @@ nav ul li {
     font-size: 3.8rem;
     margin: 0.5rem 0rem 0.5rem 0rem;
   }
+
+}
+
+
+/* For projects on tablet size */
+@media(max-width: 1120px) {
+  .projects {
+    display: block;
+    margin: 0 auto;
+  }
+  .projects_colum {
+    max-width: none;
+  }
+}
+
+
+/* MOBILE PHONE USERS */
+@media(max-width: 428px) {
+  .my-name {
+    font-size: 1.25rem;
+  }
+
+  .backToTopLink {
+    display: none;
+  }
+  .external-links-wrapper{
+    padding-top: 2rem;
+  }
+  .header-wrapper {
+    height: 600px;
+  }
+  .project_card {
+    max-width: 24ch;
+    padding-top: 5rem;
+  }
+  .card_content {
+    padding: 0.5rem;
+    padding-bottom: 5rem !important;
+  }
+  .card_content:hover{
+    transform: translateY(92%);
+  }
+  .card_title{
+    font-size: 1.35rem
+  }
+  
+
 
 }
 

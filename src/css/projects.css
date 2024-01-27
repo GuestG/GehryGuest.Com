@@ -159,6 +159,7 @@ body {
     color: var(--primary-dark);
     border: 5px solid var(--primary-dark);
     background-color: transparent;
+    margin: 0 auto;
 }
 
 .backToTopButtonProjects:hover {
@@ -236,7 +237,8 @@ body {
 }
 
 .problemText, .processText, .userReaseachText, .prototypeText, .optimizationText {
-    line-height: 2.25rem;
+    line-height: 2rem;
+    /* line-height: 1.5em; */
     /* margin-right: 28%; */
     /* margin-left: 28%; */
     max-width: 75ch;
@@ -569,11 +571,6 @@ body {
     
         border-radius: 1rem;
     }
-    
-    .web {
-        /* max-width: 100vw; */
-        padding-bottom: 1rem;
-    }
 
     .hiFiButton {
         border-radius: 1rem;
@@ -589,6 +586,7 @@ body {
     .introSubTitle {
         line-height: normal;
         font-size: 1rem;
+        margin: 0rem 1.5rem;
     }
 
     .web {

@@ -308,6 +308,7 @@ function Rito() {
             {/* Test assumptions, even the ones that feel obvious — we are not designing for ourselves, 
             we are not the user so what seems obvious to us is not for someone else. Testing those 
             assumptions with users to back our decisions made us feel more confident in our product. */}
+            
             more to be added in early 2024...
             <br></br>
             <br></br>
@@ -318,7 +319,6 @@ function Rito() {
             <br></br>
             <br></br>
             <br></br>
-
             <br></br>
             <br></br>
                 
