@@ -4,15 +4,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './components/Home'; 
 // TODO
 // need to make contact actually work
-// need to make impact for rito & tech interveiews
-// need to add what I learned for rite
-// fix mobile 
+// need to make impact for rito & tech interveiews monday
+// need to add what I learned for rite monday
+// fix mobile backtotop projects button dont know how
+
 
 //notes for protofio
 //design progression
 //storytelling, toastmaster, extemporaneous speech
 //make a portolfio presentation
-//make header more impactful
 //make it very easy to see, make it easy to be skimmable. good titles, annotations, hand written bullet points next o images.
 
 //look at LA fitness and redo application.

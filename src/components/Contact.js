@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
+
 function Contact() {
     useEffect(() => {
         // function sendEmail(){
@@ -38,58 +39,76 @@ function Contact() {
 
                 {/* make to where it goes back to homepage and ignores capchta. */}
 
-                    <input type="hidden" name="_captcha" value="false">
-                    </input>
-                        <input type="hidden" name="_next" value="https://guestg.github.io/GehryGuestPortfolio/">
-                        </input>
+                <input type="hidden" name="_captcha" value="false">
+                </input>
+                <input type="hidden" name="_next" value="https://guestg.github.io/GehryGuestPortfolio/">
+                </input>
 
-                        {/* <label for="name" className="form-placeholder">Name</label> */}
-                        <p className="input-titles">Name</p>
-                        <input type="text" name="name" id="name" className="name" required>
-                        </input>
+                {/* <label for="name" className="form-placeholder">Name</label> */}
+                <p className="input-titles">Name</p>
+                <input type="text" name="name" id="name" className="name" required>
+                </input>
 
-                        {/* <label for="email" className="form-placeholder">Email</label> */}
-                        <p className="input-titles">Email</p>
-                        <input type="email" name="email" id="email" className="email" required>
-                        </input>
+                {/* <label for="email" className="form-placeholder">Email</label> */}
+                <p className="input-titles">Email</p>
+                <input type="email" name="email" id="email" className="email" required>
+                </input>
 
-                        {/* <label for="textarea" className="form-placeholder">Message</label> */}
-                        <p className="input-titles">Message</p>
-                        <textarea type="text" name="textarea" id="message" className="message" required>
-                        </textarea>
-                        
-                        <input type="hidden" name="_next" value="http://localhost:3000/">
-                        </input>
+                {/* <label for="textarea" className="form-placeholder">Message</label> */}
+                <p className="input-titles">Message</p>
+                <textarea type="text" name="textarea" id="message" className="message" required>
+                </textarea>
 
-                        <button type="submit" className="btn-sec-offer" id="submit-message">
+                <input type="hidden" name="_next" value="http://localhost:3000/">
+                </input>
+
+                {/* <a className="button-deco" type="submit" href="pwe">
+                            <div className="button__ornament button__ornament--vertical">
+                                <div className="button__ornament-top-bottom"></div>
+                                <div className="button__ornament-left-right"></div>
+                            </div>
+                            
+                            <div className="button__ornament button__ornament--horisontal">
+                                <div className="button__ornament-top-bottom"></div>
+                                <div className="button__ornament-left-right"></div>
+                            </div>
+                            
+                            <span className="button__label">Submit</span>
+                        </a> */}
+
+
+                {/* <button type="submit" className="btnShadow2">Submit</button> */}
+                <button type="submit" className="btn6" id="contact-btn6">Submit</button>
+
+                {/* <button type="submit" className="btn-sec-offer" id="submit-message">
                             Submit
-                        </button>
-                </form>
+                        </button> */}
+            </form>
 
-                <div className="backToTopLink" data-aos="fade-left" data-aos-once="true">
-                    {/* <Link className="nav-link" id="backToTop" to="/#header-wrapper">Return to top<span className="sr-only"></span></Link> */}
-                    <Link className="nav-link" id="backToTop" to="/#header-wrapper"><FontAwesomeIcon id="upArrow" icon={faArrowUp} /></Link>
-                </div>
+            <div className="backToTopLink" data-aos="fade-left" data-aos-once="true">
+                {/* <Link className="nav-link" id="backToTop" to="/#header-wrapper">Return to top<span className="sr-only"></span></Link> */}
+                <Link className="nav-link" id="backToTop" to="/#header-wrapper"><FontAwesomeIcon id="upArrow" icon={faArrowUp} /></Link>
+            </div>
 
 
-                    <div className="external-links-wrapper">
-                        
-                        <a className="githubIcon" href='https://github.com/GuestG' data-aos="fade-right" data-aos-once="true">
-                            <FontAwesomeIcon icon={faGithub} />
-                        </a>
-                        <a className="linkedinIcon" href='https://www.linkedin.com/in/gehryguest/' data-aos="fade-left" data-aos-once="true">
-                            <FontAwesomeIcon icon={faLinkedin} />
-                        </a>
-                    </div>   
+            <div className="external-links-wrapper">
 
-                        <div>
-                        <p className="footers">
-                        Gehry Guest <span className="my-name-color">©2024</span>
-                        </p>
-                        </div>
-                    
+                <a className="githubIcon" href='https://github.com/GuestG' data-aos="fade-right" data-aos-once="true">
+                    <FontAwesomeIcon icon={faGithub} />
+                </a>
+                <a className="linkedinIcon" href='https://www.linkedin.com/in/gehryguest/' data-aos="fade-left" data-aos-once="true">
+                    <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+            </div>
 
-                    
+            <div className="footerContainer">
+                <p className="footers">
+                    Gehry Guest <span className="my-name-color">© 2024</span>
+                </p>
+            </div>
+
+
+
         </div>
     )
 }

@@ -33,7 +33,10 @@ const Projects = () => {
                                     <h3 className="card_body">
                                         A website teaching software engineers how to succeed in interviews.
                                         </h3>
-                                    <Link className='button' to='Techinterviews/#bodyWrapper'>See Case Study</Link>
+                                    {/* <Link className='button' to='Techinterviews/#bodyWrapper'>See Case Study</Link> */}
+                                    <Link className="btn6" to='Techinterviews/#bodyWrapper'>
+                                        See Case Study
+                                    </Link>
 
                                 </div>
                             </div>
@@ -46,7 +49,7 @@ const Projects = () => {
                                         <h3 className="card_body">
                                             Created a portfolio page for a client. Using bootstrap, owl carousel & isotope libraries.
                                         </h3>
-                                        <a className='button' href='https://www.braphics.com/'>See Website</a>
+                                        <a className='btn6' href='https://www.braphics.com/'>See Website</a>
 
                                     </div>
                         </div>
@@ -67,9 +70,9 @@ const Projects = () => {
                                         MoneyMentor
                                     </h2>
                                     <h3 className="card_body">
-                                        A mobile app used to teach young professionals about financial literacy.
+                                        A mobile application designed to lower the barriers in order to educate those on financial literacy.
                                     </h3>
-                                    <Link className='button' to='MoneyMentor/#bodyWrapper'>See Case Study</Link>
+                                    <Link className='btn6' to='MoneyMentor/#bodyWrapper'>See Case Study</Link>
 
                                 </div>
                             </div>
@@ -83,7 +86,7 @@ const Projects = () => {
                                     <h3 className="card_body">
                                         Created webapge for charity for low income families, Providing food and other services.
                                     </h3>
-                                    <a className='button' href='https://guestg.github.io/GabisKids/'>See Website</a>
+                                    <a className='btn6' href='https://guestg.github.io/GabisKids/'>See Website</a>
 
                                 </div>
                             </div>
@@ -111,10 +114,10 @@ const Projects = () => {
                                             Rito
                                         </h2>
                                         <h3 className="card_body">
-                                            A mobile app for use at a food truck locations to decrease wait times.
+                                        A mobile application designed for efficient ordering and reduced waiting times at food truck venues.
                                         </h3>
 
-                                        <Link className='button' to='Rito/#bodyWrapper'>See Case Study</Link>
+                                        <Link className='btn6' to='Rito/#bodyWrapper'>See Case Study</Link>
 
                                     </div>
                                 </div>
@@ -125,9 +128,9 @@ const Projects = () => {
                                         Coming Soon...
                                     </h2>
                                     <h3 className="card_body">
-                                        Currently building something special, but don't tell anyone it's a secret.
+                                        Currently designing special project, if you wouldn't mind not telling anyone it's a secret.
                                     </h3>
-                                    <a className='button' href='\#'>Coming Soon...</a>
+                                    <a className='btn6' href='\#'>Coming Soon...</a>
 
                                 </div>
                             </div>

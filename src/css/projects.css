@@ -8,7 +8,7 @@
 /************************************/
 :root {
     --primary-white: white;
-    --primary-orange: #ff4e00;
+    --primary-accent: #0077cc;
     --primary-blue: #748cab;
     --primary-gray: #333333;
     --primary-dark: #2a2b2a;
@@ -24,7 +24,7 @@ html {
 }
   
 body {
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
     margin: 0 auto;
     overflow-x: hidden;
     width: auto;
@@ -42,7 +42,7 @@ body {
 
 .sectionTitle {
     text-align: center;
-    font-weight: 700;
+    font-weight: 450;
     font-size: 2rem;
     margin-top: 6.5rem;
     margin-bottom: 1.5rem;
@@ -122,15 +122,15 @@ body {
     float: left;
     margin-top: 1rem;
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: 500;
     color:var(--primary-white);
 }
 
 .BackLink:hover svg path,
 .BackLink:hover {
     
-    color:var(--primary-orange);
-    fill: var(--primary-orange);
+    color:var(--primary-accent);
+    fill: var(--primary-accent);
 
     transition: .2s ease-in-out !important;
 }
@@ -156,16 +156,16 @@ body {
     border-Radius: 100%;
     /* font-weight: 100; */
     z-index: 99;
-    color: var(--primary-dark);
-    border: 5px solid var(--primary-dark);
+    color: var(--primary-gray);
+    border: 5px solid var(--primary-gray);
     background-color: transparent;
     display: block !important;
     margin: 0 auto !important;
 }
 
 .backToTopButtonProjects:hover {
-    color: var(--primary-orange);
-    border: 5px solid var(--primary-orange);
+    color: var(--primary-accent);
+    border: 5px solid var(--primary-accent);
     transition: .2s ease-in-out !important;
 }
 
@@ -191,7 +191,7 @@ body {
 
 .headerTitle {
     text-align: center;
-    font-weight: 700;
+    font-weight: 450;
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
@@ -212,7 +212,7 @@ body {
 .introTitle {
     text-transform: uppercase;
     text-align: center;
-    font-weight: bolder;
+    font-weight: 500;
     font-size: 3.25rem;
     padding-top: 6rem;
     margin-bottom: 2rem;
@@ -221,7 +221,7 @@ body {
 
 .introSubTitle {
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.15rem;
     line-height: 1.3em;
     color:var(--primary-white);
@@ -229,14 +229,13 @@ body {
 
 .subtitleBold {
     padding: 0rem 1rem;
-    font-weight: bold;
 }
 
 
 /* users problems */
 .problemTitle, .processTitle, .userReaseachTitle, .prototypeTitle, .optimizationTitle {
     text-align: center;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 2rem;
     margin-top: 6.5rem;
     margin-bottom: 1.5rem;
@@ -247,14 +246,15 @@ body {
     /* line-height: 1.5em; */
     /* margin-right: 28%; */
     /* margin-left: 28%; */
+    /* font-weight: normal; */
     max-width: 75ch;
     margin: 0 auto;
-    font-size: 1rem;
+    font-size: 18px;
 }
 
 .processSubTitles, .userReaseachSubTitles, .prototypeHeaders {
 
-    font-weight: 600;
+    font-weight: 300;
     margin-top: 2rem;
     margin-bottom: 1rem;
     margin-right: 18vw;
@@ -264,7 +264,7 @@ body {
 
 
 #boldProcessText {
-    font-weight: bold;
+    font-weight: 300;
     font-size: 1.1rem;
 }
 
@@ -287,8 +287,8 @@ body {
   
 .view-btn:hover {
     text-decoration: none;
-    background-color: var(--primary-orange);
-    border: 2px solid var(--primary-orange);
+    background-color: var(--primary-accent);
+    border: 2px solid var(--primary-accent);
     color: var(--primary-white);
     transition: .2s ease-in-out !important;
 }
@@ -316,7 +316,7 @@ body {
     text-align: center;
     /* margin-bottom: 1.25rem; */
     /* font-size: 1.75rem; */
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .overviewText {
@@ -424,8 +424,8 @@ body {
 }
 
 .subSectionTitle {
-    font-weight: 800;
-    font-size: 1.4rem;
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
 .buttonContainer {
@@ -453,8 +453,8 @@ body {
 
 .hiFiButton:hover {
     text-decoration: none;
-    background-color: var(--primary-orange);
-    border: 2px solid var(--primary-orange);
+    background-color: var(--primary-accent);
+    border: 2px solid var(--primary-accent);
     color: var(--primary-white);
     transition: .2s ease-in-out;
 }
@@ -496,7 +496,7 @@ body {
 /************************************/
 
 .footers {
-    background-color: var(--primary-dark);
+    background-color: var(--primary-darks);
     color: var(--primary-white);
     width: 100%;
     padding-top: 1rem;
@@ -504,7 +504,7 @@ body {
     /* margin-top: 3rem; */
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
     z-index: 10;
 }
 
