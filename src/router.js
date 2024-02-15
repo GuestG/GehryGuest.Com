@@ -9,6 +9,7 @@ import Rito from './components/Rito';
 import MoneyMentor from "./components/MoneyMentor";
 import Techinterviews from './components/Techinterviews';
 import Braphics from './components/Braphics';
+import ThankYou from './components/ThankYou';
 
 
 export default function Router() {
@@ -21,6 +22,7 @@ export default function Router() {
                 <Route path="/Rito" element={<Rito />} />
                 <Route path="/MoneyMentor" element={<MoneyMentor />} />
                 <Route path="/Braphics" element={<Braphics />} />
+                <Route path="/ThankYou" element={<ThankYou />} />
             </Routes>
         </BrowserRouter>
     );

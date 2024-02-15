@@ -3,7 +3,6 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './components/Home'; 
 // TODO
-// need to make contact actually work
 // need to make impact for rito & tech interveiews monday
 // need to add what I learned for rite monday
 // fix mobile backtotop projects button dont know how

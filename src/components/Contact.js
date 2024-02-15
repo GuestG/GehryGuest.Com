@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import Aos from 'aos';
+// import Popup from './Popup';
 import "aos/dist/aos.css";
 import { HashLink as Link } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -8,22 +9,8 @@ import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 
 function Contact() {
-    useEffect(() => {
-        // function sendEmail(){
-        //     Email.send({
-        //         Host : "smtp.gmail.com",
-        //         Username : "gmailID",
-        //         Password : "passwordforGmail",
-        //         To : 'braphics@gmail.com',
-        //         From : document.getElementById("email").value,
-        //         Subject : "New Contact Form Message",
-        //         Body : "Name: " + document.getElementById("name").value
-        //             + "<br> Email: " + document.getElementById("email").value
-        //             + "<br> Message: " + document.getElementById("message").value
-        //     }).then(
-        //       message => alert("Message has been sent! I'll contact you soon.")
-        //     );
-        // }
+
+    useEffect(() => {   
         Aos.init({ duration: 800 });
     }, []);
     return (
@@ -34,55 +21,29 @@ function Contact() {
             <p className="contact-query" data-aos="fade-up" data-aos-once="true">
                 Have a question or want to work together?
             </p>
-            {/* <div className="contact-info"> */}
-            <form action="https://formsubmit.co/e231169454c6ef1a337769280ec551af" method="POST" className="contact-info">
+     
+                
+            <form action="https://api.web3forms.com/submit" method="POST" className="contact-info">
 
-                {/* make to where it goes back to homepage and ignores capchta. */}
+                <input type="hidden" name="access_key" value="b6c2303d-fb79-4647-ab58-c7873e7f25df"></input>
 
-                <input type="hidden" name="_captcha" value="false">
-                </input>
-                <input type="hidden" name="_next" value="https://guestg.github.io/GehryGuestPortfolio/">
-                </input>
+                <input type="hidden" name="redirect" value="http://gehryguest.com/Popup"></input>
 
-                {/* <label for="name" className="form-placeholder">Name</label> */}
                 <p className="input-titles">Name</p>
                 <input type="text" name="name" id="name" className="name" required>
                 </input>
 
-                {/* <label for="email" className="form-placeholder">Email</label> */}
                 <p className="input-titles">Email</p>
                 <input type="email" name="email" id="email" className="email" required>
                 </input>
 
-                {/* <label for="textarea" className="form-placeholder">Message</label> */}
                 <p className="input-titles">Message</p>
                 <textarea type="text" name="textarea" id="message" className="message" required>
                 </textarea>
 
-                <input type="hidden" name="_next" value="http://localhost:3000/">
-                </input>
-
-                {/* <a className="button-deco" type="submit" href="pwe">
-                            <div className="button__ornament button__ornament--vertical">
-                                <div className="button__ornament-top-bottom"></div>
-                                <div className="button__ornament-left-right"></div>
-                            </div>
-                            
-                            <div className="button__ornament button__ornament--horisontal">
-                                <div className="button__ornament-top-bottom"></div>
-                                <div className="button__ornament-left-right"></div>
-                            </div>
-                            
-                            <span className="button__label">Submit</span>
-                        </a> */}
-
-
-                {/* <button type="submit" className="btnShadow2">Submit</button> */}
                 <button type="submit" className="btn6" id="contact-btn6">Submit</button>
 
-                {/* <button type="submit" className="btn-sec-offer" id="submit-message">
-                            Submit
-                        </button> */}
+    
             </form>
 
             <div className="backToTopLink" data-aos="fade-left" data-aos-once="true">

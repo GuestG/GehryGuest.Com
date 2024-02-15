@@ -34,7 +34,7 @@ const Projects = () => {
                                         A website teaching software engineers how to succeed in interviews.
                                         </h3>
                                     {/* <Link className='button' to='Techinterviews/#bodyWrapper'>See Case Study</Link> */}
-                                    <Link className="btn6" to='Techinterviews/#bodyWrapper'>
+                                    <Link className="btn6" to='Techinterviews/#'>
                                         See Case Study
                                     </Link>
 
@@ -72,7 +72,7 @@ const Projects = () => {
                                     <h3 className="card_body">
                                         App for young professionals, offering tools, knowledge, and personalized financial solutions.
                                     </h3>
-                                    <Link className='btn6' to='MoneyMentor/#bodyWrapper'>See Case Study</Link>
+                                    <Link className='btn6' to='MoneyMentor/#'>See Case Study</Link>
 
                                 </div>
                             </div>
@@ -117,7 +117,7 @@ const Projects = () => {
                                             App for quick ordering and shorter waits at food trucks while increasing order accuracy.
                                         </h3>
 
-                                        <Link className='btn6' to='Rito/#bodyWrapper'>See Case Study</Link>
+                                        <Link className='btn6' to='Rito/#'>See Case Study</Link>
 
                                     </div>
                                 </div>
