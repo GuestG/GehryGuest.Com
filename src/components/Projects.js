@@ -70,7 +70,7 @@ const Projects = () => {
                                         MoneyMentor
                                     </h2>
                                     <h3 className="card_body">
-                                        A mobile application designed to lower the barriers in order to educate those on financial literacy.
+                                        App for young professionals, offering tools, knowledge, and personalized financial solutions.
                                     </h3>
                                     <Link className='btn6' to='MoneyMentor/#bodyWrapper'>See Case Study</Link>
 
@@ -114,7 +114,7 @@ const Projects = () => {
                                             Rito
                                         </h2>
                                         <h3 className="card_body">
-                                        A mobile application designed for efficient ordering and reduced waiting times at food truck venues.
+                                            App for quick ordering and shorter waits at food trucks while increasing order accuracy.
                                         </h3>
 
                                         <Link className='btn6' to='Rito/#bodyWrapper'>See Case Study</Link>
