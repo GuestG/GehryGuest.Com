@@ -44,6 +44,7 @@ body {
   fill: white;
   padding: 0.5rem 0.75rem;
   transition: fill 0.2s ease-in-out;
+  z-index: 10;
 }
 
 .Logo:hover {
@@ -53,6 +54,7 @@ body {
 
 .logo {
   max-height: 2.5rem;
+  width: fit-content;
 }
 
 
@@ -113,9 +115,6 @@ nav ul li {
     margin: 0 auto;
   }
 
-  .Logo {
-    margin-left: 1rem;
-  }
 
   .navbar-nav {
     margin: 0 auto;
@@ -158,6 +157,10 @@ nav ul li {
 
   #resume {
     background-color: #3a3a3a;
+  }
+
+  .Logo {
+    margin-left: 1rem;
   }
 }
 
@@ -1032,8 +1035,9 @@ input:focus, textarea:focus {
 }
 
 #backToTop:hover {
-  color: var(--primary-accent);
-  border: 4px solid var(--primary-accent);
+  color: var(--primary-white);
+  border: 4px solid var(--primary-white);
+  background-color: var(--primary-accent);
   transition: .2s ease-in-out;
 }
 
@@ -1250,7 +1254,7 @@ input:focus, textarea:focus {
 /* new button */
 .btn6,
 .btn6:link {
-  padding: 13px 2rem;
+  padding: 13px 1.5rem;
   border: 1.5px solid var(--primary-white);
   color: var(--primary-white);
   text-decoration: none;
@@ -1600,9 +1604,35 @@ input:focus, textarea:focus {
   padding-top: 1.5rem;
 }
 
+.thanksText {
+  max-width: 55ch;
+}
+
 .btnContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 2rem;
+}
+
+@media(max-width: 428px) {
+  .ThankYouContainer {
+    display: block;
+    margin: 0 auto;
+    max-width: 90vw;
+    max-height: 36rem;
+    background-color: var(--primary-darks);
+    color: var(--primary-white);
+    border-radius: 0.5rem;
+    padding: 2.5rem;
+  }
+
+  #thankyouTitle {
+    font-size: 2rem;
+  }
+
+  #contact-btn6 {
+    padding: 1rem 2rem;
+  }
+
 }

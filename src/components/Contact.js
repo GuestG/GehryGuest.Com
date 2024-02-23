@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
-// import Popup from './Popup';
 import "aos/dist/aos.css";
 import { HashLink as Link } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -27,7 +26,7 @@ function Contact() {
 
                 <input type="hidden" name="access_key" value="b6c2303d-fb79-4647-ab58-c7873e7f25df"></input>
 
-                <input type="hidden" name="redirect" value="http://gehryguest.com/Popup"></input>
+                {/* <input type="hidden" name="redirect" value="https://gehryguest.com/ThankYou/#"></input> */}
 
                 <p className="input-titles">Name</p>
                 <input type="text" name="name" id="name" className="name" required>
@@ -40,15 +39,17 @@ function Contact() {
                 <p className="input-titles">Message</p>
                 <textarea type="text" name="textarea" id="message" className="message" required>
                 </textarea>
-
-                <button type="submit" className="btn6" id="contact-btn6">Submit</button>
-
+                
+                <Link type="submit" className="btn6" id="contact-btn6" to='ThankYou/#'>
+                    Submit
+                {/* <button type="submit" className="btn6" id="contact-btn6">Submit</button> */}
+                </Link>
     
             </form>
 
             <div className="backToTopLink" data-aos="fade-left" data-aos-once="true">
                 {/* <Link className="nav-link" id="backToTop" to="/#header-wrapper">Return to top<span className="sr-only"></span></Link> */}
-                <Link className="nav-link" id="backToTop" to="/#header-wrapper"><FontAwesomeIcon id="upArrow" icon={faArrowUp} /></Link>
+                <Link className="nav-link" id="backToTop" to="/#"><FontAwesomeIcon id="upArrow" icon={faArrowUp} /></Link>
             </div>
 
 

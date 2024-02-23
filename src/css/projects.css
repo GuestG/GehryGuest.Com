@@ -7,7 +7,7 @@
  /************** Root ************/
 /************************************/
 :root {
-    --primary-white: white;
+    --primary-white: #f8f8f8;
     --primary-accent: #0077cc;
     --primary-blue: #748cab;
     --primary-gray: #333333;
@@ -30,7 +30,7 @@ body {
     width: auto;
     color: black;
     font-size: 1.10rem;
-    background-color: var(--primary-projects);
+    background-color: var(--primary-white);
 }
 
 /************************************/
@@ -247,7 +247,7 @@ body {
     /* margin-right: 28%; */
     /* margin-left: 28%; */
     /* font-weight: normal; */
-    max-width: 75ch;
+    max-width: 60ch;
     margin: 0 auto;
     font-size: 18px;
 }
