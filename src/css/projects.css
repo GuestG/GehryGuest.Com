@@ -243,13 +243,9 @@ body {
 
 .problemText, .processText, .userReaseachText, .prototypeText, .optimizationText {
     line-height: 2rem;
-    /* line-height: 1.5em; */
-    /* margin-right: 28%; */
-    /* margin-left: 28%; */
-    /* font-weight: normal; */
     max-width: 60ch;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .processSubTitles, .userReaseachSubTitles, .prototypeHeaders {
